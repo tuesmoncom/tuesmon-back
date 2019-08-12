@@ -1,0 +1,2694 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-02-27 13:45+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: tuesmon/auth/api.py:71
+msgid "Public register is disabled."
+msgstr ""
+
+#: tuesmon/auth/api.py:93
+msgid "You must accept our terms of service and privacy policy"
+msgstr ""
+
+#: tuesmon/auth/api.py:102
+msgid "invalid register type"
+msgstr ""
+
+#: tuesmon/auth/api.py:118
+msgid "invalid login type"
+msgstr ""
+
+#: tuesmon/auth/services.py:76
+msgid "Username is already in use."
+msgstr ""
+
+#: tuesmon/auth/services.py:79
+msgid "Email is already in use."
+msgstr ""
+
+#: tuesmon/auth/services.py:95
+msgid "Token not matches any valid invitation."
+msgstr ""
+
+#: tuesmon/auth/services.py:124
+msgid "User is already registered."
+msgstr ""
+
+#: tuesmon/auth/services.py:141
+msgid "This user is already a member of the project."
+msgstr ""
+
+#: tuesmon/auth/services.py:165
+msgid "Error on creating new user."
+msgstr ""
+
+#: tuesmon/auth/tokens.py:49 tuesmon/auth/tokens.py:56
+#: tuesmon/external_apps/services.py:34 tuesmon/projects/api.py:427
+#: tuesmon/projects/api.py:448
+msgid "Invalid token"
+msgstr ""
+
+#: tuesmon/auth/validators.py:37 tuesmon/users/validators.py:44
+msgid "invalid username"
+msgstr ""
+
+#: tuesmon/auth/validators.py:42 tuesmon/users/validators.py:50
+msgid ""
+"Required. 255 characters or fewer. Letters, numbers and /./-/_ characters'"
+msgstr ""
+
+#: tuesmon/base/api/fields.py:294
+msgid "This field is required."
+msgstr ""
+
+#: tuesmon/base/api/fields.py:295 tuesmon/base/api/relations.py:337
+msgid "Invalid value."
+msgstr ""
+
+#: tuesmon/base/api/fields.py:484
+#, python-format
+msgid "'%s' value must be either True or False."
+msgstr ""
+
+#: tuesmon/base/api/fields.py:549
+msgid ""
+"Enter a valid 'slug' consisting of letters, numbers, underscores or hyphens."
+msgstr ""
+
+#: tuesmon/base/api/fields.py:564
+#, python-format
+msgid "Select a valid choice. %(value)s is not one of the available choices."
+msgstr ""
+
+#: tuesmon/base/api/fields.py:638
+msgid "You email domain is not allowed"
+msgstr ""
+
+#: tuesmon/base/api/fields.py:647
+msgid "Enter a valid email address."
+msgstr ""
+
+#: tuesmon/base/api/fields.py:689
+#, python-format
+msgid "Date has wrong format. Use one of these formats instead: %s"
+msgstr ""
+
+#: tuesmon/base/api/fields.py:753
+#, python-format
+msgid "Datetime has wrong format. Use one of these formats instead: %s"
+msgstr ""
+
+#: tuesmon/base/api/fields.py:823
+#, python-format
+msgid "Time has wrong format. Use one of these formats instead: %s"
+msgstr ""
+
+#: tuesmon/base/api/fields.py:880
+msgid "Enter a whole number."
+msgstr ""
+
+#: tuesmon/base/api/fields.py:881 tuesmon/base/api/fields.py:934
+#, python-format
+msgid "Ensure this value is less than or equal to %(limit_value)s."
+msgstr ""
+
+#: tuesmon/base/api/fields.py:882 tuesmon/base/api/fields.py:935
+#, python-format
+msgid "Ensure this value is greater than or equal to %(limit_value)s."
+msgstr ""
+
+#: tuesmon/base/api/fields.py:912
+#, python-format
+msgid "\"%s\" value must be a float."
+msgstr ""
+
+#: tuesmon/base/api/fields.py:933
+msgid "Enter a number."
+msgstr ""
+
+#: tuesmon/base/api/fields.py:936
+#, python-format
+msgid "Ensure that there are no more than %s digits in total."
+msgstr ""
+
+#: tuesmon/base/api/fields.py:937
+#, python-format
+msgid "Ensure that there are no more than %s decimal places."
+msgstr ""
+
+#: tuesmon/base/api/fields.py:938
+#, python-format
+msgid "Ensure that there are no more than %s digits before the decimal point."
+msgstr ""
+
+#: tuesmon/base/api/fields.py:1005
+msgid "No file was submitted. Check the encoding type on the form."
+msgstr ""
+
+#: tuesmon/base/api/fields.py:1006
+msgid "No file was submitted."
+msgstr ""
+
+#: tuesmon/base/api/fields.py:1007
+msgid "The submitted file is empty."
+msgstr ""
+
+#: tuesmon/base/api/fields.py:1008
+#, python-format
+msgid ""
+"Ensure this filename has at most %(max)d characters (it has %(length)d)."
+msgstr ""
+
+#: tuesmon/base/api/fields.py:1009
+msgid "Please either submit a file or check the clear checkbox, not both."
+msgstr ""
+
+#: tuesmon/base/api/fields.py:1049
+msgid ""
+"Upload a valid image. The file you uploaded was either not an image or a "
+"corrupted image."
+msgstr ""
+
+#: tuesmon/base/api/mixins.py:284 tuesmon/base/exceptions.py:211
+#: tuesmon/hooks/api.py:69 tuesmon/projects/api.py:462 tuesmon/projects/api.py:495
+#: tuesmon/projects/api.py:971 tuesmon/projects/epics/api.py:200
+#: tuesmon/projects/epics/api.py:284 tuesmon/projects/issues/api.py:238
+#: tuesmon/projects/mixins/ordering.py:59 tuesmon/projects/tasks/api.py:263
+#: tuesmon/projects/tasks/api.py:305 tuesmon/projects/userstories/api.py:355
+#: tuesmon/projects/userstories/api.py:407 tuesmon/webhooks/api.py:71
+msgid "Blocked element"
+msgstr ""
+
+#: tuesmon/base/api/pagination.py:228
+msgid "Page is not 'last', nor can it be converted to an int."
+msgstr ""
+
+#: tuesmon/base/api/pagination.py:232
+#, python-format
+msgid "Invalid page (%(page_number)s): %(message)s"
+msgstr ""
+
+#: tuesmon/base/api/permissions.py:65
+msgid "Invalid permission definition."
+msgstr ""
+
+#: tuesmon/base/api/relations.py:247
+#, python-format
+msgid "Invalid pk '%s' - object does not exist."
+msgstr ""
+
+#: tuesmon/base/api/relations.py:248
+#, python-format
+msgid "Incorrect type. Expected pk value, received %s."
+msgstr ""
+
+#: tuesmon/base/api/relations.py:336
+#, python-format
+msgid "Object with %s=%s does not exist."
+msgstr ""
+
+#: tuesmon/base/api/relations.py:372
+msgid "Invalid hyperlink - No URL match"
+msgstr ""
+
+#: tuesmon/base/api/relations.py:373
+msgid "Invalid hyperlink - Incorrect URL match"
+msgstr ""
+
+#: tuesmon/base/api/relations.py:374
+msgid "Invalid hyperlink due to configuration error"
+msgstr ""
+
+#: tuesmon/base/api/relations.py:375
+msgid "Invalid hyperlink - object does not exist."
+msgstr ""
+
+#: tuesmon/base/api/relations.py:376
+#, python-format
+msgid "Incorrect type.  Expected url string, received %s."
+msgstr ""
+
+#: tuesmon/base/api/serializers.py:325
+msgid "Invalid data"
+msgstr ""
+
+#: tuesmon/base/api/serializers.py:417
+msgid "No input provided"
+msgstr ""
+
+#: tuesmon/base/api/serializers.py:580
+msgid "Cannot create a new item, only existing items may be updated."
+msgstr ""
+
+#: tuesmon/base/api/serializers.py:591
+msgid "Expected a list of items."
+msgstr ""
+
+#: tuesmon/base/api/views.py:126
+msgid "Not found"
+msgstr ""
+
+#: tuesmon/base/api/views.py:129
+msgid "Permission denied"
+msgstr ""
+
+#: tuesmon/base/api/views.py:491
+msgid "Server application error"
+msgstr ""
+
+#: tuesmon/base/connectors/exceptions.py:26
+msgid "Connection error."
+msgstr ""
+
+#: tuesmon/base/exceptions.py:79
+msgid "Malformed request."
+msgstr ""
+
+#: tuesmon/base/exceptions.py:84
+msgid "Incorrect authentication credentials."
+msgstr ""
+
+#: tuesmon/base/exceptions.py:89
+msgid "Authentication credentials were not provided."
+msgstr ""
+
+#: tuesmon/base/exceptions.py:94
+msgid "You do not have permission to perform this action."
+msgstr ""
+
+#: tuesmon/base/exceptions.py:99
+#, python-format
+msgid "Method '%s' not allowed."
+msgstr ""
+
+#: tuesmon/base/exceptions.py:107
+msgid "Could not satisfy the request's Accept header"
+msgstr ""
+
+#: tuesmon/base/exceptions.py:116
+#, python-format
+msgid "Unsupported media type '%s' in request."
+msgstr ""
+
+#: tuesmon/base/exceptions.py:124
+msgid "Request was throttled."
+msgstr ""
+
+#: tuesmon/base/exceptions.py:125
+#, python-format
+msgid "Expected available in %d second%s."
+msgstr ""
+
+#: tuesmon/base/exceptions.py:139
+msgid "Unexpected error"
+msgstr ""
+
+#: tuesmon/base/exceptions.py:151
+msgid "Not found."
+msgstr ""
+
+#: tuesmon/base/exceptions.py:156
+msgid "Method not supported for this endpoint."
+msgstr ""
+
+#: tuesmon/base/exceptions.py:164 tuesmon/base/exceptions.py:172
+msgid "Wrong arguments."
+msgstr ""
+
+#: tuesmon/base/exceptions.py:176
+msgid "Data validation error"
+msgstr ""
+
+#: tuesmon/base/exceptions.py:188
+msgid "Integrity Error for wrong or invalid arguments"
+msgstr ""
+
+#: tuesmon/base/exceptions.py:195
+msgid "Precondition error"
+msgstr ""
+
+#: tuesmon/base/exceptions.py:219
+msgid "No room left for more projects."
+msgstr ""
+
+#: tuesmon/base/filters.py:105 tuesmon/base/filters.py:566
+msgid "Error in filter params types."
+msgstr ""
+
+#: tuesmon/base/filters.py:171 tuesmon/base/filters.py:278
+#: tuesmon/projects/filters.py:65
+msgid "'project' must be an integer value."
+msgstr ""
+
+#: tuesmon/base/utils/urls.py:68
+msgid "Host access error"
+msgstr ""
+
+#: tuesmon/base/utils/urls.py:74
+msgid "IP Address error"
+msgstr ""
+
+#: tuesmon/events/events.py:122
+msgid "User story created"
+msgstr ""
+
+#: tuesmon/events/events.py:125
+msgid "User story changed"
+msgstr ""
+
+#: tuesmon/events/events.py:128
+msgid "User story deleted"
+msgstr ""
+
+#: tuesmon/events/events.py:130
+msgid "US #{} - {}"
+msgstr ""
+
+#: tuesmon/events/events.py:133
+msgid "Task created"
+msgstr ""
+
+#: tuesmon/events/events.py:136
+msgid "Task changed"
+msgstr ""
+
+#: tuesmon/events/events.py:139
+msgid "Task deleted"
+msgstr ""
+
+#: tuesmon/events/events.py:141
+msgid "Task #{} - {}"
+msgstr ""
+
+#: tuesmon/events/events.py:144
+msgid "Issue created"
+msgstr ""
+
+#: tuesmon/events/events.py:147
+msgid "Issue changed"
+msgstr ""
+
+#: tuesmon/events/events.py:150
+msgid "Issue deleted"
+msgstr ""
+
+#: tuesmon/events/events.py:152
+msgid "Issue: #{} - {}"
+msgstr ""
+
+#: tuesmon/events/events.py:155
+msgid "Wiki Page created"
+msgstr ""
+
+#: tuesmon/events/events.py:158
+msgid "Wiki Page changed"
+msgstr ""
+
+#: tuesmon/events/events.py:161
+msgid "Wiki Page deleted"
+msgstr ""
+
+#: tuesmon/events/events.py:163
+msgid "Wiki Page: {}"
+msgstr ""
+
+#: tuesmon/events/events.py:166
+msgid "Sprint created"
+msgstr ""
+
+#: tuesmon/events/events.py:169
+msgid "Sprint changed"
+msgstr ""
+
+#: tuesmon/events/events.py:172
+msgid "Sprint deleted"
+msgstr ""
+
+#: tuesmon/events/events.py:174
+msgid "Sprint: {}"
+msgstr ""
+
+#: tuesmon/export_import/api.py:127
+msgid "We needed at least one role"
+msgstr ""
+
+#: tuesmon/export_import/api.py:335
+msgid "Needed dump file"
+msgstr ""
+
+#: tuesmon/export_import/api.py:345
+msgid "Invalid dump format"
+msgstr ""
+
+#: tuesmon/export_import/services/store.py:730
+#: tuesmon/export_import/services/store.py:748
+msgid "error importing project data"
+msgstr ""
+
+#: tuesmon/export_import/services/store.py:755
+msgid "error importing roles"
+msgstr ""
+
+#: tuesmon/export_import/services/store.py:760
+msgid "error importing memberships"
+msgstr ""
+
+#: tuesmon/export_import/services/store.py:771
+msgid "error importing lists of project attributes"
+msgstr ""
+
+#: tuesmon/export_import/services/store.py:775
+msgid "error importing default project attributes values"
+msgstr ""
+
+#: tuesmon/export_import/services/store.py:786
+msgid "error importing custom attributes"
+msgstr ""
+
+#: tuesmon/export_import/services/store.py:789
+msgid "error importing sprints"
+msgstr ""
+
+#: tuesmon/export_import/services/store.py:793
+msgid "error importing issues"
+msgstr ""
+
+#: tuesmon/export_import/services/store.py:797
+msgid "error importing user stories"
+msgstr ""
+
+#: tuesmon/export_import/services/store.py:801
+msgid "error importing epics"
+msgstr ""
+
+#: tuesmon/export_import/services/store.py:805
+msgid "error importing tasks"
+msgstr ""
+
+#: tuesmon/export_import/services/store.py:809
+msgid "error importing wiki pages"
+msgstr ""
+
+#: tuesmon/export_import/services/store.py:813
+msgid "error importing wiki links"
+msgstr ""
+
+#: tuesmon/export_import/services/store.py:817
+msgid "error importing tags"
+msgstr ""
+
+#: tuesmon/export_import/services/store.py:821
+msgid "error importing timelines"
+msgstr ""
+
+#: tuesmon/export_import/services/store.py:843
+msgid "unexpected error importing project"
+msgstr ""
+
+#: tuesmon/export_import/tasks.py:62 tuesmon/export_import/tasks.py:63
+msgid "Error generating project dump"
+msgstr ""
+
+#: tuesmon/export_import/tasks.py:91
+#, python-brace-format
+msgid ""
+"\n"
+"\n"
+"Error loading dump by {user_full_name} <{user_email}>:\"\n"
+"\n"
+"\n"
+"REASON:\n"
+"-------\n"
+"{reason}\n"
+"\n"
+"DETAILS:\n"
+"--------\n"
+"{details}\n"
+"\n"
+"TRACE ERROR:\n"
+"------------"
+msgstr ""
+
+#: tuesmon/export_import/tasks.py:120
+msgid "Error loading project dump"
+msgstr ""
+
+#: tuesmon/export_import/tasks.py:121
+msgid "Error loading your project dump file"
+msgstr ""
+
+#: tuesmon/export_import/tasks.py:135
+msgid "  -- no detail info --"
+msgstr ""
+
+#: tuesmon/export_import/validators/fields.py:144
+msgid "{}=\"{}\" not found in this project"
+msgstr ""
+
+#: tuesmon/export_import/validators/validators.py:168
+#: tuesmon/projects/custom_attributes/validators.py:109
+msgid "Invalid content. It must be {\"key\": \"value\",...}"
+msgstr ""
+
+#: tuesmon/export_import/validators/validators.py:183
+#: tuesmon/projects/custom_attributes/validators.py:124
+msgid "It contain invalid custom fields."
+msgstr ""
+
+#: tuesmon/export_import/validators/validators.py:263
+#: tuesmon/projects/validators.py:54
+msgid "Name duplicated for the project"
+msgstr ""
+
+#: tuesmon/external_apps/api.py:43 tuesmon/external_apps/api.py:70
+#: tuesmon/external_apps/api.py:77
+msgid "Authentication required"
+msgstr ""
+
+#: tuesmon/external_apps/models.py:35
+#: tuesmon/projects/custom_attributes/models.py:36
+#: tuesmon/projects/milestones/models.py:37 tuesmon/projects/models.py:148
+#: tuesmon/projects/models.py:521 tuesmon/projects/models.py:554
+#: tuesmon/projects/models.py:590 tuesmon/projects/models.py:610
+#: tuesmon/projects/models.py:635 tuesmon/projects/models.py:667
+#: tuesmon/projects/models.py:693 tuesmon/projects/models.py:713
+#: tuesmon/projects/models.py:733 tuesmon/projects/models.py:765
+#: tuesmon/projects/models.py:785 tuesmon/projects/models.py:809
+#: tuesmon/users/admin.py:54 tuesmon/users/models.py:312
+#: tuesmon/webhooks/models.py:29
+msgid "name"
+msgstr ""
+
+#: tuesmon/external_apps/models.py:37
+msgid "Icon url"
+msgstr ""
+
+#: tuesmon/external_apps/models.py:38
+msgid "web"
+msgstr ""
+
+#: tuesmon/external_apps/models.py:39 tuesmon/projects/attachments/models.py:62
+#: tuesmon/projects/custom_attributes/models.py:37
+#: tuesmon/projects/epics/models.py:56
+#: tuesmon/projects/history/templatetags/functions.py:25
+#: tuesmon/projects/issues/models.py:61 tuesmon/projects/models.py:152
+#: tuesmon/projects/models.py:813 tuesmon/projects/tasks/models.py:63
+#: tuesmon/projects/userstories/models.py:96
+msgid "description"
+msgstr ""
+
+#: tuesmon/external_apps/models.py:41
+msgid "Next url"
+msgstr ""
+
+#: tuesmon/external_apps/models.py:55 tuesmon/projects/contact/models.py:26
+#: tuesmon/projects/likes/models.py:31 tuesmon/projects/notifications/models.py:90
+#: tuesmon/projects/votes/models.py:52
+msgid "user"
+msgstr ""
+
+#: tuesmon/external_apps/models.py:59
+msgid "application"
+msgstr ""
+
+#: tuesmon/feedback/models.py:25 tuesmon/users/models.py:147
+msgid "full name"
+msgstr ""
+
+#: tuesmon/feedback/models.py:27 tuesmon/users/models.py:142
+msgid "email address"
+msgstr ""
+
+#: tuesmon/feedback/models.py:29 tuesmon/projects/contact/models.py:31
+msgid "comment"
+msgstr ""
+
+#: tuesmon/feedback/models.py:31 tuesmon/projects/attachments/models.py:48
+#: tuesmon/projects/contact/models.py:34
+#: tuesmon/projects/custom_attributes/models.py:46
+#: tuesmon/projects/epics/models.py:49 tuesmon/projects/issues/models.py:53
+#: tuesmon/projects/likes/models.py:33 tuesmon/projects/milestones/models.py:48
+#: tuesmon/projects/models.py:159 tuesmon/projects/models.py:817
+#: tuesmon/projects/notifications/models.py:92 tuesmon/projects/tasks/models.py:49
+#: tuesmon/projects/userstories/models.py:88 tuesmon/projects/votes/models.py:54
+#: tuesmon/projects/wiki/models.py:44 tuesmon/userstorage/models.py:29
+msgid "created date"
+msgstr ""
+
+#: tuesmon/hooks/api.py:54
+msgid "The payload is not a valid json"
+msgstr ""
+
+#: tuesmon/hooks/api.py:63 tuesmon/projects/epics/api.py:154
+#: tuesmon/projects/issues/api.py:147 tuesmon/projects/tasks/api.py:215
+#: tuesmon/projects/userstories/api.py:299
+msgid "The project doesn't exist"
+msgstr ""
+
+#: tuesmon/hooks/api.py:66
+msgid "Bad signature"
+msgstr ""
+
+#: tuesmon/hooks/event_hooks.py:66
+#, python-brace-format
+msgid ""
+"[@{user_name}]({user_url} \"See @{user_name}'s {platform} profile\") says in "
+"[{platform}#{number}]({comment_url} \"Go to comment\"):\n"
+"\n"
+"\"{comment_message}\""
+msgstr ""
+
+#: tuesmon/hooks/event_hooks.py:71
+#, python-brace-format
+msgid ""
+"Comment From {platform}:\n"
+"\n"
+"> {comment_message}"
+msgstr ""
+
+#: tuesmon/hooks/event_hooks.py:84
+msgid "Invalid issue comment information"
+msgstr ""
+
+#: tuesmon/hooks/event_hooks.py:103
+#, python-brace-format
+msgid ""
+"Issue created by [@{user_name}]({user_url} \"See @{user_name}'s {platform} "
+"profile\") from [{platform}#{number}]({url} \"Go to issue\")."
+msgstr ""
+
+#: tuesmon/hooks/event_hooks.py:107
+#, python-brace-format
+msgid "Issue created from {platform}."
+msgstr ""
+
+#: tuesmon/hooks/event_hooks.py:120
+msgid "Invalid issue information"
+msgstr ""
+
+#: tuesmon/hooks/event_hooks.py:149 tuesmon/hooks/event_hooks.py:171
+msgid "unknown user"
+msgstr ""
+
+#: tuesmon/hooks/event_hooks.py:156
+#, python-brace-format
+msgid ""
+"{user_text} changed the status from [{platform} commit]({commit_url} \"See "
+"commit '{commit_id} - {commit_short_message}'\")\n"
+"\n"
+"  - Status: **{src_status}** → **{dst_status}**"
+msgstr ""
+
+#: tuesmon/hooks/event_hooks.py:161
+#, python-brace-format
+msgid ""
+"Changed status from {platform} commit.\n"
+"\n"
+" - Status: **{src_status}** → **{dst_status}**"
+msgstr ""
+
+#: tuesmon/hooks/event_hooks.py:179
+#, python-brace-format
+msgid ""
+"This {type_name} has been mentioned by {user_text} in the [{platform} commit]"
+"({commit_url} \"See commit '{commit_id} - {commit_short_message}'\") "
+"\"{commit_message}\""
+msgstr ""
+
+#: tuesmon/hooks/event_hooks.py:184
+#, python-brace-format
+msgid ""
+"This issue has been mentioned in the {platform} commit \"{commit_message}\""
+msgstr ""
+
+#: tuesmon/hooks/event_hooks.py:206
+msgid "The referenced element doesn't exist"
+msgstr ""
+
+#: tuesmon/hooks/event_hooks.py:222
+msgid "The status doesn't exist"
+msgstr ""
+
+#: tuesmon/importers/asana/api.py:43 tuesmon/importers/asana/api.py:85
+#: tuesmon/importers/github/api.py:44 tuesmon/importers/github/api.py:74
+#: tuesmon/importers/jira/api.py:60 tuesmon/importers/jira/api.py:106
+#: tuesmon/importers/pivotal/api.py:43 tuesmon/importers/pivotal/api.py:80
+#: tuesmon/importers/trello/api.py:46 tuesmon/importers/trello/api.py:83
+msgid "The project param is needed"
+msgstr ""
+
+#: tuesmon/importers/asana/api.py:50 tuesmon/importers/asana/api.py:73
+#: tuesmon/importers/asana/api.py:139
+msgid "Invalid Asana API request"
+msgstr ""
+
+#: tuesmon/importers/asana/api.py:52 tuesmon/importers/asana/api.py:75
+#: tuesmon/importers/asana/api.py:141
+msgid "Failed to make the request to Asana API"
+msgstr ""
+
+#: tuesmon/importers/asana/api.py:129 tuesmon/importers/github/api.py:123
+msgid "Code param needed"
+msgstr ""
+
+#: tuesmon/importers/asana/tasks.py:42 tuesmon/importers/asana/tasks.py:43
+msgid "Error importing Asana project"
+msgstr ""
+
+#: tuesmon/importers/github/api.py:135
+msgid "Invalid auth data"
+msgstr ""
+
+#: tuesmon/importers/github/api.py:137
+msgid "Third party service failing"
+msgstr ""
+
+#: tuesmon/importers/github/tasks.py:42 tuesmon/importers/github/tasks.py:43
+msgid "Error importing GitHub project"
+msgstr ""
+
+#: tuesmon/importers/jira/api.py:62 tuesmon/importers/jira/api.py:89
+#: tuesmon/importers/jira/api.py:109 tuesmon/importers/jira/api.py:182
+msgid "The url param is needed"
+msgstr ""
+
+#: tuesmon/importers/jira/api.py:158
+msgid "Invalid project_type {}"
+msgstr ""
+
+#: tuesmon/importers/jira/api.py:192
+msgid "Invalid Jira server configuration."
+msgstr ""
+
+#: tuesmon/importers/jira/api.py:233 tuesmon/importers/pivotal/api.py:138
+#: tuesmon/importers/trello/api.py:143
+msgid "Invalid or expired auth token"
+msgstr ""
+
+#: tuesmon/importers/jira/tasks.py:48 tuesmon/importers/jira/tasks.py:49
+msgid "Error importing Jira project"
+msgstr ""
+
+#: tuesmon/importers/pivotal/tasks.py:42 tuesmon/importers/pivotal/tasks.py:43
+msgid "Error importing PivotalTracker project"
+msgstr ""
+
+#: tuesmon/importers/trello/importer.py:78
+#, python-format
+msgid "Invalid Request: %s at %s"
+msgstr ""
+
+#: tuesmon/importers/trello/importer.py:80 tuesmon/importers/trello/importer.py:82
+#, python-format
+msgid "Unauthorized: %s at %s"
+msgstr ""
+
+#: tuesmon/importers/trello/importer.py:84 tuesmon/importers/trello/importer.py:86
+#, python-format
+msgid "Resource Unavailable: %s at %s"
+msgstr ""
+
+#: tuesmon/importers/trello/tasks.py:42 tuesmon/importers/trello/tasks.py:43
+msgid "Error importing Trello project"
+msgstr ""
+
+#: tuesmon/permissions/choices.py:23 tuesmon/permissions/choices.py:34
+msgid "View project"
+msgstr ""
+
+#: tuesmon/permissions/choices.py:24 tuesmon/permissions/choices.py:36
+msgid "View milestones"
+msgstr ""
+
+#: tuesmon/permissions/choices.py:25 tuesmon/permissions/choices.py:41
+msgid "View epic"
+msgstr ""
+
+#: tuesmon/permissions/choices.py:26
+msgid "View user stories"
+msgstr ""
+
+#: tuesmon/permissions/choices.py:27 tuesmon/permissions/choices.py:53
+msgid "View tasks"
+msgstr ""
+
+#: tuesmon/permissions/choices.py:28 tuesmon/permissions/choices.py:59
+msgid "View issues"
+msgstr ""
+
+#: tuesmon/permissions/choices.py:29 tuesmon/permissions/choices.py:65
+msgid "View wiki pages"
+msgstr ""
+
+#: tuesmon/permissions/choices.py:30 tuesmon/permissions/choices.py:71
+msgid "View wiki links"
+msgstr ""
+
+#: tuesmon/permissions/choices.py:37
+msgid "Add milestone"
+msgstr ""
+
+#: tuesmon/permissions/choices.py:38
+msgid "Modify milestone"
+msgstr ""
+
+#: tuesmon/permissions/choices.py:39
+msgid "Delete milestone"
+msgstr ""
+
+#: tuesmon/permissions/choices.py:42
+msgid "Add epic"
+msgstr ""
+
+#: tuesmon/permissions/choices.py:43
+msgid "Modify epic"
+msgstr ""
+
+#: tuesmon/permissions/choices.py:44
+msgid "Comment epic"
+msgstr ""
+
+#: tuesmon/permissions/choices.py:45
+msgid "Delete epic"
+msgstr ""
+
+#: tuesmon/permissions/choices.py:47
+msgid "View user story"
+msgstr ""
+
+#: tuesmon/permissions/choices.py:48
+msgid "Add user story"
+msgstr ""
+
+#: tuesmon/permissions/choices.py:49
+msgid "Modify user story"
+msgstr ""
+
+#: tuesmon/permissions/choices.py:50
+msgid "Comment user story"
+msgstr ""
+
+#: tuesmon/permissions/choices.py:51
+msgid "Delete user story"
+msgstr ""
+
+#: tuesmon/permissions/choices.py:54
+msgid "Add task"
+msgstr ""
+
+#: tuesmon/permissions/choices.py:55
+msgid "Modify task"
+msgstr ""
+
+#: tuesmon/permissions/choices.py:56
+msgid "Comment task"
+msgstr ""
+
+#: tuesmon/permissions/choices.py:57
+msgid "Delete task"
+msgstr ""
+
+#: tuesmon/permissions/choices.py:60
+msgid "Add issue"
+msgstr ""
+
+#: tuesmon/permissions/choices.py:61
+msgid "Modify issue"
+msgstr ""
+
+#: tuesmon/permissions/choices.py:62
+msgid "Comment issue"
+msgstr ""
+
+#: tuesmon/permissions/choices.py:63
+msgid "Delete issue"
+msgstr ""
+
+#: tuesmon/permissions/choices.py:66
+msgid "Add wiki page"
+msgstr ""
+
+#: tuesmon/permissions/choices.py:67
+msgid "Modify wiki page"
+msgstr ""
+
+#: tuesmon/permissions/choices.py:68
+msgid "Comment wiki page"
+msgstr ""
+
+#: tuesmon/permissions/choices.py:69
+msgid "Delete wiki page"
+msgstr ""
+
+#: tuesmon/permissions/choices.py:72
+msgid "Add wiki link"
+msgstr ""
+
+#: tuesmon/permissions/choices.py:73
+msgid "Modify wiki link"
+msgstr ""
+
+#: tuesmon/permissions/choices.py:74
+msgid "Delete wiki link"
+msgstr ""
+
+#: tuesmon/permissions/choices.py:78
+msgid "Modify project"
+msgstr ""
+
+#: tuesmon/permissions/choices.py:79
+msgid "Delete project"
+msgstr ""
+
+#: tuesmon/permissions/choices.py:80
+msgid "Add member"
+msgstr ""
+
+#: tuesmon/permissions/choices.py:81
+msgid "Remove member"
+msgstr ""
+
+#: tuesmon/permissions/choices.py:82
+msgid "Admin project values"
+msgstr ""
+
+#: tuesmon/permissions/choices.py:83
+msgid "Admin roles"
+msgstr ""
+
+#: tuesmon/projects/admin.py:100
+msgid "Privacity"
+msgstr ""
+
+#: tuesmon/projects/admin.py:106 tuesmon/users/admin.py:120
+msgid "Extra info"
+msgstr ""
+
+#: tuesmon/projects/admin.py:111
+msgid "Modules"
+msgstr ""
+
+#: tuesmon/projects/admin.py:119
+msgid "Default values"
+msgstr ""
+
+#: tuesmon/projects/admin.py:126
+msgid "Activity"
+msgstr ""
+
+#: tuesmon/projects/admin.py:131
+msgid "Fans"
+msgstr ""
+
+#: tuesmon/projects/admin.py:145 tuesmon/projects/attachments/models.py:39
+#: tuesmon/projects/epics/models.py:40 tuesmon/projects/issues/models.py:38
+#: tuesmon/projects/milestones/models.py:42 tuesmon/projects/models.py:164
+#: tuesmon/projects/notifications/models.py:65 tuesmon/projects/tasks/models.py:40
+#: tuesmon/projects/userstories/models.py:70 tuesmon/projects/wiki/models.py:40
+#: tuesmon/users/admin.py:69 tuesmon/userstorage/models.py:27
+msgid "owner"
+msgstr ""
+
+#: tuesmon/projects/admin.py:193
+#, python-brace-format
+msgid "{count} successfully made public."
+msgstr ""
+
+#: tuesmon/projects/admin.py:194
+msgid "Make public"
+msgstr ""
+
+#: tuesmon/projects/admin.py:208
+#, python-brace-format
+msgid "{count} successfully made private."
+msgstr ""
+
+#: tuesmon/projects/admin.py:209
+msgid "Make private"
+msgstr ""
+
+#: tuesmon/projects/admin.py:239
+#, python-format
+msgid "Delete selected %(verbose_name_plural)s"
+msgstr ""
+
+#: tuesmon/projects/api.py:176 tuesmon/users/api.py:244
+msgid "Incomplete arguments"
+msgstr ""
+
+#: tuesmon/projects/api.py:180 tuesmon/users/api.py:249
+msgid "Invalid image format"
+msgstr ""
+
+#: tuesmon/projects/api.py:241
+msgid "Not valid template name"
+msgstr ""
+
+#: tuesmon/projects/api.py:244
+msgid "Not valid template description"
+msgstr ""
+
+#: tuesmon/projects/api.py:407 tuesmon/projects/api.py:1010
+msgid "Invalid user id"
+msgstr ""
+
+#: tuesmon/projects/api.py:413 tuesmon/projects/api.py:1016
+msgid "The user doesn't exist"
+msgstr ""
+
+#: tuesmon/projects/api.py:417
+msgid "The user must be already a project member"
+msgstr ""
+
+#: tuesmon/projects/api.py:643
+msgid "You can't delete user story due date by default"
+msgstr ""
+
+#: tuesmon/projects/api.py:659
+msgid "Project already have due dates"
+msgstr ""
+
+#: tuesmon/projects/api.py:719
+msgid "You can't delete task due date by default"
+msgstr ""
+
+#: tuesmon/projects/api.py:735
+msgid "Project already have task due dates"
+msgstr ""
+
+#: tuesmon/projects/api.py:859
+msgid "You can't delete issue due date by default"
+msgstr ""
+
+#: tuesmon/projects/api.py:875
+msgid "Project already have issue due dates"
+msgstr ""
+
+#: tuesmon/projects/api.py:1028
+msgid ""
+"This user can't be removed from the following projects, because would leave "
+"them without any active admin: {}."
+msgstr ""
+
+#: tuesmon/projects/api.py:1038
+msgid ""
+"The project must have an owner and at least one of the users must be an "
+"active admin"
+msgstr ""
+
+#: tuesmon/projects/api.py:1072
+msgid "You don't have permisions to see that."
+msgstr ""
+
+#: tuesmon/projects/attachments/api.py:54
+msgid "Partial updates are not supported"
+msgstr ""
+
+#: tuesmon/projects/attachments/api.py:69
+msgid "Object id issue isn't exists"
+msgstr ""
+
+#: tuesmon/projects/attachments/api.py:72
+msgid "Project ID not matches between object and project"
+msgstr ""
+
+#: tuesmon/projects/attachments/models.py:41 tuesmon/projects/contact/models.py:29
+#: tuesmon/projects/custom_attributes/models.py:43
+#: tuesmon/projects/epics/models.py:38 tuesmon/projects/issues/models.py:51
+#: tuesmon/projects/milestones/models.py:44 tuesmon/projects/models.py:509
+#: tuesmon/projects/models.py:531 tuesmon/projects/models.py:568
+#: tuesmon/projects/models.py:596 tuesmon/projects/models.py:620
+#: tuesmon/projects/models.py:645 tuesmon/projects/models.py:677
+#: tuesmon/projects/models.py:699 tuesmon/projects/models.py:719
+#: tuesmon/projects/models.py:743 tuesmon/projects/models.py:771
+#: tuesmon/projects/models.py:795 tuesmon/projects/notifications/models.py:77
+#: tuesmon/projects/notifications/models.py:94 tuesmon/projects/tasks/models.py:44
+#: tuesmon/projects/userstories/models.py:68 tuesmon/projects/wiki/models.py:34
+#: tuesmon/projects/wiki/models.py:72 tuesmon/users/models.py:323
+msgid "project"
+msgstr ""
+
+#: tuesmon/projects/attachments/models.py:43
+msgid "content type"
+msgstr ""
+
+#: tuesmon/projects/attachments/models.py:45
+msgid "object id"
+msgstr ""
+
+#: tuesmon/projects/attachments/models.py:51
+#: tuesmon/projects/custom_attributes/models.py:48
+#: tuesmon/projects/epics/models.py:52 tuesmon/projects/issues/models.py:56
+#: tuesmon/projects/milestones/models.py:51 tuesmon/projects/models.py:162
+#: tuesmon/projects/models.py:820 tuesmon/projects/tasks/models.py:52
+#: tuesmon/projects/userstories/models.py:91 tuesmon/projects/wiki/models.py:47
+#: tuesmon/userstorage/models.py:31
+msgid "modified date"
+msgstr ""
+
+#: tuesmon/projects/attachments/models.py:56
+msgid "attached file"
+msgstr ""
+
+#: tuesmon/projects/attachments/models.py:58
+msgid "sha1"
+msgstr ""
+
+#: tuesmon/projects/attachments/models.py:60
+msgid "is deprecated"
+msgstr ""
+
+#: tuesmon/projects/attachments/models.py:61
+msgid "from comment"
+msgstr ""
+
+#: tuesmon/projects/attachments/models.py:63
+#: tuesmon/projects/custom_attributes/models.py:41
+#: tuesmon/projects/epics/models.py:104 tuesmon/projects/milestones/models.py:57
+#: tuesmon/projects/models.py:525 tuesmon/projects/models.py:558
+#: tuesmon/projects/models.py:592 tuesmon/projects/models.py:612
+#: tuesmon/projects/models.py:639 tuesmon/projects/models.py:669
+#: tuesmon/projects/models.py:695 tuesmon/projects/models.py:715
+#: tuesmon/projects/models.py:737 tuesmon/projects/models.py:767
+#: tuesmon/projects/models.py:787 tuesmon/projects/wiki/models.py:77
+#: tuesmon/users/models.py:318
+msgid "order"
+msgstr ""
+
+#: tuesmon/projects/choices.py:23
+msgid "AppearIn"
+msgstr ""
+
+#: tuesmon/projects/choices.py:24
+msgid "Jitsi"
+msgstr ""
+
+#: tuesmon/projects/choices.py:25
+msgid "Custom"
+msgstr ""
+
+#: tuesmon/projects/choices.py:26
+msgid "Talky"
+msgstr ""
+
+#: tuesmon/projects/choices.py:35
+msgid "This project is blocked due to payment failure"
+msgstr ""
+
+#: tuesmon/projects/choices.py:36
+msgid "This project is blocked by admin staff"
+msgstr ""
+
+#: tuesmon/projects/choices.py:37
+msgid "This project is blocked because the owner left"
+msgstr ""
+
+#: tuesmon/projects/choices.py:38
+msgid "This project is blocked while it's deleted"
+msgstr ""
+
+#: tuesmon/projects/custom_attributes/choices.py:32
+msgid "Text"
+msgstr ""
+
+#: tuesmon/projects/custom_attributes/choices.py:33
+msgid "Multi-Line Text"
+msgstr ""
+
+#: tuesmon/projects/custom_attributes/choices.py:34
+msgid "Rich text"
+msgstr ""
+
+#: tuesmon/projects/custom_attributes/choices.py:35
+msgid "Date"
+msgstr ""
+
+#: tuesmon/projects/custom_attributes/choices.py:36
+msgid "Url"
+msgstr ""
+
+#: tuesmon/projects/custom_attributes/choices.py:37
+msgid "Dropdown"
+msgstr ""
+
+#: tuesmon/projects/custom_attributes/choices.py:38
+msgid "Checkbox"
+msgstr ""
+
+#: tuesmon/projects/custom_attributes/choices.py:39
+msgid "Number"
+msgstr ""
+
+#: tuesmon/projects/custom_attributes/models.py:40
+#: tuesmon/projects/issues/models.py:46
+msgid "type"
+msgstr ""
+
+#: tuesmon/projects/custom_attributes/models.py:95
+msgid "values"
+msgstr ""
+
+#: tuesmon/projects/custom_attributes/models.py:105
+msgid "epic"
+msgstr ""
+
+#: tuesmon/projects/custom_attributes/models.py:121
+#: tuesmon/projects/tasks/models.py:36 tuesmon/projects/userstories/models.py:39
+msgid "user story"
+msgstr ""
+
+#: tuesmon/projects/custom_attributes/models.py:137
+msgid "task"
+msgstr ""
+
+#: tuesmon/projects/custom_attributes/models.py:153
+msgid "issue"
+msgstr ""
+
+#: tuesmon/projects/custom_attributes/validators.py:58
+msgid "Already exists one with the same name."
+msgstr ""
+
+#: tuesmon/projects/due_dates/models.py:21
+msgid "due date"
+msgstr ""
+
+#: tuesmon/projects/due_dates/models.py:24
+msgid "reason for the due date"
+msgstr ""
+
+#: tuesmon/projects/epics/api.py:94
+msgid "You don't have permissions to set this status to this epic."
+msgstr ""
+
+#: tuesmon/projects/epics/models.py:36 tuesmon/projects/issues/models.py:36
+#: tuesmon/projects/tasks/models.py:38 tuesmon/projects/userstories/models.py:63
+msgid "ref"
+msgstr ""
+
+#: tuesmon/projects/epics/models.py:43 tuesmon/projects/issues/models.py:40
+#: tuesmon/projects/tasks/models.py:42 tuesmon/projects/userstories/models.py:73
+msgid "status"
+msgstr ""
+
+#: tuesmon/projects/epics/models.py:46
+msgid "epics order"
+msgstr ""
+
+#: tuesmon/projects/epics/models.py:55 tuesmon/projects/issues/models.py:60
+#: tuesmon/projects/tasks/models.py:56 tuesmon/projects/userstories/models.py:95
+msgid "subject"
+msgstr ""
+
+#: tuesmon/projects/epics/models.py:59 tuesmon/projects/models.py:529
+#: tuesmon/projects/models.py:564 tuesmon/projects/models.py:616
+#: tuesmon/projects/models.py:643 tuesmon/projects/models.py:673
+#: tuesmon/projects/models.py:697 tuesmon/projects/models.py:717
+#: tuesmon/projects/models.py:741 tuesmon/projects/models.py:769
+#: tuesmon/projects/models.py:791 tuesmon/users/models.py:149
+msgid "color"
+msgstr ""
+
+#: tuesmon/projects/epics/models.py:62 tuesmon/projects/issues/models.py:64
+#: tuesmon/projects/tasks/models.py:66 tuesmon/projects/userstories/models.py:99
+msgid "assigned to"
+msgstr ""
+
+#: tuesmon/projects/epics/models.py:64 tuesmon/projects/userstories/models.py:104
+msgid "is client requirement"
+msgstr ""
+
+#: tuesmon/projects/epics/models.py:66 tuesmon/projects/userstories/models.py:106
+msgid "is team requirement"
+msgstr ""
+
+#: tuesmon/projects/epics/models.py:70
+msgid "user stories"
+msgstr ""
+
+#: tuesmon/projects/epics/models.py:72 tuesmon/projects/issues/models.py:67
+#: tuesmon/projects/tasks/models.py:71 tuesmon/projects/userstories/models.py:117
+msgid "external reference"
+msgstr ""
+
+#: tuesmon/projects/epics/validators.py:37
+msgid "There's no epic with that id"
+msgstr ""
+
+#: tuesmon/projects/history/api.py:100
+msgid "comment is required"
+msgstr ""
+
+#: tuesmon/projects/history/api.py:103
+msgid "deleted comments can't be edited"
+msgstr ""
+
+#: tuesmon/projects/history/api.py:146
+msgid "Comment already deleted"
+msgstr ""
+
+#: tuesmon/projects/history/api.py:167
+msgid "Comment not deleted"
+msgstr ""
+
+#: tuesmon/projects/history/choices.py:31
+msgid "Change"
+msgstr ""
+
+#: tuesmon/projects/history/choices.py:32
+msgid "Create"
+msgstr ""
+
+#: tuesmon/projects/history/choices.py:33
+msgid "Delete"
+msgstr ""
+
+#: tuesmon/projects/history/templatetags/functions.py:26
+#: tuesmon/projects/wiki/models.py:38
+msgid "content"
+msgstr ""
+
+#: tuesmon/projects/history/templatetags/functions.py:27
+#: tuesmon/projects/mixins/blocked.py:33
+msgid "blocked note"
+msgstr ""
+
+#: tuesmon/projects/history/templatetags/functions.py:28
+msgid "sprint"
+msgstr ""
+
+#: tuesmon/projects/issues/api.py:169
+msgid "You don't have permissions to set this sprint to this issue."
+msgstr ""
+
+#: tuesmon/projects/issues/api.py:173
+msgid "You don't have permissions to set this status to this issue."
+msgstr ""
+
+#: tuesmon/projects/issues/api.py:177
+msgid "You don't have permissions to set this severity to this issue."
+msgstr ""
+
+#: tuesmon/projects/issues/api.py:181
+msgid "You don't have permissions to set this priority to this issue."
+msgstr ""
+
+#: tuesmon/projects/issues/api.py:185
+msgid "You don't have permissions to set this type to this issue."
+msgstr ""
+
+#: tuesmon/projects/issues/models.py:42
+msgid "severity"
+msgstr ""
+
+#: tuesmon/projects/issues/models.py:44
+msgid "priority"
+msgstr ""
+
+#: tuesmon/projects/issues/models.py:49 tuesmon/projects/tasks/models.py:47
+#: tuesmon/projects/userstories/models.py:66
+msgid "milestone"
+msgstr ""
+
+#: tuesmon/projects/issues/models.py:58 tuesmon/projects/tasks/models.py:54
+msgid "finished date"
+msgstr ""
+
+#: tuesmon/projects/issues/validators.py:68
+#: tuesmon/projects/tasks/validators.py:176
+#: tuesmon/projects/userstories/validators.py:158
+msgid "The milestone isn't valid for the project"
+msgstr ""
+
+#: tuesmon/projects/issues/validators.py:78
+msgid "All the issues must be from the same project"
+msgstr ""
+
+#: tuesmon/projects/likes/models.py:36
+msgid "Like"
+msgstr ""
+
+#: tuesmon/projects/likes/models.py:37
+msgid "Likes"
+msgstr ""
+
+#: tuesmon/projects/milestones/models.py:40 tuesmon/projects/models.py:150
+#: tuesmon/projects/models.py:523 tuesmon/projects/models.py:556
+#: tuesmon/projects/models.py:637 tuesmon/projects/models.py:735
+#: tuesmon/projects/models.py:811 tuesmon/projects/wiki/models.py:36
+#: tuesmon/users/admin.py:58 tuesmon/users/models.py:314
+msgid "slug"
+msgstr ""
+
+#: tuesmon/projects/milestones/models.py:45
+msgid "estimated start date"
+msgstr ""
+
+#: tuesmon/projects/milestones/models.py:46
+msgid "estimated finish date"
+msgstr ""
+
+#: tuesmon/projects/milestones/models.py:53 tuesmon/projects/models.py:527
+#: tuesmon/projects/models.py:560 tuesmon/projects/models.py:641
+#: tuesmon/projects/models.py:739
+msgid "is closed"
+msgstr ""
+
+#: tuesmon/projects/milestones/models.py:55
+msgid "disponibility"
+msgstr ""
+
+#: tuesmon/projects/milestones/models.py:79
+msgid "The estimated start must be previous to the estimated finish."
+msgstr ""
+
+#: tuesmon/projects/milestones/validators.py:35
+msgid "There's no milestone with that id"
+msgstr ""
+
+#: tuesmon/projects/milestones/validators.py:66
+#: tuesmon/projects/userstories/validators.py:168
+msgid "All the user stories must be from the same project"
+msgstr ""
+
+#: tuesmon/projects/mixins/blocked.py:31
+msgid "is blocked"
+msgstr ""
+
+#: tuesmon/projects/mixins/by_ref.py:32
+msgid "ref param is needed"
+msgstr ""
+
+#: tuesmon/projects/mixins/by_ref.py:35
+msgid "project or project__slug param is needed"
+msgstr ""
+
+#: tuesmon/projects/mixins/ordering.py:49
+#, python-brace-format
+msgid "'{param}' parameter is mandatory"
+msgstr ""
+
+#: tuesmon/projects/mixins/ordering.py:53
+msgid "'project' parameter is mandatory"
+msgstr ""
+
+#: tuesmon/projects/mixins/validators.py:19
+msgid "The user must be a project member."
+msgstr ""
+
+#: tuesmon/projects/models.py:79
+msgid "email"
+msgstr ""
+
+#: tuesmon/projects/models.py:81
+msgid "create at"
+msgstr ""
+
+#: tuesmon/projects/models.py:83 tuesmon/users/models.py:166
+msgid "token"
+msgstr ""
+
+#: tuesmon/projects/models.py:89
+msgid "invitation extra text"
+msgstr ""
+
+#: tuesmon/projects/models.py:92 tuesmon/projects/models.py:815
+msgid "user order"
+msgstr ""
+
+#: tuesmon/projects/models.py:108
+msgid "The user is already member of the project"
+msgstr ""
+
+#: tuesmon/projects/models.py:115
+msgid "default epic status"
+msgstr ""
+
+#: tuesmon/projects/models.py:119
+msgid "default US status"
+msgstr ""
+
+#: tuesmon/projects/models.py:122
+msgid "default points"
+msgstr ""
+
+#: tuesmon/projects/models.py:126
+msgid "default task status"
+msgstr ""
+
+#: tuesmon/projects/models.py:129
+msgid "default priority"
+msgstr ""
+
+#: tuesmon/projects/models.py:132
+msgid "default severity"
+msgstr ""
+
+#: tuesmon/projects/models.py:136
+msgid "default issue status"
+msgstr ""
+
+#: tuesmon/projects/models.py:140
+msgid "default issue type"
+msgstr ""
+
+#: tuesmon/projects/models.py:156
+msgid "logo"
+msgstr ""
+
+#: tuesmon/projects/models.py:166
+msgid "members"
+msgstr ""
+
+#: tuesmon/projects/models.py:169
+msgid "total of milestones"
+msgstr ""
+
+#: tuesmon/projects/models.py:170
+msgid "total story points"
+msgstr ""
+
+#: tuesmon/projects/models.py:172 tuesmon/projects/models.py:825
+msgid "active contact"
+msgstr ""
+
+#: tuesmon/projects/models.py:174 tuesmon/projects/models.py:827
+msgid "active epics panel"
+msgstr ""
+
+#: tuesmon/projects/models.py:176 tuesmon/projects/models.py:829
+msgid "active backlog panel"
+msgstr ""
+
+#: tuesmon/projects/models.py:178 tuesmon/projects/models.py:831
+msgid "active kanban panel"
+msgstr ""
+
+#: tuesmon/projects/models.py:180 tuesmon/projects/models.py:833
+msgid "active wiki panel"
+msgstr ""
+
+#: tuesmon/projects/models.py:182 tuesmon/projects/models.py:835
+msgid "active issues panel"
+msgstr ""
+
+#: tuesmon/projects/models.py:185 tuesmon/projects/models.py:842
+msgid "videoconference system"
+msgstr ""
+
+#: tuesmon/projects/models.py:187 tuesmon/projects/models.py:844
+msgid "videoconference extra data"
+msgstr ""
+
+#: tuesmon/projects/models.py:193
+msgid "creation template"
+msgstr ""
+
+#: tuesmon/projects/models.py:196 tuesmon/users/admin.py:62
+msgid "is private"
+msgstr ""
+
+#: tuesmon/projects/models.py:198
+msgid "anonymous permissions"
+msgstr ""
+
+#: tuesmon/projects/models.py:200
+msgid "user permissions"
+msgstr ""
+
+#: tuesmon/projects/models.py:203
+msgid "is featured"
+msgstr ""
+
+#: tuesmon/projects/models.py:206 tuesmon/projects/models.py:837
+msgid "is looking for people"
+msgstr ""
+
+#: tuesmon/projects/models.py:208 tuesmon/projects/models.py:839
+msgid "looking for people note"
+msgstr ""
+
+#: tuesmon/projects/models.py:222
+msgid "project transfer token"
+msgstr ""
+
+#: tuesmon/projects/models.py:226
+msgid "blocked code"
+msgstr ""
+
+#: tuesmon/projects/models.py:229 tuesmon/projects/notifications/models.py:69
+msgid "updated date time"
+msgstr ""
+
+#: tuesmon/projects/models.py:232 tuesmon/projects/models.py:244
+#: tuesmon/projects/votes/models.py:30
+msgid "count"
+msgstr ""
+
+#: tuesmon/projects/models.py:235
+msgid "fans last week"
+msgstr ""
+
+#: tuesmon/projects/models.py:238
+msgid "fans last month"
+msgstr ""
+
+#: tuesmon/projects/models.py:241
+msgid "fans last year"
+msgstr ""
+
+#: tuesmon/projects/models.py:248
+msgid "activity last week"
+msgstr ""
+
+#: tuesmon/projects/models.py:252
+msgid "activity last month"
+msgstr ""
+
+#: tuesmon/projects/models.py:256
+msgid "activity last year"
+msgstr ""
+
+#: tuesmon/projects/models.py:510
+msgid "modules config"
+msgstr ""
+
+#: tuesmon/projects/models.py:562
+msgid "is archived"
+msgstr ""
+
+#: tuesmon/projects/models.py:566
+msgid "work in progress limit"
+msgstr ""
+
+#: tuesmon/projects/models.py:594 tuesmon/userstorage/models.py:33
+msgid "value"
+msgstr ""
+
+#: tuesmon/projects/models.py:614 tuesmon/projects/models.py:671
+#: tuesmon/projects/models.py:789
+msgid "by default"
+msgstr ""
+
+#: tuesmon/projects/models.py:618 tuesmon/projects/models.py:675
+#: tuesmon/projects/models.py:793
+msgid "days to due"
+msgstr ""
+
+#: tuesmon/projects/models.py:823
+msgid "default owner's role"
+msgstr ""
+
+#: tuesmon/projects/models.py:846
+msgid "default options"
+msgstr ""
+
+#: tuesmon/projects/models.py:847
+msgid "epic statuses"
+msgstr ""
+
+#: tuesmon/projects/models.py:848
+msgid "us statuses"
+msgstr ""
+
+#: tuesmon/projects/models.py:849
+msgid "us duedates"
+msgstr ""
+
+#: tuesmon/projects/models.py:850 tuesmon/projects/userstories/models.py:45
+#: tuesmon/projects/userstories/models.py:78
+msgid "points"
+msgstr ""
+
+#: tuesmon/projects/models.py:851
+msgid "task statuses"
+msgstr ""
+
+#: tuesmon/projects/models.py:852
+msgid "task duedates"
+msgstr ""
+
+#: tuesmon/projects/models.py:853
+msgid "issue statuses"
+msgstr ""
+
+#: tuesmon/projects/models.py:854
+msgid "issue types"
+msgstr ""
+
+#: tuesmon/projects/models.py:855
+msgid "issue duedates"
+msgstr ""
+
+#: tuesmon/projects/models.py:856
+msgid "priorities"
+msgstr ""
+
+#: tuesmon/projects/models.py:857
+msgid "severities"
+msgstr ""
+
+#: tuesmon/projects/models.py:858
+msgid "roles"
+msgstr ""
+
+#: tuesmon/projects/models.py:859
+msgid "epic custom attributes"
+msgstr ""
+
+#: tuesmon/projects/models.py:860
+msgid "us custom attributes"
+msgstr ""
+
+#: tuesmon/projects/models.py:861
+msgid "task custom attributes"
+msgstr ""
+
+#: tuesmon/projects/models.py:862
+msgid "issue custom attributes"
+msgstr ""
+
+#: tuesmon/projects/notifications/choices.py:30
+msgid "Involved"
+msgstr ""
+
+#: tuesmon/projects/notifications/choices.py:31
+msgid "All"
+msgstr ""
+
+#: tuesmon/projects/notifications/choices.py:32
+msgid "None"
+msgstr ""
+
+#: tuesmon/projects/notifications/choices.py:46
+msgid "Assigned"
+msgstr ""
+
+#: tuesmon/projects/notifications/choices.py:47
+msgid "Mentioned"
+msgstr ""
+
+#: tuesmon/projects/notifications/choices.py:48
+msgid "Added as watcher"
+msgstr ""
+
+#: tuesmon/projects/notifications/choices.py:49
+msgid "Added as member"
+msgstr ""
+
+#: tuesmon/projects/notifications/choices.py:50
+msgid "Comment"
+msgstr ""
+
+#: tuesmon/projects/notifications/choices.py:51
+msgid "Mentioned in comment"
+msgstr ""
+
+#: tuesmon/projects/notifications/models.py:67
+msgid "created date time"
+msgstr ""
+
+#: tuesmon/projects/notifications/models.py:71
+msgid "history entries"
+msgstr ""
+
+#: tuesmon/projects/notifications/models.py:74
+msgid "notify users"
+msgstr ""
+
+#: tuesmon/projects/notifications/models.py:96
+#: tuesmon/projects/notifications/models.py:97
+msgid "Watched"
+msgstr ""
+
+#: tuesmon/projects/notifications/services.py:75
+#: tuesmon/projects/notifications/services.py:99
+#: tuesmon/projects/settings/services.py:49
+#: tuesmon/projects/settings/services.py:67
+msgid "Notify exists for specified user and project"
+msgstr ""
+
+#: tuesmon/projects/notifications/services.py:487
+msgid "Invalid value for notify level"
+msgstr ""
+
+#: tuesmon/projects/notifications/validators.py:48
+msgid "Watchers contains invalid users"
+msgstr ""
+
+#: tuesmon/projects/occ/mixins.py:37
+msgid "The version must be an integer"
+msgstr ""
+
+#: tuesmon/projects/occ/mixins.py:60
+msgid "The version parameter is not valid"
+msgstr ""
+
+#: tuesmon/projects/occ/mixins.py:76
+msgid "The version doesn't match with the current one"
+msgstr ""
+
+#: tuesmon/projects/occ/mixins.py:95
+msgid "version"
+msgstr ""
+
+#: tuesmon/projects/permissions.py:44
+msgid ""
+"You can't leave the project if you are the owner or there are no more admins"
+msgstr ""
+
+#: tuesmon/projects/services/members.py:133
+msgid "Project without owner"
+msgstr ""
+
+#: tuesmon/projects/services/members.py:138
+msgid "You have reached your current limit of memberships for private projects"
+msgstr ""
+
+#: tuesmon/projects/services/members.py:142
+msgid "You have reached your current limit of memberships for public projects"
+msgstr ""
+
+#: tuesmon/projects/services/members.py:148
+msgid "You have reached the current limit of pending memberships"
+msgstr ""
+
+#: tuesmon/projects/services/projects.py:101
+#: tuesmon/projects/services/projects.py:141 tuesmon/users/services.py:600
+msgid "You can't have more private projects"
+msgstr ""
+
+#: tuesmon/projects/services/projects.py:105
+#: tuesmon/projects/services/projects.py:145 tuesmon/users/services.py:603
+msgid ""
+"This project reaches your current limit of memberships for private projects"
+msgstr ""
+
+#: tuesmon/projects/services/projects.py:109
+#: tuesmon/projects/services/projects.py:149 tuesmon/users/services.py:607
+msgid "You can't have more public projects"
+msgstr ""
+
+#: tuesmon/projects/services/projects.py:113
+#: tuesmon/projects/services/projects.py:153 tuesmon/users/services.py:610
+msgid ""
+"This project reaches your current limit of memberships for public projects"
+msgstr ""
+
+#: tuesmon/projects/services/stats.py:55 tuesmon/projects/services/stats.py:56
+msgid "Unassigned"
+msgstr ""
+
+#: tuesmon/projects/services/stats.py:197
+msgid "Future sprint"
+msgstr ""
+
+#: tuesmon/projects/services/stats.py:217
+msgid "Project End"
+msgstr ""
+
+#: tuesmon/projects/services/transfer.py:62
+#: tuesmon/projects/services/transfer.py:69
+#: tuesmon/projects/services/transfer.py:72 tuesmon/users/api.py:193
+#: tuesmon/users/api.py:198
+msgid "Token is invalid"
+msgstr ""
+
+#: tuesmon/projects/services/transfer.py:67
+msgid "Token has expired"
+msgstr ""
+
+#: tuesmon/projects/settings/choices.py:33
+msgid "Timeline"
+msgstr ""
+
+#: tuesmon/projects/settings/choices.py:34
+msgid "Epics"
+msgstr ""
+
+#: tuesmon/projects/settings/choices.py:35
+msgid "Backlog"
+msgstr ""
+
+#. Translators: Name of kanban project template.
+#: tuesmon/projects/settings/choices.py:36 tuesmon/projects/translations.py:35
+msgid "Kanban"
+msgstr ""
+
+#: tuesmon/projects/settings/choices.py:37
+msgid "Issues"
+msgstr ""
+
+#: tuesmon/projects/settings/choices.py:38
+msgid "TeamWiki"
+msgstr ""
+
+#: tuesmon/projects/settings/validators.py:36
+msgid "You don't have access to this section"
+msgstr ""
+
+#: tuesmon/projects/tagging/fields.py:52
+#, python-brace-format
+msgid "Invalid tag '{value}'. The color is not a valid HEX color or null."
+msgstr ""
+
+#: tuesmon/projects/tagging/fields.py:55
+#, python-brace-format
+msgid ""
+"Invalid tag '{value}'. it must be the name or a pair '[\"name\", \"hex color/"
+"\" | null]'."
+msgstr ""
+
+#: tuesmon/projects/tagging/fields.py:77
+#, python-brace-format
+msgid "Invalid tag '{value}'. It must be the tag name."
+msgstr ""
+
+#: tuesmon/projects/tagging/models.py:27
+msgid "tags"
+msgstr ""
+
+#: tuesmon/projects/tagging/models.py:35
+msgid "tags colors"
+msgstr ""
+
+#: tuesmon/projects/tagging/validators.py:47
+#: tuesmon/projects/tagging/validators.py:74
+msgid "This tag already exists."
+msgstr ""
+
+#: tuesmon/projects/tagging/validators.py:54
+#: tuesmon/projects/tagging/validators.py:81
+msgid "The color is not a valid HEX color."
+msgstr ""
+
+#: tuesmon/projects/tagging/validators.py:67
+#: tuesmon/projects/tagging/validators.py:101
+#: tuesmon/projects/tagging/validators.py:114
+#: tuesmon/projects/tagging/validators.py:121
+msgid "The tag doesn't exist."
+msgstr ""
+
+#: tuesmon/projects/tasks/api.py:112 tuesmon/projects/tasks/api.py:121
+msgid "You don't have permissions to set this sprint to this task."
+msgstr ""
+
+#: tuesmon/projects/tasks/api.py:115
+msgid "You don't have permissions to set this user story to this task."
+msgstr ""
+
+#: tuesmon/projects/tasks/api.py:118
+msgid "You don't have permissions to set this status to this task."
+msgstr ""
+
+#: tuesmon/projects/tasks/models.py:59
+msgid "us order"
+msgstr ""
+
+#: tuesmon/projects/tasks/models.py:61
+msgid "taskboard order"
+msgstr ""
+
+#: tuesmon/projects/tasks/models.py:69
+msgid "is iocaine"
+msgstr ""
+
+#: tuesmon/projects/tasks/validators.py:61
+msgid "Invalid milestone id."
+msgstr ""
+
+#: tuesmon/projects/tasks/validators.py:72
+msgid "Invalid task status id."
+msgstr ""
+
+#: tuesmon/projects/tasks/validators.py:85
+msgid "Invalid user story id."
+msgstr ""
+
+#: tuesmon/projects/tasks/validators.py:109
+msgid "Invalid task status id. The status must belong to the same project."
+msgstr ""
+
+#: tuesmon/projects/tasks/validators.py:123
+msgid "Invalid user story id. The user story must belong to the same project."
+msgstr ""
+
+#: tuesmon/projects/tasks/validators.py:135
+msgid "Invalid milestone id. The milestone must belong to the same project."
+msgstr ""
+
+#: tuesmon/projects/tasks/validators.py:152
+msgid ""
+"Invalid task ids. All tasks must belong to the same project and, if it "
+"exists, to the same status, user story and/or milestone."
+msgstr ""
+
+#: tuesmon/projects/tasks/validators.py:186
+msgid "All the tasks must be from the same project"
+msgstr ""
+
+#. Translators: Name of scrum project template.
+#: tuesmon/projects/translations.py:30
+msgid "Scrum"
+msgstr ""
+
+#. Translators: Description of scrum project template.
+#: tuesmon/projects/translations.py:32
+msgid ""
+"The agile product backlog in Scrum is a prioritized features list, "
+"containing short descriptions of all functionality desired in the product. "
+"When applying Scrum, it's not necessary to start a project with a lengthy, "
+"upfront effort to document all requirements. The Scrum product backlog is "
+"then allowed to grow and change as more is learned about the product and its "
+"customers"
+msgstr ""
+
+#. Translators: Description of kanban project template.
+#: tuesmon/projects/translations.py:37
+msgid ""
+"Kanban is a method for managing knowledge work with an emphasis on just-in-"
+"time delivery while not overloading the team members. In this approach, the "
+"process, from definition of a task to its delivery to the customer, is "
+"displayed for participants to see and team members pull work from a queue."
+msgstr ""
+
+#. Translators: User story point value (value = undefined)
+#: tuesmon/projects/translations.py:45
+msgid "?"
+msgstr ""
+
+#. Translators: User story point value (value = 0)
+#: tuesmon/projects/translations.py:47
+msgid "0"
+msgstr ""
+
+#. Translators: User story point value (value = 0.5)
+#: tuesmon/projects/translations.py:49
+msgid "1/2"
+msgstr ""
+
+#. Translators: User story point value (value = 1)
+#: tuesmon/projects/translations.py:51
+msgid "1"
+msgstr ""
+
+#. Translators: User story point value (value = 2)
+#: tuesmon/projects/translations.py:53
+msgid "2"
+msgstr ""
+
+#. Translators: User story point value (value = 3)
+#: tuesmon/projects/translations.py:55
+msgid "3"
+msgstr ""
+
+#. Translators: User story point value (value = 5)
+#: tuesmon/projects/translations.py:57
+msgid "5"
+msgstr ""
+
+#. Translators: User story point value (value = 8)
+#: tuesmon/projects/translations.py:59
+msgid "8"
+msgstr ""
+
+#. Translators: User story point value (value = 10)
+#: tuesmon/projects/translations.py:61
+msgid "10"
+msgstr ""
+
+#. Translators: User story point value (value = 13)
+#: tuesmon/projects/translations.py:63
+msgid "13"
+msgstr ""
+
+#. Translators: User story point value (value = 20)
+#: tuesmon/projects/translations.py:65
+msgid "20"
+msgstr ""
+
+#. Translators: User story point value (value = 40)
+#: tuesmon/projects/translations.py:67
+msgid "40"
+msgstr ""
+
+#. Translators: User story status
+#. Translators: Task status
+#. Translators: Issue status
+#: tuesmon/projects/translations.py:75 tuesmon/projects/translations.py:98
+#: tuesmon/projects/translations.py:114
+msgid "New"
+msgstr ""
+
+#. Translators: User story status
+#: tuesmon/projects/translations.py:78
+msgid "Ready"
+msgstr ""
+
+#. Translators: User story status
+#. Translators: Task status
+#. Translators: Issue status
+#: tuesmon/projects/translations.py:81 tuesmon/projects/translations.py:100
+#: tuesmon/projects/translations.py:116
+msgid "In progress"
+msgstr ""
+
+#. Translators: User story status
+#. Translators: Task status
+#. Translators: Issue status
+#: tuesmon/projects/translations.py:84 tuesmon/projects/translations.py:102
+#: tuesmon/projects/translations.py:118
+msgid "Ready for test"
+msgstr ""
+
+#. Translators: User story status
+#: tuesmon/projects/translations.py:87
+msgid "Done"
+msgstr ""
+
+#. Translators: User story status
+#: tuesmon/projects/translations.py:90
+msgid "Archived"
+msgstr ""
+
+#. Translators: Task status
+#. Translators: Issue status
+#: tuesmon/projects/translations.py:104 tuesmon/projects/translations.py:120
+msgid "Closed"
+msgstr ""
+
+#. Translators: Task status
+#. Translators: Issue status
+#: tuesmon/projects/translations.py:106 tuesmon/projects/translations.py:122
+msgid "Needs Info"
+msgstr ""
+
+#. Translators: Issue status
+#: tuesmon/projects/translations.py:124
+msgid "Postponed"
+msgstr ""
+
+#. Translators: Issue status
+#: tuesmon/projects/translations.py:126
+msgid "Rejected"
+msgstr ""
+
+#. Translators: Issue type
+#: tuesmon/projects/translations.py:134
+msgid "Bug"
+msgstr ""
+
+#. Translators: Issue type
+#: tuesmon/projects/translations.py:136
+msgid "Question"
+msgstr ""
+
+#. Translators: Issue type
+#: tuesmon/projects/translations.py:138
+msgid "Enhancement"
+msgstr ""
+
+#. Translators: Issue priority
+#: tuesmon/projects/translations.py:146
+msgid "Low"
+msgstr ""
+
+#. Translators: Issue priority
+#. Translators: Issue severity
+#: tuesmon/projects/translations.py:148 tuesmon/projects/translations.py:161
+msgid "Normal"
+msgstr ""
+
+#. Translators: Issue priority
+#: tuesmon/projects/translations.py:150
+msgid "High"
+msgstr ""
+
+#. Translators: Issue severity
+#: tuesmon/projects/translations.py:157
+msgid "Wishlist"
+msgstr ""
+
+#. Translators: Issue severity
+#: tuesmon/projects/translations.py:159
+msgid "Minor"
+msgstr ""
+
+#. Translators: Issue severity
+#: tuesmon/projects/translations.py:163
+msgid "Important"
+msgstr ""
+
+#. Translators: Issue severity
+#: tuesmon/projects/translations.py:165
+msgid "Critical"
+msgstr ""
+
+#. Translators: User role
+#: tuesmon/projects/translations.py:172
+msgid "UX"
+msgstr ""
+
+#. Translators: User role
+#: tuesmon/projects/translations.py:174
+msgid "Design"
+msgstr ""
+
+#. Translators: User role
+#: tuesmon/projects/translations.py:176
+msgid "Front"
+msgstr ""
+
+#. Translators: User role
+#: tuesmon/projects/translations.py:178
+msgid "Back"
+msgstr ""
+
+#. Translators: User role
+#: tuesmon/projects/translations.py:180
+msgid "Product Owner"
+msgstr ""
+
+#. Translators: User role
+#: tuesmon/projects/translations.py:182
+msgid "Stakeholder"
+msgstr ""
+
+#: tuesmon/projects/userstories/api.py:143
+msgid "You don't have permissions to set this sprint to this user story."
+msgstr ""
+
+#: tuesmon/projects/userstories/api.py:147
+msgid "You don't have permissions to set this status to this user story."
+msgstr ""
+
+#: tuesmon/projects/userstories/api.py:241
+#, python-brace-format
+msgid "Invalid role id '{role_id}'"
+msgstr ""
+
+#: tuesmon/projects/userstories/api.py:248
+#, python-brace-format
+msgid "Invalid points id '{points_id}'"
+msgstr ""
+
+#: tuesmon/projects/userstories/api.py:266
+#, python-brace-format
+msgid "Generating the user story #{ref} - {subject}"
+msgstr ""
+
+#: tuesmon/projects/userstories/models.py:42
+msgid "role"
+msgstr ""
+
+#: tuesmon/projects/userstories/models.py:81
+msgid "backlog order"
+msgstr ""
+
+#: tuesmon/projects/userstories/models.py:83
+msgid "sprint order"
+msgstr ""
+
+#: tuesmon/projects/userstories/models.py:85
+msgid "kanban order"
+msgstr ""
+
+#: tuesmon/projects/userstories/models.py:93
+msgid "finish date"
+msgstr ""
+
+#: tuesmon/projects/userstories/models.py:102
+msgid "assigned users"
+msgstr ""
+
+#: tuesmon/projects/userstories/models.py:111
+msgid "generated from issue"
+msgstr ""
+
+#: tuesmon/projects/userstories/models.py:115
+msgid "generated from task"
+msgstr ""
+
+#: tuesmon/projects/userstories/validators.py:43
+msgid "There's no user story with that id"
+msgstr ""
+
+#: tuesmon/projects/userstories/validators.py:83
+#: tuesmon/projects/userstories/validators.py:109
+msgid ""
+"Invalid user story status id. The status must belong to the same project."
+msgstr ""
+
+#: tuesmon/projects/userstories/validators.py:121
+msgid "Invalid milestone id. The milistone must belong to the same project."
+msgstr ""
+
+#: tuesmon/projects/userstories/validators.py:134
+msgid ""
+"Invalid user story ids. All stories must belong to the same project and, if "
+"it exists, to the same status and milestone."
+msgstr ""
+
+#: tuesmon/projects/validators.py:63
+msgid "There's no project with that id"
+msgstr ""
+
+#: tuesmon/projects/validators.py:164
+msgid "The user yet exists in the project"
+msgstr ""
+
+#: tuesmon/projects/validators.py:174
+msgid "Invalid role for the project"
+msgstr ""
+
+#: tuesmon/projects/validators.py:189 tuesmon/projects/validators.py:244
+msgid "The user must be a valid contact"
+msgstr ""
+
+#: tuesmon/projects/validators.py:210
+msgid "The project owner must be admin."
+msgstr ""
+
+#: tuesmon/projects/validators.py:214
+msgid "At least one user must be an active admin for this project."
+msgstr ""
+
+#: tuesmon/projects/validators.py:259
+msgid "Invalid role ids. All roles must belong to the same project."
+msgstr ""
+
+#: tuesmon/projects/validators.py:283
+msgid "Default options"
+msgstr ""
+
+#: tuesmon/projects/validators.py:284
+msgid "User story's statuses"
+msgstr ""
+
+#: tuesmon/projects/validators.py:285
+msgid "Points"
+msgstr ""
+
+#: tuesmon/projects/validators.py:286
+msgid "Task's statuses"
+msgstr ""
+
+#: tuesmon/projects/validators.py:287
+msgid "Issue's statuses"
+msgstr ""
+
+#: tuesmon/projects/validators.py:288
+msgid "Issue's types"
+msgstr ""
+
+#: tuesmon/projects/validators.py:289
+msgid "Priorities"
+msgstr ""
+
+#: tuesmon/projects/validators.py:290
+msgid "Severities"
+msgstr ""
+
+#: tuesmon/projects/validators.py:291
+msgid "Roles"
+msgstr ""
+
+#: tuesmon/projects/votes/models.py:33 tuesmon/projects/votes/models.py:34
+#: tuesmon/projects/votes/models.py:58
+msgid "Votes"
+msgstr ""
+
+#: tuesmon/projects/votes/models.py:57
+msgid "Vote"
+msgstr ""
+
+#: tuesmon/projects/wiki/api.py:77
+msgid "'content' parameter is mandatory"
+msgstr ""
+
+#: tuesmon/projects/wiki/api.py:80
+msgid "'project_id' parameter is mandatory"
+msgstr ""
+
+#: tuesmon/projects/wiki/models.py:42
+msgid "last modifier"
+msgstr ""
+
+#: tuesmon/projects/wiki/models.py:75
+msgid "href"
+msgstr ""
+
+#: tuesmon/timeline/signals.py:65
+msgid "Check the history API for the exact diff"
+msgstr ""
+
+#: tuesmon/users/admin.py:39
+msgid "Project Member"
+msgstr ""
+
+#: tuesmon/users/admin.py:40
+msgid "Project Members"
+msgstr ""
+
+#: tuesmon/users/admin.py:50
+msgid "id"
+msgstr ""
+
+#: tuesmon/users/admin.py:81
+msgid "Project Ownership"
+msgstr ""
+
+#: tuesmon/users/admin.py:82
+msgid "Project Ownerships"
+msgstr ""
+
+#: tuesmon/users/admin.py:119
+msgid "Personal info"
+msgstr ""
+
+#: tuesmon/users/admin.py:122
+msgid "Permissions"
+msgstr ""
+
+#: tuesmon/users/admin.py:123
+msgid "Restrictions"
+msgstr ""
+
+#: tuesmon/users/admin.py:125
+msgid "Important dates"
+msgstr ""
+
+#: tuesmon/users/api.py:132
+msgid "Duplicated email"
+msgstr ""
+
+#: tuesmon/users/api.py:134
+msgid "Not valid email"
+msgstr ""
+
+#: tuesmon/users/api.py:172
+msgid "Invalid username or email"
+msgstr ""
+
+#: tuesmon/users/api.py:181
+msgid "Mail sended successful!"
+msgstr ""
+
+#: tuesmon/users/api.py:219
+msgid "Current password parameter needed"
+msgstr ""
+
+#: tuesmon/users/api.py:222
+msgid "New password parameter needed"
+msgstr ""
+
+#: tuesmon/users/api.py:225
+msgid "Invalid password length at least 6 charaters needed"
+msgstr ""
+
+#: tuesmon/users/api.py:228
+msgid "Invalid current password"
+msgstr ""
+
+#: tuesmon/users/api.py:275 tuesmon/users/api.py:281
+msgid ""
+"Invalid, are you sure the token is correct and you didn't use it before?"
+msgstr ""
+
+#: tuesmon/users/api.py:317 tuesmon/users/api.py:325 tuesmon/users/api.py:328
+msgid "Invalid, are you sure the token is correct?"
+msgstr ""
+
+#: tuesmon/users/models.py:99
+msgid "superuser status"
+msgstr ""
+
+#: tuesmon/users/models.py:100
+msgid ""
+"Designates that this user has all permissions without explicitly assigning "
+"them."
+msgstr ""
+
+#: tuesmon/users/models.py:136
+msgid "username"
+msgstr ""
+
+#: tuesmon/users/models.py:137
+msgid ""
+"Required. 30 characters or fewer. Letters, numbers and /./-/_ characters"
+msgstr ""
+
+#: tuesmon/users/models.py:140
+msgid "Enter a valid username."
+msgstr ""
+
+#: tuesmon/users/models.py:143
+msgid "active"
+msgstr ""
+
+#: tuesmon/users/models.py:144
+msgid ""
+"Designates whether this user should be treated as active. Unselect this "
+"instead of deleting accounts."
+msgstr ""
+
+#: tuesmon/users/models.py:150
+msgid "biography"
+msgstr ""
+
+#: tuesmon/users/models.py:153
+msgid "photo"
+msgstr ""
+
+#: tuesmon/users/models.py:154
+msgid "date joined"
+msgstr ""
+
+#: tuesmon/users/models.py:155
+msgid "accepted terms"
+msgstr ""
+
+#: tuesmon/users/models.py:156
+msgid "new terms read"
+msgstr ""
+
+#: tuesmon/users/models.py:158
+msgid "default language"
+msgstr ""
+
+#: tuesmon/users/models.py:160
+msgid "default theme"
+msgstr ""
+
+#: tuesmon/users/models.py:162
+msgid "default timezone"
+msgstr ""
+
+#: tuesmon/users/models.py:164
+msgid "colorize tags"
+msgstr ""
+
+#: tuesmon/users/models.py:169
+msgid "email token"
+msgstr ""
+
+#: tuesmon/users/models.py:171
+msgid "new email address"
+msgstr ""
+
+#: tuesmon/users/models.py:178
+msgid "max number of owned private projects"
+msgstr ""
+
+#: tuesmon/users/models.py:181
+msgid "max number of owned public projects"
+msgstr ""
+
+#: tuesmon/users/models.py:184
+msgid "max number of memberships for each owned private project"
+msgstr ""
+
+#: tuesmon/users/models.py:188
+msgid "max number of memberships for each owned public project"
+msgstr ""
+
+#: tuesmon/users/models.py:316
+msgid "permissions"
+msgstr ""
+
+#: tuesmon/users/services.py:58 tuesmon/users/services.py:75
+msgid "Username or password does not matches user."
+msgstr ""
+
+#: tuesmon/users/validators.py:45
+msgid "invalid"
+msgstr ""
+
+#: tuesmon/users/validators.py:56
+msgid "Invalid username. Try with a different one."
+msgstr ""
+
+#: tuesmon/users/validators.py:73
+msgid "Read new terms has to be true'"
+msgstr ""
+
+#: tuesmon/userstorage/api.py:53
+msgid ""
+"Duplicate key value violates unique constraint. Key '{}' already exists."
+msgstr ""
+
+#: tuesmon/userstorage/models.py:32
+msgid "key"
+msgstr ""
+
+#: tuesmon/webhooks/models.py:30 tuesmon/webhooks/models.py:40
+msgid "URL"
+msgstr ""
+
+#: tuesmon/webhooks/models.py:31
+msgid "secret key"
+msgstr ""
+
+#: tuesmon/webhooks/models.py:41
+msgid "status code"
+msgstr ""
+
+#: tuesmon/webhooks/models.py:42
+msgid "request data"
+msgstr ""
+
+#: tuesmon/webhooks/models.py:43
+msgid "request headers"
+msgstr ""
+
+#: tuesmon/webhooks/models.py:44
+msgid "response data"
+msgstr ""
+
+#: tuesmon/webhooks/models.py:45
+msgid "response headers"
+msgstr ""
+
+#: tuesmon/webhooks/models.py:46
+msgid "duration"
+msgstr ""
+
+#: tuesmon/webhooks/validators.py:42
+msgid "Not allowed IP Address"
+msgstr ""

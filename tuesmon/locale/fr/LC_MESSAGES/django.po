@@ -1,0 +1,4776 @@
+# tuesmon-back.tuesmon.
+# Copyright (C) 2014-2017 Tuesmon Dev Team <support@tuesmon.com>
+# This file is distributed under the same license as the tuesmon-back package.
+#
+# Translators:
+# Translators:
+# Abdelouahad Megder <megdera@gmail.com>, 2016
+# Alain Poirier <alain.poirier@net-ng.com>, 2015
+# Charles Bonnet <charles.bonnet@intermi.eu>, 2017
+# David Barragán <bameda@gmail.com>, 2015
+# Djyp Forest Fortin <contact@h3p.eu>, 2015
+# Donatien Schmitz <donatien@schmitz.cc>, 2018
+# eldk <webmaster@opalesurfcasting.net>, 2017
+# Florent B. <me@kxrz.me>, 2015
+# Gary <gary.houbre@epitech.eu>, 2017
+# Gautier Ferandelle <gautier.ferandelle@gmail.com>, 2016
+# jerome marchini <jerome@marchini.info>, 2017
+# John Weetaker <jjdormevil@gmail.com>, 2017
+# Laurent Cabaret <laurent.cabaret@ecp.fr>, 2016
+# Louis-Michel Couture <louim_1@hotmail.com>, 2015
+# madmarsu <madmarsu@gmail.com>, 2017
+# Matthieu Durocher <matthieu@technocyclope.com>, 2015
+# naekos <inactive+naekos@transifex.com>, 2015
+# Nicolas Minelle <nicolas.minelle@bluescale.com>, 2016
+# Nlko <nospam1@thomasson.fr>, 2015
+# Regis TEDONE <regis.tedone@gmail.com>, 2015
+# Sébastien Talbot <sebastien@appventus.com>, 2016
+# Stéphane Mor <stephanemor@gmail.com>, 2015
+# Thierno Rignoux <t.rignoux@gmail.com>, 2016
+# William Godin <williamgodin@gmail.com>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: tuesmon-back\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-11 14:11+0200\n"
+"PO-Revision-Date: 2018-10-14 17:29+0000\n"
+"Last-Translator: Alejandro Hermida <alexhermida@gmail.com>\n"
+"Language-Team: French (http://www.transifex.com/tuesmon-agile-llc/tuesmon-back/"
+"language/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: tuesmon/auth/api.py:71
+msgid "Public register is disabled."
+msgstr "L'inscription publique est désactivée."
+
+#: tuesmon/auth/api.py:93
+msgid "You must accept our terms of service and privacy policy"
+msgstr ""
+
+#: tuesmon/auth/api.py:102
+msgid "invalid register type"
+msgstr "type d'inscription invalide"
+
+#: tuesmon/auth/api.py:118
+msgid "invalid login type"
+msgstr "type d'identifiant invalide"
+
+#: tuesmon/auth/services.py:76
+msgid "Username is already in use."
+msgstr "Ce nom d'utilisateur est déjà utilisé."
+
+#: tuesmon/auth/services.py:79
+msgid "Email is already in use."
+msgstr "Cette adresse email est déjà utilisée."
+
+#: tuesmon/auth/services.py:95
+msgid "Token not matches any valid invitation."
+msgstr "Le jeton ne correspond à aucune invitation."
+
+#: tuesmon/auth/services.py:124
+msgid "User is already registered."
+msgstr "Cet utilisateur est déjà inscrit."
+
+#: tuesmon/auth/services.py:141
+msgid "This user is already a member of the project."
+msgstr "L'utilisateur est déjà membre du projet."
+
+#: tuesmon/auth/services.py:165
+msgid "Error on creating new user."
+msgstr "Erreur à la création de l'utilisateur."
+
+#: tuesmon/auth/tokens.py:49 tuesmon/auth/tokens.py:56
+#: tuesmon/external_apps/services.py:34 tuesmon/projects/api.py:426
+#: tuesmon/projects/api.py:447
+msgid "Invalid token"
+msgstr "Jeton invalide"
+
+#: tuesmon/auth/validators.py:37 tuesmon/users/validators.py:44
+msgid "invalid username"
+msgstr "nom d'utilisateur invalide"
+
+#: tuesmon/auth/validators.py:42 tuesmon/users/validators.py:50
+msgid ""
+"Required. 255 characters or fewer. Letters, numbers and /./-/_ characters'"
+msgstr ""
+"Requis. 255 caractères ou moins. Lettres, chiffres et caractères /./-/_'"
+
+#: tuesmon/base/api/fields.py:294
+msgid "This field is required."
+msgstr "Ce champ est requis."
+
+#: tuesmon/base/api/fields.py:295 tuesmon/base/api/relations.py:337
+msgid "Invalid value."
+msgstr "Valeur invalide."
+
+#: tuesmon/base/api/fields.py:484
+#, python-format
+msgid "'%s' value must be either True or False."
+msgstr "La valeur de '%s' doit être soit Vrai soit Faux."
+
+#: tuesmon/base/api/fields.py:549
+msgid ""
+"Enter a valid 'slug' consisting of letters, numbers, underscores or hyphens."
+msgstr ""
+"Entrez un 'slug' valide composé de lettres, chiffres, tirets bas ou traits "
+"d'union."
+
+#: tuesmon/base/api/fields.py:564
+#, python-format
+msgid "Select a valid choice. %(value)s is not one of the available choices."
+msgstr ""
+"Sélectionnez une option valide. %(value)s ne fait pas partie des choix "
+"possibles."
+
+#: tuesmon/base/api/fields.py:638
+msgid "You email domain is not allowed"
+msgstr "Le nom de domaine de votre émail n'est pas autorisé"
+
+#: tuesmon/base/api/fields.py:647
+msgid "Enter a valid email address."
+msgstr "Entrez une adresse email valide."
+
+#: tuesmon/base/api/fields.py:689
+#, python-format
+msgid "Date has wrong format. Use one of these formats instead: %s"
+msgstr ""
+"Le format de la date est mauvais. Utilisez un de ces formats à la place: %s"
+
+#: tuesmon/base/api/fields.py:753
+#, python-format
+msgid "Datetime has wrong format. Use one of these formats instead: %s"
+msgstr ""
+"Le format de l'horodatage est mauvais. Utilisez un de ces formats à la "
+"place: %s"
+
+#: tuesmon/base/api/fields.py:823
+#, python-format
+msgid "Time has wrong format. Use one of these formats instead: %s"
+msgstr ""
+"Le format de l'heure est mauvais. Utilisez un de ces formats à la place: %s"
+
+#: tuesmon/base/api/fields.py:880
+msgid "Enter a whole number."
+msgstr "Entrez un nombre entier."
+
+#: tuesmon/base/api/fields.py:881 tuesmon/base/api/fields.py:934
+#, python-format
+msgid "Ensure this value is less than or equal to %(limit_value)s."
+msgstr ""
+"Assurez-vous que cette valeur est inférieure ou égale à %(limit_value)s."
+
+#: tuesmon/base/api/fields.py:882 tuesmon/base/api/fields.py:935
+#, python-format
+msgid "Ensure this value is greater than or equal to %(limit_value)s."
+msgstr ""
+"Assurez-vous que cette valeur est supérieure ou égale à %(limit_value)s."
+
+#: tuesmon/base/api/fields.py:912
+#, python-format
+msgid "\"%s\" value must be a float."
+msgstr "La valeur de \"%s\" doit être un nombre en virgule flottante."
+
+#: tuesmon/base/api/fields.py:933
+msgid "Enter a number."
+msgstr "Entrez un nombre."
+
+#: tuesmon/base/api/fields.py:936
+#, python-format
+msgid "Ensure that there are no more than %s digits in total."
+msgstr "Assurez-vous qu'il n'y a pas plus de %s chiffres au total."
+
+#: tuesmon/base/api/fields.py:937
+#, python-format
+msgid "Ensure that there are no more than %s decimal places."
+msgstr "Assurez-vous qu'il n'y a pas plus de %s décimales."
+
+#: tuesmon/base/api/fields.py:938
+#, python-format
+msgid "Ensure that there are no more than %s digits before the decimal point."
+msgstr "Assurez-vous qu'il n'y a pas plus de %s chiffres avant le point."
+
+#: tuesmon/base/api/fields.py:1005
+msgid "No file was submitted. Check the encoding type on the form."
+msgstr "Aucun fichier n'a été soumis. Vérifiez l'encodage sur le formulaire. "
+
+#: tuesmon/base/api/fields.py:1006
+msgid "No file was submitted."
+msgstr "Aucun fichier n'a été soumis."
+
+#: tuesmon/base/api/fields.py:1007
+msgid "The submitted file is empty."
+msgstr "Le fichier soumis est vide."
+
+#: tuesmon/base/api/fields.py:1008
+#, python-format
+msgid ""
+"Ensure this filename has at most %(max)d characters (it has %(length)d)."
+msgstr ""
+"Assurez-vous que le nom de fichier comporte au plus %(max)d caractères (il "
+"en a %(length)d)."
+
+#: tuesmon/base/api/fields.py:1009
+msgid "Please either submit a file or check the clear checkbox, not both."
+msgstr ""
+"Veuillez soit soumettre un fichier ou cocher la case de remise à zéro, mais "
+"pas les deux."
+
+#: tuesmon/base/api/fields.py:1049
+msgid ""
+"Upload a valid image. The file you uploaded was either not an image or a "
+"corrupted image."
+msgstr ""
+"Envoyez une image valide. Le fichier que vous avez envoyé n'était pas une "
+"image ou était une image corrompue."
+
+#: tuesmon/base/api/mixins.py:284 tuesmon/base/exceptions.py:211
+#: tuesmon/hooks/api.py:69 tuesmon/projects/api.py:461 tuesmon/projects/api.py:494
+#: tuesmon/projects/api.py:970 tuesmon/projects/epics/api.py:200
+#: tuesmon/projects/epics/api.py:284 tuesmon/projects/issues/api.py:233
+#: tuesmon/projects/mixins/ordering.py:59 tuesmon/projects/tasks/api.py:259
+#: tuesmon/projects/tasks/api.py:284 tuesmon/projects/userstories/api.py:346
+#: tuesmon/projects/userstories/api.py:398 tuesmon/webhooks/api.py:71
+msgid "Blocked element"
+msgstr "Élément bloqué"
+
+#: tuesmon/base/api/pagination.py:228
+msgid "Page is not 'last', nor can it be converted to an int."
+msgstr ""
+"La page n'est pas la \"dernière\", et ne peut pas non plus être convertie en "
+"entier."
+
+#: tuesmon/base/api/pagination.py:232
+#, python-format
+msgid "Invalid page (%(page_number)s): %(message)s"
+msgstr "Page invalide (%(page_number)s): %(message)s"
+
+#: tuesmon/base/api/permissions.py:65
+msgid "Invalid permission definition."
+msgstr "Définition de permission invalide."
+
+#: tuesmon/base/api/relations.py:247
+#, python-format
+msgid "Invalid pk '%s' - object does not exist."
+msgstr "Pk '%s' invalide - l'objet n'existe pas."
+
+#: tuesmon/base/api/relations.py:248
+#, python-format
+msgid "Incorrect type. Expected pk value, received %s."
+msgstr "Type incorrect. Valeur pk attendue, %s reçu."
+
+#: tuesmon/base/api/relations.py:336
+#, python-format
+msgid "Object with %s=%s does not exist."
+msgstr "L'objet pour lequel %s=%s n'existe pas."
+
+#: tuesmon/base/api/relations.py:372
+msgid "Invalid hyperlink - No URL match"
+msgstr "Hyperlien invalide - aucune correspondance d'URL."
+
+#: tuesmon/base/api/relations.py:373
+msgid "Invalid hyperlink - Incorrect URL match"
+msgstr "Hyperlien invalide - Correspondance d'URL incorrecte."
+
+#: tuesmon/base/api/relations.py:374
+msgid "Invalid hyperlink due to configuration error"
+msgstr "Hyperlien invalide dû à une erreur de configuration"
+
+#: tuesmon/base/api/relations.py:375
+msgid "Invalid hyperlink - object does not exist."
+msgstr "Hyperlien invalide - l'objet n'existe pas."
+
+#: tuesmon/base/api/relations.py:376
+#, python-format
+msgid "Incorrect type.  Expected url string, received %s."
+msgstr "Type incorrect. Chaîne URL attendu, %s reçu."
+
+#: tuesmon/base/api/serializers.py:325
+msgid "Invalid data"
+msgstr "Donnée invalide"
+
+#: tuesmon/base/api/serializers.py:417
+msgid "No input provided"
+msgstr "Aucune entrée fournie"
+
+#: tuesmon/base/api/serializers.py:580
+msgid "Cannot create a new item, only existing items may be updated."
+msgstr ""
+"Impossible de créer un nouvel élément, seuls les éléments existants peuvent "
+"être mis à jour."
+
+#: tuesmon/base/api/serializers.py:591
+msgid "Expected a list of items."
+msgstr "Une liste d'éléments était attendue."
+
+#: tuesmon/base/api/views.py:126
+msgid "Not found"
+msgstr "Non trouvé"
+
+#: tuesmon/base/api/views.py:129
+msgid "Permission denied"
+msgstr "Permission refusée"
+
+#: tuesmon/base/api/views.py:491
+msgid "Server application error"
+msgstr "Erreur du serveur d'application"
+
+#: tuesmon/base/connectors/exceptions.py:26
+msgid "Connection error."
+msgstr "Erreur de connexion."
+
+#: tuesmon/base/exceptions.py:79
+msgid "Malformed request."
+msgstr "Requête mal formée."
+
+#: tuesmon/base/exceptions.py:84
+msgid "Incorrect authentication credentials."
+msgstr "Informations de connexion incorrects."
+
+#: tuesmon/base/exceptions.py:89
+msgid "Authentication credentials were not provided."
+msgstr "Informations d'authentification manquantes."
+
+#: tuesmon/base/exceptions.py:94
+msgid "You do not have permission to perform this action."
+msgstr "Vous n'avez pas l'autorisation d'effectuer cette action."
+
+#: tuesmon/base/exceptions.py:99
+#, python-format
+msgid "Method '%s' not allowed."
+msgstr "La méthode %s n'est pas autorisée"
+
+#: tuesmon/base/exceptions.py:107
+msgid "Could not satisfy the request's Accept header"
+msgstr "Impossible de satisfaire l'en-tête Accept"
+
+#: tuesmon/base/exceptions.py:116
+#, python-format
+msgid "Unsupported media type '%s' in request."
+msgstr "Type de média %s non pris en charge dans la requête."
+
+#: tuesmon/base/exceptions.py:124
+msgid "Request was throttled."
+msgstr "La requête a été limitée"
+
+#: tuesmon/base/exceptions.py:125
+#, python-format
+msgid "Expected available in %d second%s."
+msgstr "Disponible dans %d seconde%s."
+
+#: tuesmon/base/exceptions.py:139
+msgid "Unexpected error"
+msgstr "Erreur inattendue"
+
+#: tuesmon/base/exceptions.py:151
+msgid "Not found."
+msgstr "Non trouvé."
+
+#: tuesmon/base/exceptions.py:156
+msgid "Method not supported for this endpoint."
+msgstr "Méthode non supportée par ce point d'entrée"
+
+#: tuesmon/base/exceptions.py:164 tuesmon/base/exceptions.py:172
+msgid "Wrong arguments."
+msgstr "Arguments invalides."
+
+#: tuesmon/base/exceptions.py:176
+msgid "Data validation error"
+msgstr "Erreur de validation des données"
+
+#: tuesmon/base/exceptions.py:188
+msgid "Integrity Error for wrong or invalid arguments"
+msgstr "Erreur d'intégrité ou arguments invalides"
+
+#: tuesmon/base/exceptions.py:195
+msgid "Precondition error"
+msgstr "Erreur de précondition"
+
+#: tuesmon/base/exceptions.py:219
+msgid "No room left for more projects."
+msgstr "Limite de projets atteinte."
+
+#: tuesmon/base/filters.py:105 tuesmon/base/filters.py:526
+msgid "Error in filter params types."
+msgstr "Erreur dans les types de paramètres de filtres"
+
+#: tuesmon/base/filters.py:171 tuesmon/base/filters.py:278
+#: tuesmon/projects/filters.py:65
+msgid "'project' must be an integer value."
+msgstr "'project' doit être une valeur entière."
+
+#: tuesmon/base/templates/emails/base-body-html.jinja:6
+msgid "Tuesmon"
+msgstr "Tuesmon"
+
+#: tuesmon/base/templates/emails/base-body-html.jinja:421
+#: tuesmon/base/templates/emails/hero-body-html.jinja:380
+#: tuesmon/base/templates/emails/updates-body-html.jinja:442
+msgid "Follow us on Twitter"
+msgstr "Suivez-nous sur Twitter"
+
+#: tuesmon/base/templates/emails/base-body-html.jinja:421
+#: tuesmon/base/templates/emails/hero-body-html.jinja:380
+#: tuesmon/base/templates/emails/updates-body-html.jinja:442
+msgid "Twitter"
+msgstr "Twitter"
+
+#: tuesmon/base/templates/emails/base-body-html.jinja:422
+#: tuesmon/base/templates/emails/hero-body-html.jinja:381
+#: tuesmon/base/templates/emails/updates-body-html.jinja:443
+msgid "Get the code on GitHub"
+msgstr "Téléchargez le code sur GitHub"
+
+#: tuesmon/base/templates/emails/base-body-html.jinja:422
+#: tuesmon/base/templates/emails/hero-body-html.jinja:381
+#: tuesmon/base/templates/emails/updates-body-html.jinja:443
+msgid "GitHub"
+msgstr "GitHub"
+
+#: tuesmon/base/templates/emails/base-body-html.jinja:423
+#: tuesmon/base/templates/emails/hero-body-html.jinja:382
+#: tuesmon/base/templates/emails/updates-body-html.jinja:444
+msgid "Visit our website"
+msgstr "Visitez notre site web"
+
+#: tuesmon/base/templates/emails/base-body-html.jinja:423
+#: tuesmon/base/templates/emails/hero-body-html.jinja:382
+#: tuesmon/base/templates/emails/updates-body-html.jinja:444
+msgid "Tuesmon.com"
+msgstr "Tuesmon.com"
+
+#: tuesmon/base/templates/emails/base-body-html.jinja:438
+#: tuesmon/base/templates/emails/hero-body-html.jinja:397
+#: tuesmon/base/templates/emails/updates-body-html.jinja:459
+#, python-format
+msgid ""
+"\n"
+"                                                    <strong>Configure email "
+"notifications or unsubscribe:</strong>\n"
+"                                                    <a href="
+"\"%(unsubscribe_url)s\" title=\"Unsubscribe\" style=\"color: #9dce0a\">"
+"%(unsubscribe_url)s</a>\n"
+"                                                    <br>\n"
+"                                                    <strong>Tuesmon Support:</"
+"strong>\n"
+"                                                    <a href=\"%(support_url)s"
+"\" title=\"Support page\" style=\"color: #9dce0a\">%(support_url)s</a>\n"
+"                                                    <br>\n"
+"                                                    <strong>Contact us:</"
+"strong>\n"
+"                                                     <a href=\"mailto:"
+"%(support_email)s\" title=\"Support email\" style=\"color: #9dce0a\">\n"
+"                                                        %(support_email)s\n"
+"                                                    </a>\n"
+"                                                    <br>\n"
+"                                                    <strong>Mailing list:</"
+"strong>\n"
+"                                                    <a href="
+"\"%(mailing_list_url)s\" title=\"Mailing list\" style=\"color: #9dce0a\">\n"
+"                                                        %(mailing_list_url)s\n"
+"                                                    </a>\n"
+"                                                    "
+msgstr ""
+
+#: tuesmon/base/templates/emails/hero-body-html.jinja:6
+msgid "You have been Tuesmontized"
+msgstr "Vous venez de vous faire Tuesmontiser"
+
+#: tuesmon/base/templates/emails/hero-body-html.jinja:359
+msgid ""
+"\n"
+"                                                <h1>You have been Tuesmontized!"
+"</h1>\n"
+"                                                <p>Welcome to Tuesmon, an Open "
+"Source, Agile Project Management Tool</p>\n"
+"                                                "
+msgstr ""
+"\n"
+"                                                <h1>Vous venez de vous faire "
+"Tuesmontiser!</h1>\n"
+"                                                <p>Bienvenue dans Tuesmon, "
+"votre outil de gestion de projet agile Open Source</p>\n"
+"                                                "
+
+#: tuesmon/base/templates/emails/updates-body-html.jinja:6
+msgid "[Tuesmon] Updates"
+msgstr "[Tuesmon] Updates"
+
+#: tuesmon/base/templates/emails/updates-body-html.jinja:417
+msgid "Updates"
+msgstr "Updates"
+
+#: tuesmon/base/templates/emails/updates-body-html.jinja:423
+#, python-format
+msgid ""
+"\n"
+"                                                                    <h3>comment:"
+"</h3>\n"
+"                                                                    <p>"
+"%(comment)s</p>\n"
+"                                                                    "
+msgstr ""
+"\n"
+"<h3>commentaire:</h3>\n"
+"<p>%(comment)s</p>"
+
+#: tuesmon/base/templates/emails/updates-body-text.jinja:6
+#, python-format
+msgid ""
+"\n"
+"    Comment: %(comment)s\n"
+"        "
+msgstr ""
+"\n"
+"    Commentaire : %(comment)s\n"
+"        "
+
+#: tuesmon/base/utils/urls.py:68
+msgid "Host access error"
+msgstr ""
+
+#: tuesmon/base/utils/urls.py:74
+msgid "IP Address error"
+msgstr ""
+
+#: tuesmon/events/events.py:106
+msgid "User story created"
+msgstr ""
+
+#: tuesmon/events/events.py:109
+msgid "User story changed"
+msgstr ""
+
+#: tuesmon/events/events.py:112
+msgid "User story deleted"
+msgstr ""
+
+#: tuesmon/events/events.py:114
+msgid "US #{} - {}"
+msgstr ""
+
+#: tuesmon/events/events.py:117
+msgid "Task created"
+msgstr ""
+
+#: tuesmon/events/events.py:120
+msgid "Task changed"
+msgstr ""
+
+#: tuesmon/events/events.py:123
+msgid "Task deleted"
+msgstr ""
+
+#: tuesmon/events/events.py:125
+msgid "Task #{} - {}"
+msgstr ""
+
+#: tuesmon/events/events.py:128
+msgid "Issue created"
+msgstr ""
+
+#: tuesmon/events/events.py:131
+msgid "Issue changed"
+msgstr ""
+
+#: tuesmon/events/events.py:134
+msgid "Issue deleted"
+msgstr ""
+
+#: tuesmon/events/events.py:136
+msgid "Issue: #{} - {}"
+msgstr ""
+
+#: tuesmon/events/events.py:139
+msgid "Wiki Page created"
+msgstr ""
+
+#: tuesmon/events/events.py:142
+msgid "Wiki Page changed"
+msgstr ""
+
+#: tuesmon/events/events.py:145
+msgid "Wiki Page deleted"
+msgstr ""
+
+#: tuesmon/events/events.py:147
+msgid "Wiki Page: {}"
+msgstr ""
+
+#: tuesmon/events/events.py:150
+msgid "Sprint created"
+msgstr ""
+
+#: tuesmon/events/events.py:153
+msgid "Sprint changed"
+msgstr ""
+
+#: tuesmon/events/events.py:156
+msgid "Sprint deleted"
+msgstr ""
+
+#: tuesmon/events/events.py:158
+msgid "Sprint: {}"
+msgstr ""
+
+#: tuesmon/export_import/api.py:127
+msgid "We needed at least one role"
+msgstr "Veuillez sélectionner au moins un rôle."
+
+#: tuesmon/export_import/api.py:335
+msgid "Needed dump file"
+msgstr "Fichier d'export nécessaire"
+
+#: tuesmon/export_import/api.py:345
+msgid "Invalid dump format"
+msgstr "Format d'export non valide"
+
+#: tuesmon/export_import/services/store.py:723
+#: tuesmon/export_import/services/store.py:741
+msgid "error importing project data"
+msgstr "Erreur lors de l'import de données"
+
+#: tuesmon/export_import/services/store.py:748
+msgid "error importing roles"
+msgstr "Erreur à l'importation des rôles"
+
+#: tuesmon/export_import/services/store.py:753
+msgid "error importing memberships"
+msgstr "Erreur à l'importation des groupes d'utilisateurs"
+
+#: tuesmon/export_import/services/store.py:764
+msgid "error importing lists of project attributes"
+msgstr "Erreur lors de l'import des listes des attributs de projet"
+
+#: tuesmon/export_import/services/store.py:768
+msgid "error importing default project attributes values"
+msgstr "erreur lors de l'import des valeurs par défaut des attributs de projet"
+
+#: tuesmon/export_import/services/store.py:779
+msgid "error importing custom attributes"
+msgstr "Erreur à l'importation des champs personnalisés"
+
+#: tuesmon/export_import/services/store.py:783
+msgid "error importing sprints"
+msgstr "Erreur lors de l'importation des sprints."
+
+#: tuesmon/export_import/services/store.py:787
+msgid "error importing issues"
+msgstr "Erreur à l'importation des problèmes"
+
+#: tuesmon/export_import/services/store.py:791
+msgid "error importing user stories"
+msgstr "Erreur à l'importation des récits utilisateur"
+
+#: tuesmon/export_import/services/store.py:795
+msgid "error importing epics"
+msgstr "Erreur d'importation des épopées"
+
+#: tuesmon/export_import/services/store.py:799
+msgid "error importing tasks"
+msgstr "Erreur lors de l'importation des tâches."
+
+#: tuesmon/export_import/services/store.py:803
+msgid "error importing wiki pages"
+msgstr "Erreur à l'importation des pages Wiki"
+
+#: tuesmon/export_import/services/store.py:807
+msgid "error importing wiki links"
+msgstr "Erreur à l'importation des liens Wiki"
+
+#: tuesmon/export_import/services/store.py:811
+msgid "error importing tags"
+msgstr "erreur lors de l'importation des mots-clés"
+
+#: tuesmon/export_import/services/store.py:815
+msgid "error importing timelines"
+msgstr "erreur lors de l'import des timelines"
+
+#: tuesmon/export_import/services/store.py:837
+msgid "unexpected error importing project"
+msgstr "Erreur imprévue à l'import du projet"
+
+#: tuesmon/export_import/tasks.py:62 tuesmon/export_import/tasks.py:63
+msgid "Error generating project dump"
+msgstr "Erreur dans la génération de l'export du projet"
+
+#: tuesmon/export_import/tasks.py:91
+#, python-brace-format
+msgid ""
+"\n"
+"\n"
+"Error loading dump by {user_full_name} <{user_email}>:\"\n"
+"\n"
+"\n"
+"REASON:\n"
+"-------\n"
+"{reason}\n"
+"\n"
+"DETAILS:\n"
+"--------\n"
+"{details}\n"
+"\n"
+"TRACE ERROR:\n"
+"------------"
+msgstr ""
+"\n"
+"\n"
+"Erreur lors de la récupération des données de  {user_full_name} <{user_email}"
+">:\"\n"
+"\n"
+"\n"
+"RAISON:\n"
+"-------\n"
+"{reason}\n"
+"\n"
+"DETAILS:\n"
+"--------\n"
+"{details}\n"
+"\n"
+"TRACE DE L'ERREUR:\n"
+"------------"
+
+#: tuesmon/export_import/tasks.py:120
+msgid "Error loading project dump"
+msgstr "Erreur au chargement de l'export du projet"
+
+#: tuesmon/export_import/tasks.py:121
+msgid "Error loading your project dump file"
+msgstr "Erreur lors du chargement de votre fichier d'export de projet"
+
+#: tuesmon/export_import/tasks.py:135
+msgid "  -- no detail info --"
+msgstr " -- pas informations détaillées --"
+
+#: tuesmon/export_import/templates/emails/dump_project-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"    <h1>Project dump generated</h1>\n"
+"    <p>Hello %(user)s,</p>\n"
+"    <h3>Your dump from project %(project)s has been correctly generated.</"
+"h3>\n"
+"    <p>You can download it here:</p>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"Download the dump file"
+"\">Download the dump file</a>\n"
+"    <p>This file will be deleted on %(deletion_date)s.</p>\n"
+"    <p><small>The Tuesmon Team</small></p>\n"
+"    "
+msgstr ""
+"\n"
+"    <h1>Export du projet généré</h1>\n"
+"    <p>Bonjour %(user)s,</p>\n"
+"    <h3>Votre export du projet %(project)s a bien été généré.</h3>\n"
+"    <p>Vous pouvez le télécharger ici :</p>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"Télécharger l'export"
+"\">Télécharger l'export</a>\n"
+"    <p>Ce fichier sera supprimé le %(deletion_date)s.</p>\n"
+"    <p><small>L'équipe Tuesmon</small></p>\n"
+"    "
+
+#: tuesmon/export_import/templates/emails/dump_project-body-text.jinja:1
+#, python-format
+msgid ""
+"\n"
+"Hello %(user)s,\n"
+"\n"
+"Your dump from project %(project)s has been correctly generated. You can "
+"download it here:\n"
+"\n"
+"%(url)s\n"
+"\n"
+"This file will be deleted on %(deletion_date)s.\n"
+"\n"
+"---\n"
+"The Tuesmon Team\n"
+msgstr ""
+"\n"
+"Bonjour %(user)s,\n"
+"\n"
+"Votre export du projet %(project)s a bien été créé. Vous pouvez le "
+"télécharger ici :\n"
+"\n"
+"%(url)s\n"
+"\n"
+"Ce fichier sera supprimé le %(deletion_date)s.\n"
+"\n"
+"---\n"
+"L'équipe Tuesmon\n"
+
+#: tuesmon/export_import/templates/emails/dump_project-subject.jinja:1
+#, python-format
+msgid "[%(project)s] Your project dump has been generated"
+msgstr "[%(project)s] L'export de votre projet est disponible"
+
+#: tuesmon/export_import/templates/emails/export_error-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"    <h1>%(error_message)s</h1>\n"
+"    <p>Hello %(user)s,</p>\n"
+"    <p>Your project %(project)s has not been exported correctly.</p>\n"
+"    <p>The Tuesmon system administrators have been informed.<br/> Please, try "
+"it again or contact with the support team at\n"
+"       <a href=\"mailto:%(support_email)s\" title=\"Support email\" style="
+"\"color: #699b05\">%(support_email)s</a></p>\n"
+"    <p><small>The Tuesmon Team</small></p>\n"
+"    "
+msgstr ""
+"\n"
+"    <h1>%(error_message)s</h1>\n"
+"    <p>Bonjour %(user)s,</p>\n"
+"    <p>Votre projet %(project)s n'a pas été exporté correctement.</p>\n"
+"    <p>L'administrateur système de Tuesmon en a été informé.<br/> Merci "
+"d'essayer à nouveau ou de contacter le support à\n"
+"       <a href=\"mailto:%(support_email)s\" title=\"Email du support\" style="
+"\"color: #699b05\">%(support_email)s</a></p>\n"
+"    <p><small>L'équipe Tuesmon</small></p>\n"
+"    "
+
+#: tuesmon/export_import/templates/emails/export_error-body-text.jinja:1
+#, python-format
+msgid ""
+"\n"
+"Hello %(user)s,\n"
+"\n"
+"%(error_message)s\n"
+"Your project %(project)s has not been exported correctly.\n"
+"\n"
+"The Tuesmon system administrators have been informed.\n"
+"\n"
+"Please, try it again or contact with the support team at %(support_email)s\n"
+"\n"
+"---\n"
+"The Tuesmon Team\n"
+msgstr ""
+"\n"
+"Bonjour %(user)s,\n"
+"\n"
+"%(error_message)s\n"
+"Votre projet %(project)s n'a pas été exporté correctement.\n"
+"\n"
+"L'administrateur système de Tuesmon en a été informé.\n"
+"\n"
+"Merci d'essayer à nouveau ou de contacter le support à %(support_email)s\n"
+"\n"
+"---\n"
+"L'équipe Tuesmon\n"
+
+#: tuesmon/export_import/templates/emails/export_error-subject.jinja:1
+#, python-format
+msgid "[%(project)s] %(error_subject)s"
+msgstr "[%(project)s] %(error_subject)s"
+
+#: tuesmon/export_import/templates/emails/import_error-body-html.jinja:4
+#: tuesmon/importers/templates/emails/importer_import_error-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"    <h1>%(error_message)s</h1>\n"
+"    <p>Hello %(user)s,</p>\n"
+"    <p>Your project has not been importer correctly.</p>\n"
+"    <p>The Tuesmon system administrators have been informed.<br/> Please, try "
+"it again or contact with the support team at\n"
+"       <a href=\"mailto:%(support_email)s\" title=\"Support email\" style="
+"\"color: #699b05\">%(support_email)s</a></p>\n"
+"    <p><small>The Tuesmon Team</small></p>\n"
+"    "
+msgstr ""
+"\n"
+"    <h1>%(error_message)s</h1>\n"
+"    <p>Bonjour %(user)s,</p>\n"
+"    <p>Votre projet n'a pas été importé correctement.</p>\n"
+"    <p>L'administrateur système de Tuesmon en a été informé.<br/> Merci "
+"d'essayer à nouveau ou de contacter le support à \n"
+"       <a href=\"mailto:%(support_email)s\" title=\"Email du support\" style="
+"\"color: #699b05\">%(support_email)s</a></p>\n"
+"    <p><small>L'équipe Tuesmon</small></p>\n"
+"    "
+
+#: tuesmon/export_import/templates/emails/import_error-body-text.jinja:1
+#: tuesmon/importers/templates/emails/importer_import_error-body-text.jinja:1
+#, python-format
+msgid ""
+"\n"
+"Hello %(user)s,\n"
+"\n"
+"%(error_message)s\n"
+"\n"
+"Your project has not been importer correctly.\n"
+"\n"
+"The Tuesmon system administrators have been informed.\n"
+"\n"
+"Please, try it again or contact with the support team at %(support_email)s\n"
+"\n"
+"---\n"
+"The Tuesmon Team\n"
+msgstr ""
+"\n"
+"Bonjour %(user)s,\n"
+"\n"
+"%(error_message)s\n"
+"\n"
+"Votre projet n'a pas été importé correctement.\n"
+"\n"
+"L'administrateur système de Tuesmon en a été informé.\n"
+"\n"
+"Merci d'essayer à nouveau ou de contacter le support à %(support_email)s\n"
+"\n"
+"---\n"
+"L'équipe Tuesmon\n"
+
+#: tuesmon/export_import/templates/emails/import_error-subject.jinja:1
+#: tuesmon/importers/templates/emails/importer_import_error-subject.jinja:1
+#, python-format
+msgid "[Tuesmon] %(error_subject)s"
+msgstr "[Tuesmon] %(error_subject)s"
+
+#: tuesmon/export_import/templates/emails/load_dump-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"    <h1>Project dump imported</h1>\n"
+"    <p>Hello %(user)s,</p>\n"
+"    <h3>Your project dump has been correctly imported.</h3>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"Go to the project "
+"%(project)s\">Go to %(project)s</a>\n"
+"    <p><small>The Tuesmon Team</small></p>\n"
+"    "
+msgstr ""
+"\n"
+"<h1>Projet importé</h1>\n"
+"<p>Bonjour %(user)s,</p>\n"
+"<h3>Votre projet a été correctement importé.</h3>\n"
+"<a class=\"button\" href=\"%(url)s\" title=\"Allez au projet %(project)s"
+"\">Allez au %(project)s</a>\n"
+"<p><small>L'équipe Tuesmon</small></p>"
+
+#: tuesmon/export_import/templates/emails/load_dump-body-text.jinja:1
+#, python-format
+msgid ""
+"\n"
+"Hello %(user)s,\n"
+"\n"
+"Your project dump has been correctly imported.\n"
+"\n"
+"You can see the project %(project)s here:\n"
+"\n"
+"%(url)s\n"
+"\n"
+"---\n"
+"The Tuesmon Team\n"
+msgstr ""
+"\n"
+"Hey %(user)s,\n"
+"\n"
+"Votre porjet a été correctement importé.\n"
+"\n"
+"Vous pouvez voir le(s) %(project)s ici :\n"
+"\n"
+"%(url)s\n"
+"\n"
+"---\n"
+"L'équipe Tuesmon\n"
+
+#: tuesmon/export_import/templates/emails/load_dump-subject.jinja:1
+#, python-format
+msgid "[%(project)s] Your project dump has been imported"
+msgstr "[%(project)s] Votre projet à été importé"
+
+#: tuesmon/export_import/validators/fields.py:144
+msgid "{}=\"{}\" not found in this project"
+msgstr "{}=\"{}\" non trouvé dans the projet"
+
+#: tuesmon/export_import/validators/validators.py:168
+#: tuesmon/projects/custom_attributes/validators.py:109
+msgid "Invalid content. It must be {\"key\": \"value\",...}"
+msgstr "Format non valide. Il doit être de la forme {\"cle\": \"valeur\",...}"
+
+#: tuesmon/export_import/validators/validators.py:183
+#: tuesmon/projects/custom_attributes/validators.py:124
+msgid "It contain invalid custom fields."
+msgstr "Contient des champs personnalisés non valides."
+
+#: tuesmon/export_import/validators/validators.py:263
+#: tuesmon/projects/validators.py:54
+msgid "Name duplicated for the project"
+msgstr "Nom dupliqué pour ce projet"
+
+#: tuesmon/external_apps/api.py:43 tuesmon/external_apps/api.py:70
+#: tuesmon/external_apps/api.py:77
+msgid "Authentication required"
+msgstr "Authentification requise"
+
+#: tuesmon/external_apps/models.py:35
+#: tuesmon/projects/custom_attributes/models.py:36
+#: tuesmon/projects/milestones/models.py:37 tuesmon/projects/models.py:148
+#: tuesmon/projects/models.py:521 tuesmon/projects/models.py:554
+#: tuesmon/projects/models.py:590 tuesmon/projects/models.py:610
+#: tuesmon/projects/models.py:635 tuesmon/projects/models.py:667
+#: tuesmon/projects/models.py:693 tuesmon/projects/models.py:713
+#: tuesmon/projects/models.py:733 tuesmon/projects/models.py:765
+#: tuesmon/projects/models.py:785 tuesmon/projects/models.py:809
+#: tuesmon/users/admin.py:54 tuesmon/users/models.py:312
+#: tuesmon/webhooks/models.py:29
+msgid "name"
+msgstr "nom"
+
+#: tuesmon/external_apps/models.py:37
+msgid "Icon url"
+msgstr "Url de l'icône"
+
+#: tuesmon/external_apps/models.py:38
+msgid "web"
+msgstr "web"
+
+#: tuesmon/external_apps/models.py:39 tuesmon/projects/attachments/models.py:62
+#: tuesmon/projects/custom_attributes/models.py:37
+#: tuesmon/projects/epics/models.py:56
+#: tuesmon/projects/history/templatetags/functions.py:25
+#: tuesmon/projects/issues/models.py:61 tuesmon/projects/models.py:152
+#: tuesmon/projects/models.py:813 tuesmon/projects/tasks/models.py:63
+#: tuesmon/projects/userstories/models.py:96
+msgid "description"
+msgstr "description"
+
+#: tuesmon/external_apps/models.py:41
+msgid "Next url"
+msgstr "Url suivante"
+
+#: tuesmon/external_apps/models.py:55 tuesmon/projects/contact/models.py:26
+#: tuesmon/projects/likes/models.py:31 tuesmon/projects/notifications/models.py:88
+#: tuesmon/projects/votes/models.py:52
+msgid "user"
+msgstr "utilisateur"
+
+#: tuesmon/external_apps/models.py:59
+msgid "application"
+msgstr "application"
+
+#: tuesmon/feedback/models.py:25 tuesmon/users/models.py:147
+msgid "full name"
+msgstr "Nom complet"
+
+#: tuesmon/feedback/models.py:27 tuesmon/users/models.py:142
+msgid "email address"
+msgstr "Adresse email"
+
+#: tuesmon/feedback/models.py:29 tuesmon/projects/contact/models.py:31
+msgid "comment"
+msgstr "Commentaire"
+
+#: tuesmon/feedback/models.py:31 tuesmon/projects/attachments/models.py:48
+#: tuesmon/projects/contact/models.py:34
+#: tuesmon/projects/custom_attributes/models.py:46
+#: tuesmon/projects/epics/models.py:49 tuesmon/projects/issues/models.py:53
+#: tuesmon/projects/likes/models.py:33 tuesmon/projects/milestones/models.py:48
+#: tuesmon/projects/models.py:159 tuesmon/projects/models.py:817
+#: tuesmon/projects/notifications/models.py:90 tuesmon/projects/tasks/models.py:49
+#: tuesmon/projects/userstories/models.py:88 tuesmon/projects/votes/models.py:54
+#: tuesmon/projects/wiki/models.py:44 tuesmon/userstorage/models.py:29
+msgid "created date"
+msgstr "Date de création"
+
+#: tuesmon/feedback/templates/emails/feedback_notification-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"    <h1>Feedback</h1>\n"
+"    <p>Tuesmon has received feedback from %(full_name)s <%(email)s></p>\n"
+"    "
+msgstr ""
+"\n"
+"<h1>Réaction</h1>\n"
+"<p>Tuesmon a reçu une réaction de %(full_name)s <%(email)s></p>"
+
+#: tuesmon/feedback/templates/emails/feedback_notification-body-html.jinja:9
+#, python-format
+msgid ""
+"\n"
+"    <h3>Comment</h3>\n"
+"    <p>%(comment)s</p>\n"
+"    "
+msgstr ""
+"\n"
+"<h3>Commentaire</h3>\n"
+"<p>%(comment)s</p>\n"
+"    "
+
+#: tuesmon/feedback/templates/emails/feedback_notification-body-html.jinja:18
+#: tuesmon/projects/admin.py:106 tuesmon/users/admin.py:120
+msgid "Extra info"
+msgstr "Informations supplémentaires"
+
+#: tuesmon/feedback/templates/emails/feedback_notification-body-text.jinja:1
+#, python-format
+msgid ""
+"---------\n"
+"- From: %(full_name)s <%(email)s>\n"
+"---------\n"
+"- Comment:\n"
+"%(comment)s\n"
+"---------"
+msgstr ""
+"---------\n"
+"- De : %(full_name)s <%(email)s>\n"
+"---------\n"
+"- Commentaire :\n"
+"%(comment)s\n"
+"---------"
+
+#: tuesmon/feedback/templates/emails/feedback_notification-body-text.jinja:8
+msgid "- Extra info:"
+msgstr "- Informations supplémentaires :"
+
+#: tuesmon/feedback/templates/emails/feedback_notification-subject.jinja:1
+#, python-format
+msgid ""
+"\n"
+"[Tuesmon] Feedback from %(full_name)s <%(email)s>\n"
+msgstr ""
+"\n"
+"[Tuesmon] Réaction de %(full_name)s <%(email)s>\n"
+
+#: tuesmon/hooks/api.py:54
+msgid "The payload is not a valid json"
+msgstr "Le payload n'est pas un json valide"
+
+#: tuesmon/hooks/api.py:63 tuesmon/projects/epics/api.py:154
+#: tuesmon/projects/issues/api.py:142 tuesmon/projects/tasks/api.py:211
+#: tuesmon/projects/userstories/api.py:290
+msgid "The project doesn't exist"
+msgstr "Le projet n'existe pas"
+
+#: tuesmon/hooks/api.py:66
+msgid "Bad signature"
+msgstr "Signature non valide"
+
+#: tuesmon/hooks/event_hooks.py:66
+#, python-brace-format
+msgid ""
+"[@{user_name}]({user_url} \"See @{user_name}'s {platform} profile\") says in "
+"[{platform}#{number}]({comment_url} \"Go to comment\"):\n"
+"\n"
+"\"{comment_message}\""
+msgstr ""
+"[@{user_name}]({user_url} \"Voir le profil de @{user_name} sur {platform}\") "
+"says in [{platform}#{number}]({comment_url} \"Aller au commentaire\"):\n"
+"\n"
+"\"{comment_message}\""
+
+#: tuesmon/hooks/event_hooks.py:71
+#, python-brace-format
+msgid ""
+"Comment From {platform}:\n"
+"\n"
+"> {comment_message}"
+msgstr ""
+"Commentaire de  {platform}:\n"
+"\n"
+"> {comment_message}"
+
+#: tuesmon/hooks/event_hooks.py:84
+msgid "Invalid issue comment information"
+msgstr "Ignoré"
+
+#: tuesmon/hooks/event_hooks.py:103
+#, python-brace-format
+msgid ""
+"Issue created by [@{user_name}]({user_url} \"See @{user_name}'s {platform} "
+"profile\") from [{platform}#{number}]({url} \"Go to issue\")."
+msgstr ""
+"Ticket créé par [@{user_name}]({user_url} \"Voir le profil de @{user_name}  "
+"sur {platform}\") de [{platform}#{number}]({url} \"Aller au ticket\")."
+
+#: tuesmon/hooks/event_hooks.py:107
+#, python-brace-format
+msgid "Issue created from {platform}."
+msgstr "Problème créé depuis {platform}."
+
+#: tuesmon/hooks/event_hooks.py:120
+msgid "Invalid issue information"
+msgstr "Information incorrecte sur le problème"
+
+#: tuesmon/hooks/event_hooks.py:149 tuesmon/hooks/event_hooks.py:171
+msgid "unknown user"
+msgstr "utilisateur inconnu"
+
+#: tuesmon/hooks/event_hooks.py:156
+#, python-brace-format
+msgid ""
+"{user_text} changed the status from [{platform} commit]({commit_url} \"See "
+"commit '{commit_id} - {commit_short_message}'\")\n"
+"\n"
+"  - Status: **{src_status}** → **{dst_status}**"
+msgstr ""
+
+#: tuesmon/hooks/event_hooks.py:161
+#, python-brace-format
+msgid ""
+"Changed status from {platform} commit.\n"
+"\n"
+" - Status: **{src_status}** → **{dst_status}**"
+msgstr ""
+"Statut changé depuis le commit sur {platform} \n"
+"\n"
+"- Status: **{src_status}** → **{dst_status}**"
+
+#: tuesmon/hooks/event_hooks.py:179
+#, python-brace-format
+msgid ""
+"This {type_name} has been mentioned by {user_text} in the [{platform} commit]"
+"({commit_url} \"See commit '{commit_id} - {commit_short_message}'\") "
+"\"{commit_message}\""
+msgstr ""
+
+#: tuesmon/hooks/event_hooks.py:184
+#, python-brace-format
+msgid ""
+"This issue has been mentioned in the {platform} commit \"{commit_message}\""
+msgstr ""
+"Ce problème a été mentionné dans la participation sur {platform} "
+"\"{commit_message}\""
+
+#: tuesmon/hooks/event_hooks.py:206
+msgid "The referenced element doesn't exist"
+msgstr "L'élément référencé n'existe pas"
+
+#: tuesmon/hooks/event_hooks.py:222
+msgid "The status doesn't exist"
+msgstr "L'état n'existe pas"
+
+#: tuesmon/importers/asana/api.py:43 tuesmon/importers/asana/api.py:85
+#: tuesmon/importers/github/api.py:44 tuesmon/importers/github/api.py:74
+#: tuesmon/importers/jira/api.py:60 tuesmon/importers/jira/api.py:106
+#: tuesmon/importers/pivotal/api.py:43 tuesmon/importers/pivotal/api.py:80
+#: tuesmon/importers/trello/api.py:46 tuesmon/importers/trello/api.py:83
+msgid "The project param is needed"
+msgstr "Les paramètres de projets sont nécessaires"
+
+#: tuesmon/importers/asana/api.py:50 tuesmon/importers/asana/api.py:73
+#: tuesmon/importers/asana/api.py:139
+msgid "Invalid Asana API request"
+msgstr "Requête API Asana invalide"
+
+#: tuesmon/importers/asana/api.py:52 tuesmon/importers/asana/api.py:75
+#: tuesmon/importers/asana/api.py:141
+msgid "Failed to make the request to Asana API"
+msgstr "Impossible de faire la requête à l'API Asana"
+
+#: tuesmon/importers/asana/api.py:129 tuesmon/importers/github/api.py:123
+msgid "Code param needed"
+msgstr "Paramètre de code nécessaire"
+
+#: tuesmon/importers/asana/tasks.py:42 tuesmon/importers/asana/tasks.py:43
+msgid "Error importing Asana project"
+msgstr "Erreur lors de l'import du projet Asana"
+
+#: tuesmon/importers/github/api.py:135
+msgid "Invalid auth data"
+msgstr "Données d'authentification non valides"
+
+#: tuesmon/importers/github/api.py:137
+msgid "Third party service failing"
+msgstr "Échec sur un service tiers"
+
+#: tuesmon/importers/github/tasks.py:42 tuesmon/importers/github/tasks.py:43
+msgid "Error importing GitHub project"
+msgstr "Erreur lors de l'import du projet GitHub"
+
+#: tuesmon/importers/jira/api.py:62 tuesmon/importers/jira/api.py:89
+#: tuesmon/importers/jira/api.py:109 tuesmon/importers/jira/api.py:182
+msgid "The url param is needed"
+msgstr "La paramètre d'URL est nécessaire"
+
+#: tuesmon/importers/jira/api.py:158
+msgid "Invalid project_type {}"
+msgstr "project_type {} non valide"
+
+#: tuesmon/importers/jira/api.py:192
+msgid "Invalid Jira server configuration."
+msgstr ""
+
+#: tuesmon/importers/jira/api.py:233 tuesmon/importers/pivotal/api.py:138
+#: tuesmon/importers/trello/api.py:143
+msgid "Invalid or expired auth token"
+msgstr "Token d'authentification non valide ou expiré"
+
+#: tuesmon/importers/jira/tasks.py:48 tuesmon/importers/jira/tasks.py:49
+msgid "Error importing Jira project"
+msgstr "Erreur lors de l'import du projet Jira"
+
+#: tuesmon/importers/pivotal/tasks.py:42 tuesmon/importers/pivotal/tasks.py:43
+msgid "Error importing PivotalTracker project"
+msgstr "Erreur lors de l'import du projet PivotalTracker"
+
+#: tuesmon/importers/templates/emails/asana_import_success-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"    <h1>Asana Project imported</h1>\n"
+"    <p>Hello %(user)s,</p>\n"
+"    <h3>Your Asana project has been correctly imported.</h3>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"Go to the project "
+"%(project)s\">Go to %(project)s</a>\n"
+"    <p><small>The Tuesmon Team</small></p>\n"
+"    "
+msgstr ""
+"\n"
+"    <h1>Projet Asana importé </h1>\n"
+"    <p>Bonjour %(user)s,</p>\n"
+"    <h3>Votre projet Asana a été correctement importé.</h3>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"Go to the project "
+"%(project)s\">Aller à %(project)s</a>\n"
+"    <p><small>L'Equipe Tuesmon</small></p>\n"
+"    "
+
+#: tuesmon/importers/templates/emails/asana_import_success-body-text.jinja:1
+#, python-format
+msgid ""
+"\n"
+"Hello %(user)s,\n"
+"\n"
+"Your Asana project has been correctly imported.\n"
+"\n"
+"You can see the project %(project)s here:\n"
+"\n"
+"%(url)s\n"
+"\n"
+"---\n"
+"The Tuesmon Team\n"
+msgstr ""
+"\n"
+"Bonjour  %(user)s\n"
+"\n"
+"Votre projet Asana a été correctement importé\n"
+"\n"
+"Vous pouvez consulter le projet  %(project)s ici:\n"
+"\n"
+" %(url)s\n"
+"\n"
+"L'équipe Taïga\n"
+
+#: tuesmon/importers/templates/emails/asana_import_success-subject.jinja:1
+#, python-format
+msgid "[%(project)s] Your Asana project has been imported"
+msgstr "[%(project)s] Votre projet Asana a été importé"
+
+#: tuesmon/importers/templates/emails/github_import_success-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"    <h1>GitHub Project imported</h1>\n"
+"    <p>Hello %(user)s,</p>\n"
+"    <h3>Your GitHub project has been correctly imported.</h3>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"Go to the project "
+"%(project)s\">Go to %(project)s</a>\n"
+"    <p><small>The Tuesmon Team</small></p>\n"
+"    "
+msgstr ""
+"\n"
+"    <h1>Projet Github importé</h1>\n"
+"    <p>Bonjour %(user)s,</p>\n"
+"    <h3>Votre projet Github a bien été importé.</h3>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"Go to the project "
+"%(project)s\">Aller au %(project)s</a>\n"
+"    <p><small>L'Equipe Tuesmon</small></p>\n"
+"    "
+
+#: tuesmon/importers/templates/emails/github_import_success-body-text.jinja:1
+#, python-format
+msgid ""
+"\n"
+"Hello %(user)s,\n"
+"\n"
+"Your GitHub project has been correctly imported.\n"
+"\n"
+"You can see the project %(project)s here:\n"
+"\n"
+"%(url)s\n"
+"\n"
+"---\n"
+"The Tuesmon Team\n"
+msgstr ""
+
+#: tuesmon/importers/templates/emails/github_import_success-subject.jinja:1
+#, python-format
+msgid "[%(project)s] Your GitHub project has been imported"
+msgstr " [%(project)s] Votre projet GitHub a été importé"
+
+#: tuesmon/importers/templates/emails/jira_import_success-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"    <h1>Jira Project imported</h1>\n"
+"    <p>Hello %(user)s,</p>\n"
+"    <h3>Your Jira project has been correctly imported.</h3>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"Go to the project "
+"%(project)s\">Go to %(project)s</a>\n"
+"    <p><small>The Tuesmon Team</small></p>\n"
+"    "
+msgstr ""
+
+#: tuesmon/importers/templates/emails/jira_import_success-body-text.jinja:1
+#, python-format
+msgid ""
+"\n"
+"Hello %(user)s,\n"
+"\n"
+"Your Jira project has been correctly imported.\n"
+"\n"
+"You can see the project %(project)s here:\n"
+"\n"
+"%(url)s\n"
+"\n"
+"---\n"
+"The Tuesmon Team\n"
+msgstr ""
+
+#: tuesmon/importers/templates/emails/jira_import_success-subject.jinja:1
+#, python-format
+msgid "[%(project)s] Your Jira project has been imported"
+msgstr " [%(project)s] Votre projet Jira a été importé"
+
+#: tuesmon/importers/templates/emails/trello_import_success-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"    <h1>Trello Project imported</h1>\n"
+"    <p>Hello %(user)s,</p>\n"
+"    <h3>Your Trello project has been correctly imported.</h3>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"Go to the project "
+"%(project)s\">Go to %(project)s</a>\n"
+"    <p><small>The Tuesmon Team</small></p>\n"
+"    "
+msgstr ""
+
+#: tuesmon/importers/templates/emails/trello_import_success-body-text.jinja:1
+#, python-format
+msgid ""
+"\n"
+"Hello %(user)s,\n"
+"\n"
+"Your Trello project has been correctly imported.\n"
+"\n"
+"You can see the project %(project)s here:\n"
+"\n"
+"%(url)s\n"
+"\n"
+"---\n"
+"The Tuesmon Team\n"
+msgstr ""
+
+#: tuesmon/importers/templates/emails/trello_import_success-subject.jinja:1
+#, python-format
+msgid "[%(project)s] Your Trello project has been imported"
+msgstr " [%(project)s] Votre projet Trello a été importé"
+
+#: tuesmon/importers/trello/importer.py:78
+#, python-format
+msgid "Invalid Request: %s at %s"
+msgstr "Requète non valide: %s at %s"
+
+#: tuesmon/importers/trello/importer.py:80 tuesmon/importers/trello/importer.py:82
+#, python-format
+msgid "Unauthorized: %s at %s"
+msgstr "Non autorisé: %s at %s"
+
+#: tuesmon/importers/trello/importer.py:84 tuesmon/importers/trello/importer.py:86
+#, python-format
+msgid "Resource Unavailable: %s at %s"
+msgstr "Ressource non disponible: %s at %s"
+
+#: tuesmon/importers/trello/tasks.py:42 tuesmon/importers/trello/tasks.py:43
+msgid "Error importing Trello project"
+msgstr "Erreur lors de l'import du projet Trello"
+
+#: tuesmon/permissions/choices.py:23 tuesmon/permissions/choices.py:34
+msgid "View project"
+msgstr "Consulter le projet"
+
+#: tuesmon/permissions/choices.py:24 tuesmon/permissions/choices.py:36
+msgid "View milestones"
+msgstr "Voir les jalons"
+
+#: tuesmon/permissions/choices.py:25 tuesmon/permissions/choices.py:41
+msgid "View epic"
+msgstr "Voir epic"
+
+#: tuesmon/permissions/choices.py:26
+msgid "View user stories"
+msgstr "Voir les récits utilisateur"
+
+#: tuesmon/permissions/choices.py:27 tuesmon/permissions/choices.py:53
+msgid "View tasks"
+msgstr "Consulter les tâches"
+
+#: tuesmon/permissions/choices.py:28 tuesmon/permissions/choices.py:59
+msgid "View issues"
+msgstr "Voir les problèmes"
+
+#: tuesmon/permissions/choices.py:29 tuesmon/permissions/choices.py:65
+msgid "View wiki pages"
+msgstr "Consulter les pages Wiki"
+
+#: tuesmon/permissions/choices.py:30 tuesmon/permissions/choices.py:71
+msgid "View wiki links"
+msgstr "Consulter les liens Wiki"
+
+#: tuesmon/permissions/choices.py:37
+msgid "Add milestone"
+msgstr "Ajouter un jalon"
+
+#: tuesmon/permissions/choices.py:38
+msgid "Modify milestone"
+msgstr "Modifier le jalon"
+
+#: tuesmon/permissions/choices.py:39
+msgid "Delete milestone"
+msgstr "Supprimer le jalon"
+
+#: tuesmon/permissions/choices.py:42
+msgid "Add epic"
+msgstr "Ajoutez une EPIC"
+
+#: tuesmon/permissions/choices.py:43
+msgid "Modify epic"
+msgstr "Modifier epic"
+
+#: tuesmon/permissions/choices.py:44
+msgid "Comment epic"
+msgstr "Commenter epic"
+
+#: tuesmon/permissions/choices.py:45
+msgid "Delete epic"
+msgstr "Supprimer epic"
+
+#: tuesmon/permissions/choices.py:47
+msgid "View user story"
+msgstr "Voir le récit utilisateur"
+
+#: tuesmon/permissions/choices.py:48
+msgid "Add user story"
+msgstr "Ajouter un récit utilisateur"
+
+#: tuesmon/permissions/choices.py:49
+msgid "Modify user story"
+msgstr "Modifier le récit utilisateur"
+
+#: tuesmon/permissions/choices.py:50
+msgid "Comment user story"
+msgstr "Commenter le récit utilisateur"
+
+#: tuesmon/permissions/choices.py:51
+msgid "Delete user story"
+msgstr "Supprimer le récit utilisateur"
+
+#: tuesmon/permissions/choices.py:54
+msgid "Add task"
+msgstr "Ajouter une tâche"
+
+#: tuesmon/permissions/choices.py:55
+msgid "Modify task"
+msgstr "Modifier une tâche"
+
+#: tuesmon/permissions/choices.py:56
+msgid "Comment task"
+msgstr "Commenter tâche"
+
+#: tuesmon/permissions/choices.py:57
+msgid "Delete task"
+msgstr "Supprimer une tâche"
+
+#: tuesmon/permissions/choices.py:60
+msgid "Add issue"
+msgstr "Ajouter un problème"
+
+#: tuesmon/permissions/choices.py:61
+msgid "Modify issue"
+msgstr "Modifier le problème"
+
+#: tuesmon/permissions/choices.py:62
+msgid "Comment issue"
+msgstr "Commenter problème"
+
+#: tuesmon/permissions/choices.py:63
+msgid "Delete issue"
+msgstr "Supprimer le problème"
+
+#: tuesmon/permissions/choices.py:66
+msgid "Add wiki page"
+msgstr "Ajouter une page Wiki"
+
+#: tuesmon/permissions/choices.py:67
+msgid "Modify wiki page"
+msgstr "Modifier une page Wiki"
+
+#: tuesmon/permissions/choices.py:68
+msgid "Comment wiki page"
+msgstr "Commenter la page Wiki"
+
+#: tuesmon/permissions/choices.py:69
+msgid "Delete wiki page"
+msgstr "Supprimer une page Wiki"
+
+#: tuesmon/permissions/choices.py:72
+msgid "Add wiki link"
+msgstr "Ajouter un lien Wiki"
+
+#: tuesmon/permissions/choices.py:73
+msgid "Modify wiki link"
+msgstr "Modifier un lien Wiki"
+
+#: tuesmon/permissions/choices.py:74
+msgid "Delete wiki link"
+msgstr "Supprimer un lien Wiki"
+
+#: tuesmon/permissions/choices.py:78
+msgid "Modify project"
+msgstr "Modifier le projet"
+
+#: tuesmon/permissions/choices.py:79
+msgid "Delete project"
+msgstr "Supprimer le projet"
+
+#: tuesmon/permissions/choices.py:80
+msgid "Add member"
+msgstr "Ajouter un membre"
+
+#: tuesmon/permissions/choices.py:81
+msgid "Remove member"
+msgstr "Supprimer un membre"
+
+#: tuesmon/permissions/choices.py:82
+msgid "Admin project values"
+msgstr "Administrer les paramètres du projet"
+
+#: tuesmon/permissions/choices.py:83
+msgid "Admin roles"
+msgstr "Administrer les rôles"
+
+#: tuesmon/projects/admin.py:100
+msgid "Privacity"
+msgstr "Confidentialité"
+
+#: tuesmon/projects/admin.py:111
+msgid "Modules"
+msgstr "Modules"
+
+#: tuesmon/projects/admin.py:119
+msgid "Default values"
+msgstr "Les valeurs par défaut"
+
+#: tuesmon/projects/admin.py:126
+msgid "Activity"
+msgstr "Activité"
+
+#: tuesmon/projects/admin.py:131
+msgid "Fans"
+msgstr "Fans"
+
+#: tuesmon/projects/admin.py:145 tuesmon/projects/attachments/models.py:39
+#: tuesmon/projects/epics/models.py:40 tuesmon/projects/issues/models.py:38
+#: tuesmon/projects/milestones/models.py:42 tuesmon/projects/models.py:164
+#: tuesmon/projects/notifications/models.py:63 tuesmon/projects/tasks/models.py:40
+#: tuesmon/projects/userstories/models.py:70 tuesmon/projects/wiki/models.py:40
+#: tuesmon/users/admin.py:69 tuesmon/userstorage/models.py:27
+msgid "owner"
+msgstr "propriétaire"
+
+#: tuesmon/projects/admin.py:193
+#, python-brace-format
+msgid "{count} successfully made public."
+msgstr "{count} rendu(e)(s) publique(s) avec succès."
+
+#: tuesmon/projects/admin.py:194
+msgid "Make public"
+msgstr "Rendre publique"
+
+#: tuesmon/projects/admin.py:208
+#, python-brace-format
+msgid "{count} successfully made private."
+msgstr "{count} rendu(e)(s) privé(e)(s) avec succès."
+
+#: tuesmon/projects/admin.py:209
+msgid "Make private"
+msgstr "Rendre privé"
+
+#: tuesmon/projects/admin.py:239
+#, python-format
+msgid "Delete selected %(verbose_name_plural)s"
+msgstr "Supprimer les %(verbose_name_plural)s sélectionné(e)s"
+
+#: tuesmon/projects/api.py:175 tuesmon/users/api.py:244
+msgid "Incomplete arguments"
+msgstr "arguments manquants"
+
+#: tuesmon/projects/api.py:179 tuesmon/users/api.py:249
+msgid "Invalid image format"
+msgstr "format de l'image non valide"
+
+#: tuesmon/projects/api.py:240
+msgid "Not valid template name"
+msgstr "Nom de modèle non valide"
+
+#: tuesmon/projects/api.py:243
+msgid "Not valid template description"
+msgstr "Description du modèle non valide"
+
+#: tuesmon/projects/api.py:406 tuesmon/projects/api.py:1005
+msgid "Invalid user id"
+msgstr "Identifiant utilisateur invalide"
+
+#: tuesmon/projects/api.py:412 tuesmon/projects/api.py:1011
+msgid "The user doesn't exist"
+msgstr "L'utilisateur n'existe pas"
+
+#: tuesmon/projects/api.py:416
+msgid "The user must be already a project member"
+msgstr "L'utilisateur doit déjà être un membre du projet"
+
+#: tuesmon/projects/api.py:642
+msgid "You can't delete user story due date by default"
+msgstr ""
+
+#: tuesmon/projects/api.py:658
+msgid "Project already have due dates"
+msgstr ""
+
+#: tuesmon/projects/api.py:718
+msgid "You can't delete task due date by default"
+msgstr ""
+
+#: tuesmon/projects/api.py:734
+msgid "Project already have task due dates"
+msgstr ""
+
+#: tuesmon/projects/api.py:858
+msgid "You can't delete issue due date by default"
+msgstr ""
+
+#: tuesmon/projects/api.py:874
+msgid "Project already have issue due dates"
+msgstr ""
+
+#: tuesmon/projects/api.py:1023
+msgid ""
+"This user can't be removed from the following projects, because would leave "
+"them without any active admin: {}."
+msgstr ""
+
+#: tuesmon/projects/api.py:1033
+msgid ""
+"The project must have an owner and at least one of the users must be an "
+"active admin"
+msgstr ""
+"Le projet doit avoir un propriétaire et au moins l'un de ses membres doit "
+"être un administrateur actif."
+
+#: tuesmon/projects/api.py:1067
+msgid "You don't have permisions to see that."
+msgstr "Vous n'avez pas les permissions pour consulter cet élément"
+
+#: tuesmon/projects/attachments/api.py:54
+msgid "Partial updates are not supported"
+msgstr "Mises à jour partielles non supportées"
+
+#: tuesmon/projects/attachments/api.py:69
+msgid "Object id issue isn't exists"
+msgstr "L'objet n'existe pas"
+
+#: tuesmon/projects/attachments/api.py:72
+msgid "Project ID not matches between object and project"
+msgstr "L'identifiant du projet de correspond pas entre l'objet et le projet"
+
+#: tuesmon/projects/attachments/models.py:41 tuesmon/projects/contact/models.py:29
+#: tuesmon/projects/custom_attributes/models.py:43
+#: tuesmon/projects/epics/models.py:38 tuesmon/projects/issues/models.py:51
+#: tuesmon/projects/milestones/models.py:44 tuesmon/projects/models.py:509
+#: tuesmon/projects/models.py:531 tuesmon/projects/models.py:568
+#: tuesmon/projects/models.py:596 tuesmon/projects/models.py:620
+#: tuesmon/projects/models.py:645 tuesmon/projects/models.py:677
+#: tuesmon/projects/models.py:699 tuesmon/projects/models.py:719
+#: tuesmon/projects/models.py:743 tuesmon/projects/models.py:771
+#: tuesmon/projects/models.py:795 tuesmon/projects/notifications/models.py:75
+#: tuesmon/projects/notifications/models.py:92 tuesmon/projects/tasks/models.py:44
+#: tuesmon/projects/userstories/models.py:68 tuesmon/projects/wiki/models.py:34
+#: tuesmon/projects/wiki/models.py:72 tuesmon/users/models.py:323
+msgid "project"
+msgstr "projet"
+
+#: tuesmon/projects/attachments/models.py:43
+msgid "content type"
+msgstr "type du contenu"
+
+#: tuesmon/projects/attachments/models.py:45
+msgid "object id"
+msgstr "identifiant de l'objet"
+
+#: tuesmon/projects/attachments/models.py:51
+#: tuesmon/projects/custom_attributes/models.py:48
+#: tuesmon/projects/epics/models.py:52 tuesmon/projects/issues/models.py:56
+#: tuesmon/projects/milestones/models.py:51 tuesmon/projects/models.py:162
+#: tuesmon/projects/models.py:820 tuesmon/projects/tasks/models.py:52
+#: tuesmon/projects/userstories/models.py:91 tuesmon/projects/wiki/models.py:47
+#: tuesmon/userstorage/models.py:31
+msgid "modified date"
+msgstr "état modifié"
+
+#: tuesmon/projects/attachments/models.py:56
+msgid "attached file"
+msgstr "pièces jointes"
+
+#: tuesmon/projects/attachments/models.py:58
+msgid "sha1"
+msgstr "sha1"
+
+#: tuesmon/projects/attachments/models.py:60
+msgid "is deprecated"
+msgstr "est obsolète"
+
+#: tuesmon/projects/attachments/models.py:61
+msgid "from comment"
+msgstr "depuis le commentaire"
+
+#: tuesmon/projects/attachments/models.py:63
+#: tuesmon/projects/custom_attributes/models.py:41
+#: tuesmon/projects/epics/models.py:104 tuesmon/projects/milestones/models.py:57
+#: tuesmon/projects/models.py:525 tuesmon/projects/models.py:558
+#: tuesmon/projects/models.py:592 tuesmon/projects/models.py:612
+#: tuesmon/projects/models.py:639 tuesmon/projects/models.py:669
+#: tuesmon/projects/models.py:695 tuesmon/projects/models.py:715
+#: tuesmon/projects/models.py:737 tuesmon/projects/models.py:767
+#: tuesmon/projects/models.py:787 tuesmon/projects/wiki/models.py:77
+#: tuesmon/users/models.py:318
+msgid "order"
+msgstr "ordre"
+
+#: tuesmon/projects/choices.py:23
+msgid "AppearIn"
+msgstr "AppearIn"
+
+#: tuesmon/projects/choices.py:24
+msgid "Jitsi"
+msgstr "Jitsi"
+
+#: tuesmon/projects/choices.py:25
+msgid "Custom"
+msgstr "Personnalisé"
+
+#: tuesmon/projects/choices.py:26
+msgid "Talky"
+msgstr "Talky"
+
+#: tuesmon/projects/choices.py:35
+msgid "This project is blocked due to payment failure"
+msgstr "Ce projet a été bloqué pour cause d'impayé"
+
+#: tuesmon/projects/choices.py:36
+msgid "This project is blocked by admin staff"
+msgstr "Ce projet a été bloqué par l'équipe administrative"
+
+#: tuesmon/projects/choices.py:37
+msgid "This project is blocked because the owner left"
+msgstr "Ce projet est bloqué car son propriétaire est parti"
+
+#: tuesmon/projects/choices.py:38
+msgid "This project is blocked while it's deleted"
+msgstr "Ce projet est bloqué en attendant sa suppression"
+
+#: tuesmon/projects/contact/templates/emails/contact_notification-body-html.jinja:10
+#, python-format
+msgid ""
+"\n"
+"        <a style=\"font-weight: bold;text-decoration:none;color:#222;\" href="
+"\"%(user_profile_url)s\" title=\"%(full_name)s\">%(full_name)s</a> has "
+"written to %(project_name)s\n"
+"    "
+msgstr ""
+"\n"
+"<a style=\"font-weight: bold;text-decoration:none;color:#222;\" href="
+"\"%(user_profile_url)s\" title=\"%(full_name)s\">%(full_name)s</a> a écris à "
+"%(project_name)s"
+
+#: tuesmon/projects/contact/templates/emails/contact_notification-body-html.jinja:20
+#, python-format
+msgid ""
+"\n"
+"        You are receiving this message because you are listed as "
+"administrator of the project titled %(project_name)s. If you don't want "
+"members of the Tuesmon community contacting your project, please <a href="
+"\"%(project_settings_url)s\">update your project settings</a> to prevent "
+"such contacts. Regular communications amongst members of the project will "
+"not be affected.\n"
+"    "
+msgstr ""
+"\n"
+"Vous recevez ce message car vous êtes enregistré comme administrateur du "
+"projet %(project_name)s. Si vous ne souhaitez pas que les membres de la "
+"communauté Taïga puissent contacter  votre projet, merci de <a href="
+"\"%(project_settings_url)s\">modifier vos préférence de projet</a> pour "
+"éviter ce type de contact. La communication classique entre les membres du "
+"projet ne sera pas affectée."
+
+#: tuesmon/projects/contact/templates/emails/contact_notification-body-text.jinja:1
+#, python-format
+msgid ""
+"\n"
+"%(full_name)s has written to %(project_name)s\n"
+msgstr ""
+"\n"
+"%(full_name)s a écris à %(project_name)s\n"
+
+#: tuesmon/projects/contact/templates/emails/contact_notification-body-text.jinja:7
+#, python-format
+msgid ""
+"\n"
+"You are receiving this message because you are listed as administrator of "
+"the project titled %(project_name)s. If you don't want members of the Tuesmon "
+"community contacting your project, please update your project settings in "
+"%(project_settings_url)s to prevent such contacts. Regular communications "
+"amongst members of the project will not be affected.\n"
+msgstr ""
+"\n"
+"Vous recevez ce message car vous êtes enregistré comme administrateur du "
+"projet %(project_name)s. Si vous ne souhaitez pas que les membres de la "
+"communauté Taïga puissent contacter  votre projet, merci de modifier vos "
+"préférence de projet sur %(project_settings_url)s  pour éviter ce type de "
+"contact. La communication classique entre les membres du projet ne sera pas "
+"affectée.\n"
+
+#: tuesmon/projects/contact/templates/emails/contact_notification-subject.jinja:1
+#, python-format
+msgid ""
+"\n"
+"[Tuesmon] %(full_name)s has sent a message to the project %(project_name)s\n"
+msgstr ""
+
+#: tuesmon/projects/custom_attributes/choices.py:29
+msgid "Text"
+msgstr "Texte"
+
+#: tuesmon/projects/custom_attributes/choices.py:30
+msgid "Multi-Line Text"
+msgstr "Texte multi-ligne"
+
+#: tuesmon/projects/custom_attributes/choices.py:31
+msgid "Rich text"
+msgstr "Texte Riche"
+
+#: tuesmon/projects/custom_attributes/choices.py:32
+msgid "Date"
+msgstr "Date"
+
+#: tuesmon/projects/custom_attributes/choices.py:33
+msgid "Url"
+msgstr "Url"
+
+#: tuesmon/projects/custom_attributes/models.py:40
+#: tuesmon/projects/issues/models.py:46
+msgid "type"
+msgstr "type"
+
+#: tuesmon/projects/custom_attributes/models.py:95
+msgid "values"
+msgstr "valeurs"
+
+#: tuesmon/projects/custom_attributes/models.py:105
+msgid "epic"
+msgstr "epic"
+
+#: tuesmon/projects/custom_attributes/models.py:121
+#: tuesmon/projects/tasks/models.py:36 tuesmon/projects/userstories/models.py:39
+msgid "user story"
+msgstr "récit utilisateur"
+
+#: tuesmon/projects/custom_attributes/models.py:137
+msgid "task"
+msgstr "tâche"
+
+#: tuesmon/projects/custom_attributes/models.py:153
+msgid "issue"
+msgstr "problème"
+
+#: tuesmon/projects/custom_attributes/validators.py:58
+msgid "Already exists one with the same name."
+msgstr "Un élément de même nom existe déjà"
+
+#: tuesmon/projects/due_dates/models.py:21
+msgid "due date"
+msgstr ""
+
+#: tuesmon/projects/due_dates/models.py:24
+msgid "reason for the due date"
+msgstr ""
+
+#: tuesmon/projects/epics/api.py:94
+msgid "You don't have permissions to set this status to this epic."
+msgstr ""
+"Vous n'avez pas les autorisations pour modifier ce statut sur ce récit."
+
+#: tuesmon/projects/epics/models.py:36 tuesmon/projects/issues/models.py:36
+#: tuesmon/projects/tasks/models.py:38 tuesmon/projects/userstories/models.py:63
+msgid "ref"
+msgstr "réf"
+
+#: tuesmon/projects/epics/models.py:43 tuesmon/projects/issues/models.py:40
+#: tuesmon/projects/tasks/models.py:42 tuesmon/projects/userstories/models.py:73
+msgid "status"
+msgstr "état"
+
+#: tuesmon/projects/epics/models.py:46
+msgid "epics order"
+msgstr "Ordre des épopées"
+
+#: tuesmon/projects/epics/models.py:55 tuesmon/projects/issues/models.py:60
+#: tuesmon/projects/tasks/models.py:56 tuesmon/projects/userstories/models.py:95
+msgid "subject"
+msgstr "sujet"
+
+#: tuesmon/projects/epics/models.py:59 tuesmon/projects/models.py:529
+#: tuesmon/projects/models.py:564 tuesmon/projects/models.py:616
+#: tuesmon/projects/models.py:643 tuesmon/projects/models.py:673
+#: tuesmon/projects/models.py:697 tuesmon/projects/models.py:717
+#: tuesmon/projects/models.py:741 tuesmon/projects/models.py:769
+#: tuesmon/projects/models.py:791 tuesmon/users/models.py:149
+msgid "color"
+msgstr "couleur"
+
+#: tuesmon/projects/epics/models.py:62 tuesmon/projects/issues/models.py:64
+#: tuesmon/projects/tasks/models.py:66 tuesmon/projects/userstories/models.py:99
+msgid "assigned to"
+msgstr "assigné à"
+
+#: tuesmon/projects/epics/models.py:64 tuesmon/projects/userstories/models.py:104
+msgid "is client requirement"
+msgstr "est un requis client"
+
+#: tuesmon/projects/epics/models.py:66 tuesmon/projects/userstories/models.py:106
+msgid "is team requirement"
+msgstr "est un requis de l'équipe"
+
+#: tuesmon/projects/epics/models.py:70
+msgid "user stories"
+msgstr "Récit Utilisateur"
+
+#: tuesmon/projects/epics/models.py:72 tuesmon/projects/issues/models.py:67
+#: tuesmon/projects/tasks/models.py:71 tuesmon/projects/userstories/models.py:113
+msgid "external reference"
+msgstr "référence externe"
+
+#: tuesmon/projects/epics/validators.py:37
+msgid "There's no epic with that id"
+msgstr "Il n'y a pas de récit avec cet ID"
+
+#: tuesmon/projects/history/api.py:93
+msgid "comment is required"
+msgstr "Un commentaire est requis"
+
+#: tuesmon/projects/history/api.py:96
+msgid "deleted comments can't be edited"
+msgstr "les commentaires supprimés ne peuvent être modifiés"
+
+#: tuesmon/projects/history/api.py:130
+msgid "Comment already deleted"
+msgstr "Commentaire déjà supprimé"
+
+#: tuesmon/projects/history/api.py:151
+msgid "Comment not deleted"
+msgstr "Commentaire non supprimé"
+
+#: tuesmon/projects/history/choices.py:31
+msgid "Change"
+msgstr "Changement"
+
+#: tuesmon/projects/history/choices.py:32
+msgid "Create"
+msgstr "Créer"
+
+#: tuesmon/projects/history/choices.py:33
+msgid "Delete"
+msgstr "Supprimer"
+
+#: tuesmon/projects/history/templates/emails/includes/fields_diff-html.jinja:25
+#, python-format
+msgid "%(role)s role points"
+msgstr "%(role)s points de rôle"
+
+#: tuesmon/projects/history/templates/emails/includes/fields_diff-html.jinja:28
+#: tuesmon/projects/history/templates/emails/includes/fields_diff-html.jinja:133
+#: tuesmon/projects/history/templates/emails/includes/fields_diff-html.jinja:136
+#: tuesmon/projects/history/templates/emails/includes/fields_diff-html.jinja:160
+#: tuesmon/projects/history/templates/emails/includes/fields_diff-html.jinja:163
+#: tuesmon/projects/history/templates/emails/includes/fields_diff-html.jinja:187
+#: tuesmon/projects/history/templates/emails/includes/fields_diff-html.jinja:190
+#: tuesmon/projects/history/templates/emails/includes/fields_diff-html.jinja:213
+#: tuesmon/projects/history/templates/emails/includes/fields_diff-html.jinja:267
+msgid "from"
+msgstr "de"
+
+#: tuesmon/projects/history/templates/emails/includes/fields_diff-html.jinja:34
+#: tuesmon/projects/history/templates/emails/includes/fields_diff-html.jinja:144
+#: tuesmon/projects/history/templates/emails/includes/fields_diff-html.jinja:147
+#: tuesmon/projects/history/templates/emails/includes/fields_diff-html.jinja:171
+#: tuesmon/projects/history/templates/emails/includes/fields_diff-html.jinja:174
+#: tuesmon/projects/history/templates/emails/includes/fields_diff-html.jinja:198
+#: tuesmon/projects/history/templates/emails/includes/fields_diff-html.jinja:201
+#: tuesmon/projects/history/templates/emails/includes/fields_diff-html.jinja:219
+#: tuesmon/projects/history/templates/emails/includes/fields_diff-html.jinja:244
+#: tuesmon/projects/history/templates/emails/includes/fields_diff-html.jinja:273
+msgid "to"
+msgstr "à"
+
+#: tuesmon/projects/history/templates/emails/includes/fields_diff-html.jinja:46
+msgid "Added new attachment"
+msgstr "Ajouter une pièce jointe"
+
+#: tuesmon/projects/history/templates/emails/includes/fields_diff-html.jinja:64
+msgid "Updated attachment"
+msgstr "Pièces jointes mises à jour"
+
+#: tuesmon/projects/history/templates/emails/includes/fields_diff-html.jinja:70
+msgid "deprecated"
+msgstr "obsolète"
+
+#: tuesmon/projects/history/templates/emails/includes/fields_diff-html.jinja:72
+msgid "not deprecated"
+msgstr "non obsolète"
+
+#: tuesmon/projects/history/templates/emails/includes/fields_diff-html.jinja:88
+msgid "Deleted attachment"
+msgstr "Pièce jointe supprimée"
+
+#: tuesmon/projects/history/templates/emails/includes/fields_diff-html.jinja:107
+msgid "added"
+msgstr "ajouté"
+
+#: tuesmon/projects/history/templates/emails/includes/fields_diff-html.jinja:112
+msgid "removed"
+msgstr "supprimé"
+
+#: tuesmon/projects/history/templates/emails/includes/fields_diff-html.jinja:137
+#: tuesmon/projects/history/templates/emails/includes/fields_diff-html.jinja:148
+#: tuesmon/projects/history/templates/emails/includes/fields_diff-html.jinja:191
+#: tuesmon/projects/history/templates/emails/includes/fields_diff-html.jinja:202
+#: tuesmon/projects/services/stats.py:55 tuesmon/projects/services/stats.py:56
+msgid "Unassigned"
+msgstr "Non assigné"
+
+#: tuesmon/projects/history/templates/emails/includes/fields_diff-html.jinja:164
+#: tuesmon/projects/history/templates/emails/includes/fields_diff-html.jinja:175
+msgid "Not set"
+msgstr ""
+
+#: tuesmon/projects/history/templates/emails/includes/fields_diff-html.jinja:286
+#: tuesmon/projects/history/templates/emails/includes/fields_diff-text.jinja:91
+msgid "-deleted-"
+msgstr "-supprimé-"
+
+#: tuesmon/projects/history/templates/emails/includes/fields_diff-text.jinja:23
+msgid "to:"
+msgstr "à :"
+
+#: tuesmon/projects/history/templates/emails/includes/fields_diff-text.jinja:23
+msgid "from:"
+msgstr "de :"
+
+#: tuesmon/projects/history/templates/emails/includes/fields_diff-text.jinja:29
+msgid "Added"
+msgstr "Ajouté"
+
+#: tuesmon/projects/history/templates/emails/includes/fields_diff-text.jinja:36
+msgid "Changed"
+msgstr "Modifié"
+
+#: tuesmon/projects/history/templates/emails/includes/fields_diff-text.jinja:43
+msgid "Deleted"
+msgstr "Supprimé"
+
+#: tuesmon/projects/history/templates/emails/includes/fields_diff-text.jinja:57
+msgid "added:"
+msgstr "ajouté :"
+
+#: tuesmon/projects/history/templates/emails/includes/fields_diff-text.jinja:60
+msgid "removed:"
+msgstr "supprimé :"
+
+#: tuesmon/projects/history/templates/emails/includes/fields_diff-text.jinja:65
+#: tuesmon/projects/history/templates/emails/includes/fields_diff-text.jinja:83
+msgid "From:"
+msgstr "De :"
+
+#: tuesmon/projects/history/templates/emails/includes/fields_diff-text.jinja:66
+#: tuesmon/projects/history/templates/emails/includes/fields_diff-text.jinja:84
+msgid "To:"
+msgstr "A :"
+
+#: tuesmon/projects/history/templatetags/functions.py:26
+#: tuesmon/projects/wiki/models.py:38
+msgid "content"
+msgstr "contenu"
+
+#: tuesmon/projects/history/templatetags/functions.py:27
+#: tuesmon/projects/mixins/blocked.py:33
+msgid "blocked note"
+msgstr "note bloquée"
+
+#: tuesmon/projects/history/templatetags/functions.py:28
+msgid "sprint"
+msgstr "sprint"
+
+#: tuesmon/projects/issues/api.py:164
+msgid "You don't have permissions to set this sprint to this issue."
+msgstr "Vous n'avez pas la permission d'affecter ce sprint à ce problème."
+
+#: tuesmon/projects/issues/api.py:168
+msgid "You don't have permissions to set this status to this issue."
+msgstr "Vous n'avez pas la permission d'affecter ce statut à ce problème."
+
+#: tuesmon/projects/issues/api.py:172
+msgid "You don't have permissions to set this severity to this issue."
+msgstr "Vous n'avez pas la permission d'affecter cette sévérité à ce problème."
+
+#: tuesmon/projects/issues/api.py:176
+msgid "You don't have permissions to set this priority to this issue."
+msgstr "Vous n'avez pas la permission d'affecter cette priorité à ce problème."
+
+#: tuesmon/projects/issues/api.py:180
+msgid "You don't have permissions to set this type to this issue."
+msgstr "Vous n'avez pas la permission d'affecter ce type à ce problème."
+
+#: tuesmon/projects/issues/models.py:42
+msgid "severity"
+msgstr "sévérité"
+
+#: tuesmon/projects/issues/models.py:44
+msgid "priority"
+msgstr "priorité"
+
+#: tuesmon/projects/issues/models.py:49 tuesmon/projects/tasks/models.py:47
+#: tuesmon/projects/userstories/models.py:66
+msgid "milestone"
+msgstr "jalon"
+
+#: tuesmon/projects/issues/models.py:58 tuesmon/projects/tasks/models.py:54
+msgid "finished date"
+msgstr "date de fin"
+
+#: tuesmon/projects/likes/models.py:36
+msgid "Like"
+msgstr "Aimer"
+
+#: tuesmon/projects/likes/models.py:37
+msgid "Likes"
+msgstr "Aime"
+
+#: tuesmon/projects/milestones/models.py:40 tuesmon/projects/models.py:150
+#: tuesmon/projects/models.py:523 tuesmon/projects/models.py:556
+#: tuesmon/projects/models.py:637 tuesmon/projects/models.py:735
+#: tuesmon/projects/models.py:811 tuesmon/projects/wiki/models.py:36
+#: tuesmon/users/admin.py:58 tuesmon/users/models.py:314
+msgid "slug"
+msgstr "slug"
+
+#: tuesmon/projects/milestones/models.py:45
+msgid "estimated start date"
+msgstr "date de démarrage estimée"
+
+#: tuesmon/projects/milestones/models.py:46
+msgid "estimated finish date"
+msgstr "date de fin estimée"
+
+#: tuesmon/projects/milestones/models.py:53 tuesmon/projects/models.py:527
+#: tuesmon/projects/models.py:560 tuesmon/projects/models.py:641
+#: tuesmon/projects/models.py:739
+msgid "is closed"
+msgstr "est fermé"
+
+#: tuesmon/projects/milestones/models.py:55
+msgid "disponibility"
+msgstr "disponibilité"
+
+#: tuesmon/projects/milestones/models.py:79
+msgid "The estimated start must be previous to the estimated finish."
+msgstr "La date de démarrage doit être antérieure à la de fin prévisionnelle"
+
+#: tuesmon/projects/milestones/validators.py:33
+msgid "There's no milestone with that id"
+msgstr "Il n'y a pas de jalon avec cet ID"
+
+#: tuesmon/projects/mixins/blocked.py:31
+msgid "is blocked"
+msgstr "est bloqué"
+
+#: tuesmon/projects/mixins/by_ref.py:32
+msgid "ref param is needed"
+msgstr "Le paramètre de référence est nécessaire"
+
+#: tuesmon/projects/mixins/by_ref.py:35
+msgid "project or project__slug param is needed"
+msgstr "Le paramètre projet ou projet_slug est nécessaire"
+
+#: tuesmon/projects/mixins/ordering.py:49
+#, python-brace-format
+msgid "'{param}' parameter is mandatory"
+msgstr "'{param}' paramètre obligatoire"
+
+#: tuesmon/projects/mixins/ordering.py:53
+msgid "'project' parameter is mandatory"
+msgstr "'project' paramètre obligatoire"
+
+#: tuesmon/projects/mixins/validators.py:19
+msgid "The user must be a project member."
+msgstr "L'utilisateur doit etre un membre du projet"
+
+#: tuesmon/projects/models.py:79
+msgid "email"
+msgstr "email"
+
+#: tuesmon/projects/models.py:81
+msgid "create at"
+msgstr "Créé le"
+
+#: tuesmon/projects/models.py:83 tuesmon/users/models.py:166
+msgid "token"
+msgstr "jeton"
+
+#: tuesmon/projects/models.py:89
+msgid "invitation extra text"
+msgstr "Text supplémentaire de l'invitation"
+
+#: tuesmon/projects/models.py:92 tuesmon/projects/models.py:815
+msgid "user order"
+msgstr "classement utilisateur"
+
+#: tuesmon/projects/models.py:108
+msgid "The user is already member of the project"
+msgstr "L'utilisateur est déjà un membre du projet"
+
+#: tuesmon/projects/models.py:115
+msgid "default epic status"
+msgstr "Statut d'épopée par défaut"
+
+#: tuesmon/projects/models.py:119
+msgid "default US status"
+msgstr "statut de l'HU par défaut"
+
+#: tuesmon/projects/models.py:122
+msgid "default points"
+msgstr "Points par défaut"
+
+#: tuesmon/projects/models.py:126
+msgid "default task status"
+msgstr "Etat par défaut des tâches"
+
+#: tuesmon/projects/models.py:129
+msgid "default priority"
+msgstr "Priorité par défaut"
+
+#: tuesmon/projects/models.py:132
+msgid "default severity"
+msgstr "Sévérité par défaut"
+
+#: tuesmon/projects/models.py:136
+msgid "default issue status"
+msgstr "statut du problème par défaut"
+
+#: tuesmon/projects/models.py:140
+msgid "default issue type"
+msgstr "type de problème par défaut"
+
+#: tuesmon/projects/models.py:156
+msgid "logo"
+msgstr "logo"
+
+#: tuesmon/projects/models.py:166
+msgid "members"
+msgstr "membres"
+
+#: tuesmon/projects/models.py:169
+msgid "total of milestones"
+msgstr "total des jalons"
+
+#: tuesmon/projects/models.py:170
+msgid "total story points"
+msgstr "total des points du récit"
+
+#: tuesmon/projects/models.py:172 tuesmon/projects/models.py:825
+msgid "active contact"
+msgstr "contact actif"
+
+#: tuesmon/projects/models.py:174 tuesmon/projects/models.py:827
+msgid "active epics panel"
+msgstr "panneau d'épopée actif"
+
+#: tuesmon/projects/models.py:176 tuesmon/projects/models.py:829
+msgid "active backlog panel"
+msgstr "panneau backlog actif"
+
+#: tuesmon/projects/models.py:178 tuesmon/projects/models.py:831
+msgid "active kanban panel"
+msgstr "panneau kanban actif"
+
+#: tuesmon/projects/models.py:180 tuesmon/projects/models.py:833
+msgid "active wiki panel"
+msgstr "panneau wiki actif"
+
+#: tuesmon/projects/models.py:182 tuesmon/projects/models.py:835
+msgid "active issues panel"
+msgstr "panneau problèmes actif"
+
+#: tuesmon/projects/models.py:185 tuesmon/projects/models.py:842
+msgid "videoconference system"
+msgstr "plateforme de vidéoconférence"
+
+#: tuesmon/projects/models.py:187 tuesmon/projects/models.py:844
+msgid "videoconference extra data"
+msgstr "données complémentaires pour la salle de vidéoconférence"
+
+#: tuesmon/projects/models.py:193
+msgid "creation template"
+msgstr "Modèle de création"
+
+#: tuesmon/projects/models.py:196 tuesmon/users/admin.py:62
+msgid "is private"
+msgstr "est privé"
+
+#: tuesmon/projects/models.py:198
+msgid "anonymous permissions"
+msgstr "Permissions anonymes"
+
+#: tuesmon/projects/models.py:200
+msgid "user permissions"
+msgstr "Permission de l'utilisateur"
+
+#: tuesmon/projects/models.py:203
+msgid "is featured"
+msgstr "est mis en avant"
+
+#: tuesmon/projects/models.py:206 tuesmon/projects/models.py:837
+msgid "is looking for people"
+msgstr "est à la recherche de main d'oeuvre"
+
+#: tuesmon/projects/models.py:208 tuesmon/projects/models.py:839
+msgid "looking for people note"
+msgstr "en recherche de notes de membres"
+
+#: tuesmon/projects/models.py:222
+msgid "project transfer token"
+msgstr "jeton de transfert de projet"
+
+#: tuesmon/projects/models.py:226
+msgid "blocked code"
+msgstr "code bloqué"
+
+#: tuesmon/projects/models.py:229 tuesmon/projects/notifications/models.py:67
+msgid "updated date time"
+msgstr "date de mise à jour"
+
+#: tuesmon/projects/models.py:232 tuesmon/projects/models.py:244
+#: tuesmon/projects/votes/models.py:30
+msgid "count"
+msgstr "total"
+
+#: tuesmon/projects/models.py:235
+msgid "fans last week"
+msgstr "fans la semaine dernière"
+
+#: tuesmon/projects/models.py:238
+msgid "fans last month"
+msgstr "fans le mois dernier"
+
+#: tuesmon/projects/models.py:241
+msgid "fans last year"
+msgstr "fans l'année dernière"
+
+#: tuesmon/projects/models.py:248
+msgid "activity last week"
+msgstr "activité de la semaine écoulée"
+
+#: tuesmon/projects/models.py:252
+msgid "activity last month"
+msgstr "activité du mois écoulé"
+
+#: tuesmon/projects/models.py:256
+msgid "activity last year"
+msgstr "activité de l'année écoulée"
+
+#: tuesmon/projects/models.py:510
+msgid "modules config"
+msgstr "Configurations des modules"
+
+#: tuesmon/projects/models.py:562
+msgid "is archived"
+msgstr "est archivé"
+
+#: tuesmon/projects/models.py:566
+msgid "work in progress limit"
+msgstr "limite de travail en cours"
+
+#: tuesmon/projects/models.py:594 tuesmon/userstorage/models.py:33
+msgid "value"
+msgstr "valeur"
+
+#: tuesmon/projects/models.py:614 tuesmon/projects/models.py:671
+#: tuesmon/projects/models.py:789
+msgid "by default"
+msgstr ""
+
+#: tuesmon/projects/models.py:618 tuesmon/projects/models.py:675
+#: tuesmon/projects/models.py:793
+msgid "days to due"
+msgstr ""
+
+#: tuesmon/projects/models.py:823
+msgid "default owner's role"
+msgstr "rôle par défaut du propriétaire"
+
+#: tuesmon/projects/models.py:846
+msgid "default options"
+msgstr "options par défaut"
+
+#: tuesmon/projects/models.py:847
+msgid "epic statuses"
+msgstr "statut d'épopée"
+
+#: tuesmon/projects/models.py:848
+msgid "us statuses"
+msgstr "statuts des us"
+
+#: tuesmon/projects/models.py:849
+msgid "us duedates"
+msgstr ""
+
+#: tuesmon/projects/models.py:850 tuesmon/projects/userstories/models.py:45
+#: tuesmon/projects/userstories/models.py:78
+msgid "points"
+msgstr "points"
+
+#: tuesmon/projects/models.py:851
+msgid "task statuses"
+msgstr "états des tâches"
+
+#: tuesmon/projects/models.py:852
+msgid "task duedates"
+msgstr ""
+
+#: tuesmon/projects/models.py:853
+msgid "issue statuses"
+msgstr "statuts des problèmes"
+
+#: tuesmon/projects/models.py:854
+msgid "issue types"
+msgstr "types de problèmes"
+
+#: tuesmon/projects/models.py:855
+msgid "issue duedates"
+msgstr ""
+
+#: tuesmon/projects/models.py:856
+msgid "priorities"
+msgstr "priorités"
+
+#: tuesmon/projects/models.py:857
+msgid "severities"
+msgstr "sévérités"
+
+#: tuesmon/projects/models.py:858
+msgid "roles"
+msgstr "rôles"
+
+#: tuesmon/projects/models.py:859
+msgid "epic custom attributes"
+msgstr "attributs personnalisés d'apopée"
+
+#: tuesmon/projects/models.py:860
+msgid "us custom attributes"
+msgstr "Attributs personnalisés de récit"
+
+#: tuesmon/projects/models.py:861
+msgid "task custom attributes"
+msgstr "Attributs personnalisés de tâche"
+
+#: tuesmon/projects/models.py:862
+msgid "issue custom attributes"
+msgstr "Attributs personnalisés de ticket"
+
+#: tuesmon/projects/notifications/choices.py:30
+msgid "Involved"
+msgstr "Impliqué"
+
+#: tuesmon/projects/notifications/choices.py:31
+msgid "All"
+msgstr "Toutes"
+
+#: tuesmon/projects/notifications/choices.py:32
+msgid "None"
+msgstr "Aucun"
+
+#: tuesmon/projects/notifications/models.py:65
+msgid "created date time"
+msgstr "date de création"
+
+#: tuesmon/projects/notifications/models.py:69
+msgid "history entries"
+msgstr "entrées de l'historique"
+
+#: tuesmon/projects/notifications/models.py:72
+msgid "notify users"
+msgstr "notifier les utilisateurs"
+
+#: tuesmon/projects/notifications/models.py:94
+#: tuesmon/projects/notifications/models.py:95
+msgid "Watched"
+msgstr "Suivre"
+
+#: tuesmon/projects/notifications/services.py:71
+#: tuesmon/projects/notifications/services.py:90
+msgid "Notify exists for specified user and project"
+msgstr "La notification existe pour l'utilisateur et le projet spécifiés"
+
+#: tuesmon/projects/notifications/services.py:465
+msgid "Invalid value for notify level"
+msgstr "Valeur non valide pour le niveau de notification"
+
+#: tuesmon/projects/notifications/templates/emails/epics/epic-change-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"    <h1>Epic updated</h1>\n"
+"    <p>Hello %(user)s, <br> %(changer)s has updated a epic on %(project)s</"
+"p>\n"
+"    <p>Epic #%(ref)s %(subject)s</p>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"See Epic #%(ref)s: "
+"%(subject)s in Tuesmon\">See epic</a>\n"
+"    "
+msgstr ""
+
+#: tuesmon/projects/notifications/templates/emails/epics/epic-change-body-text.jinja:3
+#, python-format
+msgid ""
+"\n"
+"Epic updated\n"
+"Hello %(user)s, %(changer)s has updated a epic on %(project)s\n"
+"See epic #%(ref)s %(subject)s at %(url)s\n"
+msgstr ""
+"\n"
+"Épopée mise à jour\n"
+"Bonjour %(user)s,  %(changer)s a modifié une épopée dans  %(project)s\n"
+"Voir l'épopée  #%(ref)s %(subject)s à  %(url)s\n"
+
+#: tuesmon/projects/notifications/templates/emails/epics/epic-change-subject.jinja:1
+#, python-format
+msgid ""
+"\n"
+"[%(project)s] Updated the epic #%(ref)s \"%(subject)s\"\n"
+msgstr ""
+"\n"
+"[%(project)s] a mis à jour l'épopée #%(ref)s \"%(subject)s\"\n"
+
+#: tuesmon/projects/notifications/templates/emails/epics/epic-create-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"    <h1>New epic created</h1>\n"
+"    <p>Hello %(user)s,<br />%(changer)s has created a new epic on "
+"%(project)s</p>\n"
+"    <p>Epic #%(ref)s %(subject)s</p>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"See Epic #%(ref)s "
+"%(subject)s\">See epic</a>\n"
+"    <p><small>The Tuesmon Team</small></p>\n"
+"    "
+msgstr ""
+
+#: tuesmon/projects/notifications/templates/emails/epics/epic-create-body-text.jinja:1
+#, python-format
+msgid ""
+"\n"
+"New epic created\n"
+"Hello %(user)s, %(changer)s has created a new epic on %(project)s\n"
+"See epic #%(ref)s %(subject)s at %(url)s\n"
+"\n"
+"---\n"
+"The Tuesmon Team\n"
+msgstr ""
+
+#: tuesmon/projects/notifications/templates/emails/epics/epic-create-subject.jinja:1
+#, python-format
+msgid ""
+"\n"
+"[%(project)s] Created the epic #%(ref)s \"%(subject)s\"\n"
+msgstr ""
+
+#: tuesmon/projects/notifications/templates/emails/epics/epic-delete-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"    <h1>Epic deleted</h1>\n"
+"    <p>Hello %(user)s,<br />%(changer)s has deleted a epic on %(project)s</"
+"p>\n"
+"    <p>Epic #%(ref)s %(subject)s</p>\n"
+"    <p><small>The Tuesmon Team</small></p>\n"
+"    "
+msgstr ""
+
+#: tuesmon/projects/notifications/templates/emails/epics/epic-delete-body-text.jinja:1
+#, python-format
+msgid ""
+"\n"
+"Epic deleted\n"
+"Hello %(user)s, %(changer)s has deleted a epic on %(project)s\n"
+"Epic #%(ref)s %(subject)s\n"
+"\n"
+"---\n"
+"The Tuesmon Team\n"
+msgstr ""
+
+#: tuesmon/projects/notifications/templates/emails/epics/epic-delete-subject.jinja:1
+#, python-format
+msgid ""
+"\n"
+"[%(project)s] Deleted the epic #%(ref)s \"%(subject)s\"\n"
+msgstr ""
+
+#: tuesmon/projects/notifications/templates/emails/issues/issue-change-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"    <h1>Issue updated</h1>\n"
+"    <p>Hello %(user)s, <br> %(changer)s has updated an issue on %(project)s</"
+"p>\n"
+"    <p>Issue #%(ref)s %(subject)s</p>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"See Issue #%(ref)s: "
+"%(subject)s in Tuesmon\">See issue</a>\n"
+"    "
+msgstr ""
+"\n"
+"    <h1>Ticket mis à jour</h1>\n"
+"    <p>Salut %(user)s, <br> %(changer)s a mis à jour un ticket sur "
+"%(project)s</p>\n"
+"    <p>Ticket #%(ref)s %(subject)s</p>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"Voir ticket #%(ref)s : "
+"%(subject)s dans Tuesmon\">Voir ticket</a>\n"
+"    "
+
+#: tuesmon/projects/notifications/templates/emails/issues/issue-change-body-text.jinja:3
+#, python-format
+msgid ""
+"\n"
+"Issue updated\n"
+"Hello %(user)s, %(changer)s has updated an issue on %(project)s\n"
+"See issue #%(ref)s %(subject)s at %(url)s\n"
+msgstr ""
+
+#: tuesmon/projects/notifications/templates/emails/issues/issue-change-subject.jinja:1
+#, python-format
+msgid ""
+"\n"
+"[%(project)s] Updated the issue #%(ref)s \"%(subject)s\"\n"
+msgstr ""
+"\n"
+"[%(project)s] Ticket #%(ref)s \"%(subject)s\" mis à jour\n"
+
+#: tuesmon/projects/notifications/templates/emails/issues/issue-create-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"    <h1>New issue created</h1>\n"
+"    <p>Hello %(user)s,<br />%(changer)s has created a new issue on "
+"%(project)s</p>\n"
+"    <p>Issue #%(ref)s %(subject)s</p>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"See Issue #%(ref)s "
+"%(subject)s\">See issue</a>\n"
+"    <p><small>The Tuesmon Team</small></p>\n"
+"    "
+msgstr ""
+
+#: tuesmon/projects/notifications/templates/emails/issues/issue-create-body-text.jinja:1
+#, python-format
+msgid ""
+"\n"
+"New issue created\n"
+"Hello %(user)s, %(changer)s has created a new issue on %(project)s\n"
+"See issue #%(ref)s %(subject)s at %(url)s\n"
+"\n"
+"---\n"
+"The Tuesmon Team\n"
+msgstr ""
+
+#: tuesmon/projects/notifications/templates/emails/issues/issue-create-subject.jinja:1
+#, python-format
+msgid ""
+"\n"
+"[%(project)s] Created the issue #%(ref)s \"%(subject)s\"\n"
+msgstr ""
+
+#: tuesmon/projects/notifications/templates/emails/issues/issue-delete-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"    <h1>Issue deleted</h1>\n"
+"    <p>Hello %(user)s,<br />%(changer)s has deleted an issue on %(project)s</"
+"p>\n"
+"    <p>Issue #%(ref)s %(subject)s</p>\n"
+"    <p><small>The Tuesmon Team</small></p>\n"
+"    "
+msgstr ""
+
+#: tuesmon/projects/notifications/templates/emails/issues/issue-delete-body-text.jinja:1
+#, python-format
+msgid ""
+"\n"
+"Issue deleted\n"
+"Hello %(user)s, %(changer)s has deleted an issue on %(project)s\n"
+"Issue #%(ref)s %(subject)s\n"
+"\n"
+"---\n"
+"The Tuesmon Team\n"
+msgstr ""
+
+#: tuesmon/projects/notifications/templates/emails/issues/issue-delete-subject.jinja:1
+#, python-format
+msgid ""
+"\n"
+"[%(project)s] Deleted the issue #%(ref)s \"%(subject)s\"\n"
+msgstr ""
+
+#: tuesmon/projects/notifications/templates/emails/milestones/milestone-change-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"    <h1>Sprint updated</h1>\n"
+"    <p>Hello %(user)s, <br> %(changer)s has updated an sprint on "
+"%(project)s</p>\n"
+"    <p>Sprint %(name)s</p>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"See Sprint: %(name)s in "
+"Tuesmon\">See sprint</a>\n"
+"    "
+msgstr ""
+
+#: tuesmon/projects/notifications/templates/emails/milestones/milestone-change-body-text.jinja:3
+#, python-format
+msgid ""
+"\n"
+"Sprint updated\n"
+"Hello %(user)s, %(changer)s has updated a sprint on %(project)s\n"
+"See sprint %(name)s at %(url)s\n"
+msgstr ""
+
+#: tuesmon/projects/notifications/templates/emails/milestones/milestone-change-subject.jinja:1
+#, python-format
+msgid ""
+"\n"
+"[%(project)s] Updated the sprint \"%(milestone)s\"\n"
+msgstr ""
+
+#: tuesmon/projects/notifications/templates/emails/milestones/milestone-create-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"    <h1>New sprint created</h1>\n"
+"    <p>Hello %(user)s,<br />%(changer)s has created a new sprint on "
+"%(project)s</p>\n"
+"    <p>Sprint %(name)s</p>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"See Sprint %(name)s\">See "
+"sprint</a>\n"
+"    <p><small>The Tuesmon Team</small></p>\n"
+"    "
+msgstr ""
+
+#: tuesmon/projects/notifications/templates/emails/milestones/milestone-create-body-text.jinja:1
+#, python-format
+msgid ""
+"\n"
+"New sprint created\n"
+"Hello %(user)s, %(changer)s has created a new sprint on %(project)s\n"
+"See sprint %(name)s at %(url)s\n"
+"\n"
+"---\n"
+"The Tuesmon Team\n"
+msgstr ""
+
+#: tuesmon/projects/notifications/templates/emails/milestones/milestone-create-subject.jinja:1
+#, python-format
+msgid ""
+"\n"
+"[%(project)s] Created the sprint \"%(milestone)s\"\n"
+msgstr ""
+"\n"
+"[%(project)s] Sprint \"%(milestone)s\" créé\n"
+
+#: tuesmon/projects/notifications/templates/emails/milestones/milestone-delete-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"    <h1>Sprint deleted</h1>\n"
+"    <p>Hello %(user)s,<br />%(changer)s has deleted an sprint on "
+"%(project)s</p>\n"
+"    <p>Sprint %(name)s</p>\n"
+"    <p><small>The Tuesmon Team</small></p>\n"
+"    "
+msgstr ""
+
+#: tuesmon/projects/notifications/templates/emails/milestones/milestone-delete-body-text.jinja:1
+#, python-format
+msgid ""
+"\n"
+"Sprint deleted\n"
+"Hello %(user)s, %(changer)s has deleted an sprint on %(project)s\n"
+"Sprint %(name)s\n"
+"\n"
+"---\n"
+"The Tuesmon Team\n"
+msgstr ""
+
+#: tuesmon/projects/notifications/templates/emails/milestones/milestone-delete-subject.jinja:1
+#, python-format
+msgid ""
+"\n"
+"[%(project)s] Deleted the Sprint \"%(milestone)s\"\n"
+msgstr ""
+"\n"
+"[%(project)s] Sprint \"%(milestone)s\" Éffacé\n"
+
+#: tuesmon/projects/notifications/templates/emails/tasks/task-change-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"    <h1>Task updated</h1>\n"
+"    <p>Hello %(user)s, <br> %(changer)s has updated a task on %(project)s</"
+"p>\n"
+"    <p>Task #%(ref)s %(subject)s</p>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"See Task #%(ref)s: "
+"%(subject)s in Tuesmon\">See task</a>\n"
+"    "
+msgstr ""
+"\n"
+"    <h1>Tâche mise à jour</h1>\n"
+"    <p>Bonjour %(user)s, <br> %(changer)s a mis à jour une tâche sur "
+"%(project)s</p>\n"
+"    <p>Tâche #%(ref)s %(subject)s</p>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"Voir la tâche #%(ref)s: "
+"%(subject)s dans Tuesmon\">Voir la tâche</a>\n"
+"    "
+
+#: tuesmon/projects/notifications/templates/emails/tasks/task-change-body-text.jinja:3
+#, python-format
+msgid ""
+"\n"
+"Task updated\n"
+"Hello %(user)s, %(changer)s has updated a task on %(project)s\n"
+"See task #%(ref)s %(subject)s at %(url)s\n"
+msgstr ""
+"\n"
+"Tâche mise à jour\n"
+"Bonjour %(user)s, %(changer)s a mis à jour une tâche sur %(project)s\n"
+"Voir la tâche #%(ref)s %(subject)s dans %(url)s\n"
+
+#: tuesmon/projects/notifications/templates/emails/tasks/task-change-subject.jinja:1
+#, python-format
+msgid ""
+"\n"
+"[%(project)s] Updated the task #%(ref)s \"%(subject)s\"\n"
+msgstr ""
+"\n"
+"[%(project)s] Tâche #%(ref)s \"%(subject)s\" mise à jour\n"
+
+#: tuesmon/projects/notifications/templates/emails/tasks/task-create-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"    <h1>New task created</h1>\n"
+"    <p>Hello %(user)s,<br />%(changer)s has created a new task on "
+"%(project)s</p>\n"
+"    <p>Task #%(ref)s %(subject)s</p>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"See Task #%(ref)s "
+"%(subject)s\">See task</a>\n"
+"    <p><small>The Tuesmon Team</small></p>\n"
+"    "
+msgstr ""
+"\n"
+"    <h1>Nouvelle tâche créée</h1>\n"
+"    <p>Bonjour %(user)s,<br />%(changer)s a créé une nouvelle tâche sur "
+"%(project)s</p>\n"
+"    <p>Tâche #%(ref)s %(subject)s</p>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"Voir la tâche #%(ref)s "
+"%(subject)s\">Voir la tâche</a>\n"
+"    <p><small>The Tuesmon Team</small></p>\n"
+"    "
+
+#: tuesmon/projects/notifications/templates/emails/tasks/task-create-body-text.jinja:1
+#, python-format
+msgid ""
+"\n"
+"New task created\n"
+"Hello %(user)s, %(changer)s has created a new task on %(project)s\n"
+"See task #%(ref)s %(subject)s at %(url)s\n"
+"\n"
+"---\n"
+"The Tuesmon Team\n"
+msgstr ""
+"\n"
+"Nouvelle tâche créée\n"
+"Bonjour %(user)s, %(changer)s a créé une nouvelle tâche sur %(project)s\n"
+"Voir la tâche #%(ref)s %(subject)s dans %(url)s\n"
+"\n"
+"---\n"
+"The Tuesmon Team\n"
+
+#: tuesmon/projects/notifications/templates/emails/tasks/task-create-subject.jinja:1
+#, python-format
+msgid ""
+"\n"
+"[%(project)s] Created the task #%(ref)s \"%(subject)s\"\n"
+msgstr ""
+"\n"
+"[%(project)s] Tâche #%(ref)s \"%(subject)s\" créée\n"
+
+#: tuesmon/projects/notifications/templates/emails/tasks/task-delete-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"    <h1>Task deleted</h1>\n"
+"    <p>Hello %(user)s,<br />%(changer)s has deleted a task on %(project)s</"
+"p>\n"
+"    <p>Task #%(ref)s %(subject)s</p>\n"
+"    <p><small>The Tuesmon Team</small></p>\n"
+"    "
+msgstr ""
+"\n"
+"    <h1>Tâche supprimée</h1>\n"
+"    <p>Bonjour %(user)s,<br />%(changer)s a supprimé une tâche sur "
+"%(project)s</p>\n"
+"    <p>Tâche #%(ref)s %(subject)s</p>\n"
+"    <p><small>The Tuesmon Team</small></p>\n"
+"    "
+
+#: tuesmon/projects/notifications/templates/emails/tasks/task-delete-body-text.jinja:1
+#, python-format
+msgid ""
+"\n"
+"Task deleted\n"
+"Hello %(user)s, %(changer)s has deleted a task on %(project)s\n"
+"Task #%(ref)s %(subject)s\n"
+"\n"
+"---\n"
+"The Tuesmon Team\n"
+msgstr ""
+"\n"
+"Tâche supprimée\n"
+"Bonjour %(user)s, %(changer)s a supprimé une tâche sur %(project)s\n"
+"Tâche #%(ref)s %(subject)s\n"
+"\n"
+"---\n"
+"The Tuesmon Team\n"
+
+#: tuesmon/projects/notifications/templates/emails/tasks/task-delete-subject.jinja:1
+#, python-format
+msgid ""
+"\n"
+"[%(project)s] Deleted the task #%(ref)s \"%(subject)s\"\n"
+msgstr ""
+"\n"
+"[%(project)s] Tâche #%(ref)s \"%(subject)s\" supprimée\n"
+
+#: tuesmon/projects/notifications/templates/emails/userstories/userstory-change-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"    <h1>User Story updated</h1>\n"
+"    <p>Hello %(user)s, <br> %(changer)s has updated a user story on "
+"%(project)s</p>\n"
+"    <p>User Story #%(ref)s %(subject)s</p>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"See User Story #%(ref)s: "
+"%(subject)s in Tuesmon\">See user story</a>\n"
+"    "
+msgstr ""
+"\n"
+"    <h1>Récit utilisateur modifié</h1>\n"
+"    <p>Bonjour %(user)s, <br> %(changer)s a modifié un récit utilisateur de "
+"%(project)s</p>\n"
+"    <p>Récit utilisateur #%(ref)s %(subject)s</p>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"Voir le récit utilisateur #"
+"%(ref)s: %(subject)s dans Tuesmon\">Voir le récit utilisateur</a>\n"
+"    "
+
+#: tuesmon/projects/notifications/templates/emails/userstories/userstory-change-body-text.jinja:3
+#, python-format
+msgid ""
+"\n"
+"User story updated\n"
+"Hello %(user)s, %(changer)s has updated a user story on %(project)s\n"
+"See user story #%(ref)s %(subject)s at %(url)s\n"
+msgstr ""
+"\n"
+"Récit utilisateur modifié\n"
+"Bonjour %(user)s, %(changer)s a modifié un récit utilisateur de %(project)s\n"
+"Voir le récit utilisateur #%(ref)s %(subject)s à %(url)s\n"
+
+#: tuesmon/projects/notifications/templates/emails/userstories/userstory-change-subject.jinja:1
+#, python-format
+msgid ""
+"\n"
+"[%(project)s] Updated the US #%(ref)s \"%(subject)s\"\n"
+msgstr ""
+"\n"
+"[%(project)s] US #%(ref)s \"%(subject)s\" mise à jour\n"
+
+#: tuesmon/projects/notifications/templates/emails/userstories/userstory-create-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"    <h1>New user story created</h1>\n"
+"    <p>Hello %(user)s,<br />%(changer)s has created a new user story on "
+"%(project)s</p>\n"
+"    <p>User Story #%(ref)s %(subject)s</p>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"See User Story #%(ref)s "
+"%(subject)s\">See user story</a>\n"
+"    <p><small>The Tuesmon Team</small></p>\n"
+"    "
+msgstr ""
+"\n"
+"    <h1>Nouveau récit utilisateur</h1>\n"
+"    <p>Bonjour %(user)s,<br />%(changer)s a créé un nouveau récit "
+"utilisateur sur %(project)s</p>\n"
+"    <p>Récit utilisateur #%(ref)s %(subject)s</p>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"Voir le récit utilisateur #"
+"%(ref)s %(subject)s\">Voir le récit utilisateur</a>\n"
+"    <p><small>The Tuesmon Team</small></p>\n"
+"    "
+
+#: tuesmon/projects/notifications/templates/emails/userstories/userstory-create-body-text.jinja:1
+#, python-format
+msgid ""
+"\n"
+"New user story created\n"
+"Hello %(user)s, %(changer)s has created a new user story on %(project)s\n"
+"See user story #%(ref)s %(subject)s at %(url)s\n"
+"\n"
+"---\n"
+"The Tuesmon Team\n"
+msgstr ""
+"\n"
+"Nouveau récit utilisateur\n"
+"Bonjour %(user)s, %(changer)s a créé un nouveau récit utilisateur sur "
+"%(project)s\n"
+"Voir le récit utilisateur #%(ref)s %(subject)s à %(url)s\n"
+"\n"
+"---\n"
+"The Tuesmon Team\n"
+
+#: tuesmon/projects/notifications/templates/emails/userstories/userstory-create-subject.jinja:1
+#, python-format
+msgid ""
+"\n"
+"[%(project)s] Created the US #%(ref)s \"%(subject)s\"\n"
+msgstr ""
+"\n"
+"[%(project)s] Récit Utilisateur #%(ref)s \"%(subject)s\" créé\n"
+
+#: tuesmon/projects/notifications/templates/emails/userstories/userstory-delete-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"    <h1>User Story deleted</h1>\n"
+"    <p>Hello %(user)s,<br />%(changer)s has deleted a user story on "
+"%(project)s</p>\n"
+"    <p>User Story #%(ref)s %(subject)s</p>\n"
+"    <p><small>The Tuesmon Team</small></p>\n"
+"    "
+msgstr ""
+"\n"
+"    <h1>Récit utilisateur supprimé</h1>\n"
+"    <p>Bonjour %(user)s,<br />%(changer)s a supprimé un récit utilisateur "
+"sur %(project)s</p>\n"
+"    <p>Récit utilisateur #%(ref)s %(subject)s</p>\n"
+"    <p><small>The Tuesmon Team</small></p>\n"
+"    "
+
+#: tuesmon/projects/notifications/templates/emails/userstories/userstory-delete-body-text.jinja:1
+#, python-format
+msgid ""
+"\n"
+"User Story deleted\n"
+"Hello %(user)s, %(changer)s has deleted a user story on %(project)s\n"
+"User Story #%(ref)s %(subject)s\n"
+"\n"
+"---\n"
+"The Tuesmon Team\n"
+msgstr ""
+"\n"
+"Récit utilisateur supprimé\n"
+"Bonjour %(user)s, %(changer)s a supprimé un récit utilisateur sur "
+"%(project)s\n"
+"Récit utilisateur #%(ref)s %(subject)s\n"
+"\n"
+"---\n"
+"The Tuesmon Team\n"
+
+#: tuesmon/projects/notifications/templates/emails/userstories/userstory-delete-subject.jinja:1
+#, python-format
+msgid ""
+"\n"
+"[%(project)s] Deleted the US #%(ref)s \"%(subject)s\"\n"
+msgstr ""
+
+#: tuesmon/projects/notifications/templates/emails/wiki/wikipage-change-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"    <h1>Wiki Page updated</h1>\n"
+"    <p>Hello %(user)s, <br> %(changer)s has updated a wiki page on "
+"%(project)s</p>\n"
+"    <p>Wiki page %(page)s</p>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"See wiki page in Tuesmon"
+"\">See Wiki Page</a>\n"
+"    "
+msgstr ""
+
+#: tuesmon/projects/notifications/templates/emails/wiki/wikipage-change-body-text.jinja:3
+#, python-format
+msgid ""
+"\n"
+"Wiki Page updated\n"
+"\n"
+"Hello %(user)s, %(changer)s has updated a wiki page on %(project)s\n"
+"\n"
+"See wiki page %(page)s at %(url)s\n"
+msgstr ""
+
+#: tuesmon/projects/notifications/templates/emails/wiki/wikipage-change-subject.jinja:1
+#, python-format
+msgid ""
+"\n"
+"[%(project)s] Updated the Wiki Page \"%(page)s\"\n"
+msgstr ""
+"\n"
+"[%(project)s] Page Wiki \"%(page)s\" mise à jour\n"
+
+#: tuesmon/projects/notifications/templates/emails/wiki/wikipage-create-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"    <h1>New wiki page created</h1>\n"
+"    <p>Hello %(user)s,<br />%(changer)s has created a new wiki page on "
+"%(project)s</p>\n"
+"    <p>Wiki page %(page)s</p>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"Wiki page %(page)s\">See "
+"wiki page</a>\n"
+"    <p><small>The Tuesmon Team</small></p>\n"
+"    "
+msgstr ""
+
+#: tuesmon/projects/notifications/templates/emails/wiki/wikipage-create-body-text.jinja:1
+#, python-format
+msgid ""
+"\n"
+"New wiki page created\n"
+"\n"
+"Hello %(user)s, %(changer)s has created a new wiki page on %(project)s\n"
+"\n"
+"See wiki page %(page)s at %(url)s\n"
+"\n"
+"---\n"
+"The Tuesmon Team\n"
+msgstr ""
+
+#: tuesmon/projects/notifications/templates/emails/wiki/wikipage-create-subject.jinja:1
+#, python-format
+msgid ""
+"\n"
+"[%(project)s] Created the Wiki Page \"%(page)s\"\n"
+msgstr ""
+"\n"
+"[%(project)s] Page Wiki \"%(page)s créée\"\n"
+
+#: tuesmon/projects/notifications/templates/emails/wiki/wikipage-delete-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"    <h1>Wiki page deleted</h1>\n"
+"    <p>Hello %(user)s,<br />%(changer)s has deleted a wiki page on "
+"%(project)s</p>\n"
+"    <p>Wiki page %(page)s</p>\n"
+"    <p><small>The Tuesmon Team</small></p>\n"
+"    "
+msgstr ""
+
+#: tuesmon/projects/notifications/templates/emails/wiki/wikipage-delete-body-text.jinja:1
+#, python-format
+msgid ""
+"\n"
+"Wiki page deleted\n"
+"\n"
+"Hello %(user)s, %(changer)s has deleted a wiki page on %(project)s\n"
+"\n"
+"Wiki page %(page)s\n"
+"\n"
+"---\n"
+"The Tuesmon Team\n"
+msgstr ""
+
+#: tuesmon/projects/notifications/templates/emails/wiki/wikipage-delete-subject.jinja:1
+#, python-format
+msgid ""
+"\n"
+"[%(project)s] Deleted the Wiki Page \"%(page)s\"\n"
+msgstr ""
+"\n"
+"[%(project)s] Page Wiki \"%(page)s\" supprimée\n"
+
+#: tuesmon/projects/notifications/validators.py:48
+msgid "Watchers contains invalid users"
+msgstr "La liste des observateurs contient des utilisateurs invalides"
+
+#: tuesmon/projects/occ/mixins.py:37
+msgid "The version must be an integer"
+msgstr "La version doit être un nombre entier"
+
+#: tuesmon/projects/occ/mixins.py:60
+msgid "The version parameter is not valid"
+msgstr "La version n'est pas valide"
+
+#: tuesmon/projects/occ/mixins.py:76
+msgid "The version doesn't match with the current one"
+msgstr "La version ne correspond pas à la version courante"
+
+#: tuesmon/projects/occ/mixins.py:95
+msgid "version"
+msgstr "version"
+
+#: tuesmon/projects/permissions.py:44
+msgid ""
+"You can't leave the project if you are the owner or there are no more admins"
+msgstr ""
+"Vous ne pouvez pas quitter le projet si vous en êtes le propriétaire ou "
+"qu'il n'y a pas d'autre administrateur."
+
+#: tuesmon/projects/services/members.py:133
+msgid "Project without owner"
+msgstr "Projet sans propriétaire"
+
+#: tuesmon/projects/services/members.py:138
+msgid "You have reached your current limit of memberships for private projects"
+msgstr "Vous avez atteint le nombre maximum d'adhésions à des projets privés"
+
+#: tuesmon/projects/services/members.py:142
+msgid "You have reached your current limit of memberships for public projects"
+msgstr "Vous avez atteint le nombre maximum d'adhésions à des projets publics"
+
+#: tuesmon/projects/services/members.py:148
+msgid "You have reached the current limit of pending memberships"
+msgstr ""
+
+#: tuesmon/projects/services/projects.py:101
+#: tuesmon/projects/services/projects.py:141 tuesmon/users/services.py:600
+msgid "You can't have more private projects"
+msgstr "Vous avez atteint le nombre maximum de projets privés"
+
+#: tuesmon/projects/services/projects.py:105
+#: tuesmon/projects/services/projects.py:145 tuesmon/users/services.py:603
+msgid ""
+"This project reaches your current limit of memberships for private projects"
+msgstr "Ce projet privé est le dernier que vous pouvez rejoindre"
+
+#: tuesmon/projects/services/projects.py:109
+#: tuesmon/projects/services/projects.py:149 tuesmon/users/services.py:607
+msgid "You can't have more public projects"
+msgstr "Vous avez atteint le nombre maximum de projets publics."
+
+#: tuesmon/projects/services/projects.py:113
+#: tuesmon/projects/services/projects.py:153 tuesmon/users/services.py:610
+msgid ""
+"This project reaches your current limit of memberships for public projects"
+msgstr "Ce projet public est le dernier que vous pouvez rejoindre"
+
+#: tuesmon/projects/services/stats.py:197
+msgid "Future sprint"
+msgstr "Sprint futurs"
+
+#: tuesmon/projects/services/stats.py:217
+msgid "Project End"
+msgstr "Fin du projet"
+
+#: tuesmon/projects/services/transfer.py:62
+#: tuesmon/projects/services/transfer.py:69
+#: tuesmon/projects/services/transfer.py:72 tuesmon/users/api.py:193
+#: tuesmon/users/api.py:198
+msgid "Token is invalid"
+msgstr "Jeton invalide"
+
+#: tuesmon/projects/services/transfer.py:67
+msgid "Token has expired"
+msgstr "Le jeton est périmé"
+
+#: tuesmon/projects/tagging/fields.py:52
+#, python-brace-format
+msgid "Invalid tag '{value}'. The color is not a valid HEX color or null."
+msgstr ""
+
+#: tuesmon/projects/tagging/fields.py:55
+#, python-brace-format
+msgid ""
+"Invalid tag '{value}'. it must be the name or a pair '[\"name\", \"hex color/"
+"\" | null]'."
+msgstr ""
+
+#: tuesmon/projects/tagging/fields.py:77
+#, python-brace-format
+msgid "Invalid tag '{value}'. It must be the tag name."
+msgstr "Mot-clé '{value}' invalide. Il doit être le nom du mot-clé."
+
+#: tuesmon/projects/tagging/models.py:27
+msgid "tags"
+msgstr "tags"
+
+#: tuesmon/projects/tagging/models.py:35
+msgid "tags colors"
+msgstr "couleurs des tags"
+
+#: tuesmon/projects/tagging/validators.py:47
+#: tuesmon/projects/tagging/validators.py:74
+msgid "This tag already exists."
+msgstr "Ce mot-clé existe."
+
+#: tuesmon/projects/tagging/validators.py:54
+#: tuesmon/projects/tagging/validators.py:81
+msgid "The color is not a valid HEX color."
+msgstr "La couleur n'est pas un code HEX valide."
+
+#: tuesmon/projects/tagging/validators.py:67
+#: tuesmon/projects/tagging/validators.py:101
+#: tuesmon/projects/tagging/validators.py:114
+#: tuesmon/projects/tagging/validators.py:121
+msgid "The tag doesn't exist."
+msgstr "Ce mot-clé n'existe pas."
+
+#: tuesmon/projects/tasks/api.py:108 tuesmon/projects/tasks/api.py:117
+msgid "You don't have permissions to set this sprint to this task."
+msgstr "Vous n'avez pas la permission d'affecter ce sprint à cette tâche."
+
+#: tuesmon/projects/tasks/api.py:111
+msgid "You don't have permissions to set this user story to this task."
+msgstr "Vous n'avez pas la permission d'affecter ce récit à cette tâche."
+
+#: tuesmon/projects/tasks/api.py:114
+msgid "You don't have permissions to set this status to this task."
+msgstr "Vous n'avez pas la permission d'affecter ce statut à ce problème."
+
+#: tuesmon/projects/tasks/models.py:59
+msgid "us order"
+msgstr "ordre des us"
+
+#: tuesmon/projects/tasks/models.py:61
+msgid "taskboard order"
+msgstr "order du tableau de tâches"
+
+#: tuesmon/projects/tasks/models.py:69
+msgid "is iocaine"
+msgstr "est de l'iocaine"
+
+#: tuesmon/projects/tasks/validators.py:61
+msgid "Invalid milestone id."
+msgstr "Identifiant de jalon invalide."
+
+#: tuesmon/projects/tasks/validators.py:72
+msgid "Invalid task status id."
+msgstr "Identifiant de statut de tâche invalide."
+
+#: tuesmon/projects/tasks/validators.py:85
+msgid "Invalid user story id."
+msgstr "Identifiant de Récit utilisateur invalide."
+
+#: tuesmon/projects/tasks/validators.py:109
+msgid "Invalid task status id. The status must belong to the same project."
+msgstr ""
+"Identifiant de statut de tâche invalide. Le statut doit appartenir au même "
+"projet. "
+
+#: tuesmon/projects/tasks/validators.py:123
+msgid "Invalid user story id. The user story must belong to the same project."
+msgstr ""
+"Identifiant de Récit utilisateur invalide. Le Récit utilisateur doit "
+"appartenir au même projet."
+
+#: tuesmon/projects/tasks/validators.py:135
+msgid "Invalid milestone id. The milestone must belong to the same project."
+msgstr ""
+"Identifiant de jalon invalide. le jalon doit appartenir au même projet."
+
+#: tuesmon/projects/tasks/validators.py:152
+msgid ""
+"Invalid task ids. All tasks must belong to the same project and, if it "
+"exists, to the same status, user story and/or milestone."
+msgstr ""
+"Identifiants de tâche invalides. Toutes les tâches doivent appartenir au "
+"même projet, et le cas échéant au même récit et/ou jalon."
+
+#: tuesmon/projects/templates/emails/membership_invitation-body-html.jinja:6
+#: tuesmon/projects/templates/emails/membership_invitation-body-text.jinja:4
+msgid "someone"
+msgstr "quelqu'un"
+
+#: tuesmon/projects/templates/emails/membership_invitation-body-html.jinja:11
+#, python-format
+msgid ""
+"\n"
+"    <h2>You have been invited to Tuesmon!</h2>\n"
+"<p>Hi! %(full_name)s has sent you an invitation to join project <em>"
+"%(project)s</em> in Tuesmon.</br> Tuesmon is a Free, open Source Agile Project "
+"Management Tool.</p>\n"
+"    "
+msgstr ""
+"\n"
+"<h2>Vous avez été invité à Tuesmon !</h2>\n"
+"<p>Hey ! %(full_name)s vous a invité à rejoindre le projet <em>%(project)s</"
+"em>.</br> Tuesmon est un outil de gestion de projet Agile libre et open source."
+"</p>"
+
+#: tuesmon/projects/templates/emails/membership_invitation-body-html.jinja:17
+#, python-format
+msgid ""
+"\n"
+"    <p><small>And now a few words from the jolly good fellow or sistren<br/> "
+"who thought so kindly as to invite you</small></p>\n"
+"    <p><strong>%(extra)s</strong></p>\n"
+"        "
+msgstr ""
+"\n"
+"    <p><small>Un petit mot de la part de celui ou celle qui vous a invité</"
+"small></p>\n"
+"    <p><strong>%(extra)s</strong></p>\n"
+"        "
+
+#: tuesmon/projects/templates/emails/membership_invitation-body-html.jinja:24
+msgid "Accept your invitation to Tuesmon"
+msgstr "Acceptez votre invitation à Tuesmon"
+
+#: tuesmon/projects/templates/emails/membership_invitation-body-html.jinja:24
+msgid "Accept your invitation"
+msgstr "Accepter votre invitation"
+
+#: tuesmon/projects/templates/emails/membership_invitation-body-html.jinja:25
+msgid "The Tuesmon Team"
+msgstr "L'équipe Tuesmon"
+
+#: tuesmon/projects/templates/emails/membership_invitation-body-text.jinja:6
+#, python-format
+msgid ""
+"\n"
+"You, or someone you know, has invited you to Tuesmon\n"
+"\n"
+"Hi! %(full_name)s has sent you an invitation to join a project called "
+"%(project)s  which is being managed on Tuesmon, a Free, open Source Agile "
+"Project Management Tool.\n"
+msgstr ""
+"\n"
+"Vous, ou quelqu'un vous connaissant, vous a invité Tuesmon\n"
+"\n"
+"Bonjour ! %(full_name)s vous a invité à rejoindre un projet appelé "
+"%(project)s  qui est géré sur Tuesmon, un outil de gestion de projet Agile, "
+"libre et open source.\n"
+
+#: tuesmon/projects/templates/emails/membership_invitation-body-text.jinja:12
+#, python-format
+msgid ""
+"\n"
+"And now a few words from the jolly good fellow or sistren who thought so "
+"kindly as to invite you:\n"
+"\n"
+"%(extra)s\n"
+"    "
+msgstr ""
+"\n"
+"Un petit mot de la part de celui ou celle qui vous a invité :\n"
+"\n"
+"%(extra)s\n"
+"    "
+
+#: tuesmon/projects/templates/emails/membership_invitation-body-text.jinja:18
+msgid "Accept your invitation to Tuesmon following this link:"
+msgstr "Acceptez votre invitation à Tuesmon en cliquant sur ce lien: "
+
+#: tuesmon/projects/templates/emails/membership_invitation-body-text.jinja:20
+msgid ""
+"\n"
+"---\n"
+"The Tuesmon Team\n"
+msgstr ""
+"\n"
+"---\n"
+"L'équipe Tuesmon\n"
+
+#: tuesmon/projects/templates/emails/membership_invitation-subject.jinja:1
+#, python-format
+msgid ""
+"\n"
+"[Tuesmon] Invitation to join to the project '%(project)s'\n"
+msgstr ""
+"\n"
+"[Tuesmon] Invitation à rejoindre le projet '%(project)s'\n"
+
+#: tuesmon/projects/templates/emails/membership_notification-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"    <h1>You have been added to a project</h1>\n"
+"    <p>Hello %(full_name)s,<br />you have been added to the project "
+"%(project)s</p>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"Go to%(project)s\">Go to "
+"project</a>\n"
+"    <p><small>The Tuesmon Team</small></p>\n"
+"    "
+msgstr ""
+"\n"
+"    <h1>Vous avez été ajouté-e à un projet</h1>\n"
+"    <p>Bonjour %(full_name)s,<br />vous avez été ajouté-e au projet "
+"%(project)s</p>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"Aller à%(project)s\">Aller "
+"au projet</a>\n"
+"    <p><small>L'équipe de Tuesmon</small></p>\n"
+"    "
+
+#: tuesmon/projects/templates/emails/membership_notification-body-text.jinja:1
+#, python-format
+msgid ""
+"\n"
+"You have been added to a project\n"
+"Hello %(full_name)s,you have been added to the project %(project)s\n"
+"\n"
+"See project at %(url)s\n"
+msgstr ""
+"\n"
+"Vous avez été ajouté au projet\n"
+"Bonjour %(full_name)s, vous avez été ajouté au projet %(project)s\n"
+"\n"
+"Vous pouvez consulter le projet ici %(url)s\n"
+
+#: tuesmon/projects/templates/emails/membership_notification-subject.jinja:1
+#, python-format
+msgid ""
+"\n"
+"[Tuesmon] Added to the project '%(project)s'\n"
+msgstr ""
+"\n"
+"[Tuesmon] Ajouté au projet '%(project)s'\n"
+
+#: tuesmon/projects/templates/emails/transfer_accept-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"        <p>Hi %(old_owner_name)s,</p>\n"
+"        <p>%(new_owner_name)s has accepted your offer and will become the "
+"new project owner for \"%(project_name)s\".</p>\n"
+"    "
+msgstr ""
+"\n"
+"        <p>Bonjour %(old_owner_name)s,</p>\n"
+"        <p>%(new_owner_name)s a accepté votre offre et devient le nouveau "
+"propriétaire du projet \"%(project_name)s\".</p>\n"
+"    "
+
+#: tuesmon/projects/templates/emails/transfer_accept-body-html.jinja:10
+#, python-format
+msgid "<p>%(new_owner_name)s says:</p>"
+msgstr "<p>%(new_owner_name)s a dit :</p>"
+
+#: tuesmon/projects/templates/emails/transfer_accept-body-html.jinja:14
+msgid ""
+"\n"
+"        <p>From now on, your new status for this project will be \"admin\".</"
+"p>\n"
+"    "
+msgstr ""
+"\n"
+"<p>À partir de maintenant, votre nouveau status pour ce projet sera celui "
+"d'Administrateur.</p>\n"
+"    "
+
+#: tuesmon/projects/templates/emails/transfer_accept-body-text.jinja:1
+#, python-format
+msgid ""
+"\n"
+"Hi %(old_owner_name)s,\n"
+"%(new_owner_name)s has accepted your offer and will become the new project "
+"owner for \"%(project_name)s\".\n"
+msgstr ""
+"\n"
+"Bonjour %(old_owner_name)s,\n"
+"%(new_owner_name)s a accepté votre offre et devient le nouveau propriétaire "
+"du projet \"%(project_name)s\".\n"
+
+#: tuesmon/projects/templates/emails/transfer_accept-body-text.jinja:7
+#, python-format
+msgid "%(new_owner_name)s says:"
+msgstr "%(new_owner_name)s dit :"
+
+#: tuesmon/projects/templates/emails/transfer_accept-body-text.jinja:11
+msgid ""
+"\n"
+"From now on, your new status for this project will be \"admin\".\n"
+msgstr ""
+"\n"
+"À partir de maintenant, votre nouveau status pour ce projet sera celui "
+"d'Administrateur.\n"
+
+#: tuesmon/projects/templates/emails/transfer_accept-body-text.jinja:16
+#: tuesmon/projects/templates/emails/transfer_reject-body-text.jinja:19
+#: tuesmon/projects/templates/emails/transfer_request-body-text.jinja:13
+#: tuesmon/projects/templates/emails/transfer_start-body-text.jinja:18
+msgid ""
+"\n"
+"The Tuesmon Team\n"
+msgstr ""
+"\n"
+"L'Équipe Tuesmon\n"
+
+#: tuesmon/projects/templates/emails/transfer_accept-subject.jinja:1
+#, python-format
+msgid ""
+"\n"
+"[%(project)s] Project ownership transfer offer accepted!\n"
+msgstr ""
+"\n"
+"[%(project)s] Offre de transfert de propriété du projet acceptée !\n"
+
+#: tuesmon/projects/templates/emails/transfer_reject-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"        <p>Hi %(owner_name)s,</p>\n"
+"        <p>%(rejecter_name)s has declined your offer and will not become the "
+"new project owner for \"%(project_name)s\".</p>\n"
+"    "
+msgstr ""
+"\n"
+"        <p>Bonjour %(owner_name)s,</p>\n"
+"        <p>%(rejecter_name)s a décliné votre offre et ne deviendra pas le "
+"nouveau propriétaire du projet \"%(project_name)s\".</p>\n"
+"    "
+
+#: tuesmon/projects/templates/emails/transfer_reject-body-html.jinja:10
+#, python-format
+msgid ""
+"\n"
+"    <p>%(rejecter_name)s says:</p>\n"
+"    "
+msgstr ""
+"\n"
+"    <p>%(rejecter_name)s a dit :</p>"
+
+#: tuesmon/projects/templates/emails/transfer_reject-body-html.jinja:16
+msgid ""
+"\n"
+"    <p>If you want, you can still try to transfer the project ownership to a "
+"different person.</p>\n"
+"    "
+msgstr ""
+"\n"
+"    <p>Vous pouvez toujours, si vous le désirez, essayer de transférer la "
+"propriété du projet à quelqu'un d'autre.</p>\n"
+"    "
+
+#: tuesmon/projects/templates/emails/transfer_reject-body-html.jinja:21
+#: tuesmon/projects/templates/emails/transfer_reject-body-html.jinja:22
+msgid "Request transfer to a different person"
+msgstr ""
+
+#: tuesmon/projects/templates/emails/transfer_reject-body-text.jinja:1
+#, python-format
+msgid ""
+"\n"
+"Hi %(owner_name)s,\n"
+"%(rejecter_name)s has declined your offer and will not become the new "
+"project owner for \"%(project_name)s\".\n"
+msgstr ""
+"\n"
+"Bonjour %(owner_name)s,\n"
+"%(rejecter_name)s a décliné votre offre et ne deviendra pas le nouveau "
+"propriétaire du projet \"%(project_name)s\".\n"
+
+#: tuesmon/projects/templates/emails/transfer_reject-body-text.jinja:7
+#, python-format
+msgid "%(rejecter_name)s says:"
+msgstr "%(rejecter_name)s dit :"
+
+#: tuesmon/projects/templates/emails/transfer_reject-body-text.jinja:11
+msgid ""
+"\n"
+"If you want, you can still try to transfer the project ownership to a "
+"different person.\n"
+msgstr ""
+
+#: tuesmon/projects/templates/emails/transfer_reject-body-text.jinja:15
+msgid "Request transfer to a different person:"
+msgstr ""
+
+#: tuesmon/projects/templates/emails/transfer_reject-subject.jinja:1
+#, python-format
+msgid ""
+"\n"
+"[%(project)s] Project ownership transfer declined\n"
+msgstr ""
+"\n"
+"[%(project)s] Offre de transfert de propriété du projet déclinée\n"
+
+#: tuesmon/projects/templates/emails/transfer_request-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"        <p>Hi %(owner_name)s,</p>\n"
+"        <p>%(requester_name)s has requested to become the project owner for "
+"\"%(project_name)s\".</p>\n"
+"    "
+msgstr ""
+"\n"
+"        <p>Bonjour %(owner_name)s,</p>\n"
+"        <p>%(requester_name)s demande à devenir le propriétaire du projet "
+"\"%(project_name)s\".</p>\n"
+"    "
+
+#: tuesmon/projects/templates/emails/transfer_request-body-html.jinja:9
+msgid ""
+"\n"
+"        <p>Please, click on \"Continue\" if you would like to start the "
+"project transfer from the administration panel.</p>\n"
+"    "
+msgstr ""
+
+#: tuesmon/projects/templates/emails/transfer_request-body-html.jinja:14
+#: tuesmon/projects/templates/emails/transfer_start-body-html.jinja:22
+msgid "Continue"
+msgstr "Continuer"
+
+#: tuesmon/projects/templates/emails/transfer_request-body-text.jinja:1
+#, python-format
+msgid ""
+"\n"
+"Hi %(owner_name)s,\n"
+"%(requester_name)s has requested to become the project owner for "
+"\"%(project_name)s\".\n"
+msgstr ""
+
+#: tuesmon/projects/templates/emails/transfer_request-body-text.jinja:6
+msgid ""
+"\n"
+"Please, go to your project settings if you would like to start the project "
+"transfer from the administration panel.\n"
+msgstr ""
+
+#: tuesmon/projects/templates/emails/transfer_request-body-text.jinja:10
+msgid "Go to your project settings:"
+msgstr ""
+
+#: tuesmon/projects/templates/emails/transfer_request-subject.jinja:1
+#, python-format
+msgid ""
+"\n"
+"[%(project)s] Project ownership transfer request\n"
+msgstr ""
+
+#: tuesmon/projects/templates/emails/transfer_start-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"        <p>Hi %(receiver_name)s,</p>\n"
+"        <p>%(owner_name)s, the current project owner at \"%(project_name)s\" "
+"would like you to become the new project owner.</p>\n"
+"    "
+msgstr ""
+
+#: tuesmon/projects/templates/emails/transfer_start-body-html.jinja:10
+#, python-format
+msgid ""
+"\n"
+"        <p>%(owner_name)s says:</p>\n"
+"        "
+msgstr ""
+"\n"
+"        <p>%(owner_name)s a dit:</p>"
+
+#: tuesmon/projects/templates/emails/transfer_start-body-html.jinja:17
+msgid ""
+"\n"
+"        <p>Please, click on \"Continue\" to either accept or reject this "
+"proposal.</p>\n"
+"    "
+msgstr ""
+
+#: tuesmon/projects/templates/emails/transfer_start-body-text.jinja:1
+#, python-format
+msgid ""
+"\n"
+"Hi %(receiver_name)s,\n"
+"%(owner_name)s, the current project owner at \"%(project_name)s\" would like "
+"you to become the new project owner.\n"
+msgstr ""
+
+#: tuesmon/projects/templates/emails/transfer_start-body-text.jinja:6
+#, python-format
+msgid "%(owner_name)s says:"
+msgstr "%(owner_name)s dit :"
+
+#: tuesmon/projects/templates/emails/transfer_start-body-text.jinja:11
+msgid ""
+"\n"
+"Please, go to the following link to either accept or reject this proposal.</"
+"p>\n"
+msgstr ""
+
+#: tuesmon/projects/templates/emails/transfer_start-body-text.jinja:15
+msgid "Accept or reject the project ownership transfer:"
+msgstr "Acceptez ou refusez le transfert de propriété du projet :"
+
+#: tuesmon/projects/templates/emails/transfer_start-subject.jinja:1
+#, python-format
+msgid ""
+"\n"
+"[%(project)s] Project ownership transfer offer\n"
+msgstr ""
+
+#. Translators: Name of scrum project template.
+#: tuesmon/projects/translations.py:30
+msgid "Scrum"
+msgstr "Scrum"
+
+#. Translators: Description of scrum project template.
+#: tuesmon/projects/translations.py:32
+msgid ""
+"The agile product backlog in Scrum is a prioritized features list, "
+"containing short descriptions of all functionality desired in the product. "
+"When applying Scrum, it's not necessary to start a project with a lengthy, "
+"upfront effort to document all requirements. The Scrum product backlog is "
+"then allowed to grow and change as more is learned about the product and its "
+"customers"
+msgstr ""
+"Dans la méthodologie Scrum, le backlog produit est une liste de "
+"fonctionnalités priorisées, contenant de brèves descriptions de toutes les "
+"fonctionnalités voulues pour le produit.\n"
+"L'application de Scrum ne nécessite pas de démarrer un projet par un effort "
+"long et exhaustif de documentation des exigences. Le backlog produit peut "
+"s'allonger ou même changer au fur et à mesure que l'équipe projet apprend "
+"sur le produit et sur ses utilisateurs."
+
+#. Translators: Name of kanban project template.
+#: tuesmon/projects/translations.py:35
+msgid "Kanban"
+msgstr "Kanban"
+
+#. Translators: Description of kanban project template.
+#: tuesmon/projects/translations.py:37
+msgid ""
+"Kanban is a method for managing knowledge work with an emphasis on just-in-"
+"time delivery while not overloading the team members. In this approach, the "
+"process, from definition of a task to its delivery to the customer, is "
+"displayed for participants to see and team members pull work from a queue."
+msgstr ""
+"Kanban est une méthode de gestion du travail qui met l'accent sur la "
+"réalisation \"juste à temps\", tout en ne surchargeant pas les membres de "
+"l'équipe. Dans cette approche, le processus, depuis la définition d'une "
+"tâche jusqu'à sa livraison au client, est mis à disposition des participants "
+"qui peuvent le consulter et y puiser leur travail."
+
+#. Translators: User story point value (value = undefined)
+#: tuesmon/projects/translations.py:45
+msgid "?"
+msgstr "?"
+
+#. Translators: User story point value (value = 0)
+#: tuesmon/projects/translations.py:47
+msgid "0"
+msgstr "0"
+
+#. Translators: User story point value (value = 0.5)
+#: tuesmon/projects/translations.py:49
+msgid "1/2"
+msgstr "1/2"
+
+#. Translators: User story point value (value = 1)
+#: tuesmon/projects/translations.py:51
+msgid "1"
+msgstr "1"
+
+#. Translators: User story point value (value = 2)
+#: tuesmon/projects/translations.py:53
+msgid "2"
+msgstr "2"
+
+#. Translators: User story point value (value = 3)
+#: tuesmon/projects/translations.py:55
+msgid "3"
+msgstr "3"
+
+#. Translators: User story point value (value = 5)
+#: tuesmon/projects/translations.py:57
+msgid "5"
+msgstr "5"
+
+#. Translators: User story point value (value = 8)
+#: tuesmon/projects/translations.py:59
+msgid "8"
+msgstr "8"
+
+#. Translators: User story point value (value = 10)
+#: tuesmon/projects/translations.py:61
+msgid "10"
+msgstr "10"
+
+#. Translators: User story point value (value = 13)
+#: tuesmon/projects/translations.py:63
+msgid "13"
+msgstr "13"
+
+#. Translators: User story point value (value = 20)
+#: tuesmon/projects/translations.py:65
+msgid "20"
+msgstr "20"
+
+#. Translators: User story point value (value = 40)
+#: tuesmon/projects/translations.py:67
+msgid "40"
+msgstr "40"
+
+#. Translators: User story status
+#. Translators: Task status
+#. Translators: Issue status
+#: tuesmon/projects/translations.py:75 tuesmon/projects/translations.py:98
+#: tuesmon/projects/translations.py:114
+msgid "New"
+msgstr "Nouveau"
+
+#. Translators: User story status
+#: tuesmon/projects/translations.py:78
+msgid "Ready"
+msgstr "Prêt"
+
+#. Translators: User story status
+#. Translators: Task status
+#. Translators: Issue status
+#: tuesmon/projects/translations.py:81 tuesmon/projects/translations.py:100
+#: tuesmon/projects/translations.py:116
+msgid "In progress"
+msgstr "En cours"
+
+#. Translators: User story status
+#. Translators: Task status
+#. Translators: Issue status
+#: tuesmon/projects/translations.py:84 tuesmon/projects/translations.py:102
+#: tuesmon/projects/translations.py:118
+msgid "Ready for test"
+msgstr "Prêt à tester"
+
+#. Translators: User story status
+#: tuesmon/projects/translations.py:87
+msgid "Done"
+msgstr "Fait"
+
+#. Translators: User story status
+#: tuesmon/projects/translations.py:90
+msgid "Archived"
+msgstr "Archivé"
+
+#. Translators: Task status
+#. Translators: Issue status
+#: tuesmon/projects/translations.py:104 tuesmon/projects/translations.py:120
+msgid "Closed"
+msgstr "Fermé"
+
+#. Translators: Task status
+#. Translators: Issue status
+#: tuesmon/projects/translations.py:106 tuesmon/projects/translations.py:122
+msgid "Needs Info"
+msgstr "Infos manquantes"
+
+#. Translators: Issue status
+#: tuesmon/projects/translations.py:124
+msgid "Postponed"
+msgstr "Repoussé"
+
+#. Translators: Issue status
+#: tuesmon/projects/translations.py:126
+msgid "Rejected"
+msgstr "Rejeté"
+
+#. Translators: Issue type
+#: tuesmon/projects/translations.py:134
+msgid "Bug"
+msgstr "Bug"
+
+#. Translators: Issue type
+#: tuesmon/projects/translations.py:136
+msgid "Question"
+msgstr "Question"
+
+#. Translators: Issue type
+#: tuesmon/projects/translations.py:138
+msgid "Enhancement"
+msgstr "Amélioration"
+
+#. Translators: Issue priority
+#: tuesmon/projects/translations.py:146
+msgid "Low"
+msgstr "Faible"
+
+#. Translators: Issue priority
+#. Translators: Issue severity
+#: tuesmon/projects/translations.py:148 tuesmon/projects/translations.py:161
+msgid "Normal"
+msgstr "Normal"
+
+#. Translators: Issue priority
+#: tuesmon/projects/translations.py:150
+msgid "High"
+msgstr "Fort"
+
+#. Translators: Issue severity
+#: tuesmon/projects/translations.py:157
+msgid "Wishlist"
+msgstr "Souhaits"
+
+#. Translators: Issue severity
+#: tuesmon/projects/translations.py:159
+msgid "Minor"
+msgstr "Mineur"
+
+#. Translators: Issue severity
+#: tuesmon/projects/translations.py:163
+msgid "Important"
+msgstr "Important"
+
+#. Translators: Issue severity
+#: tuesmon/projects/translations.py:165
+msgid "Critical"
+msgstr "Critique"
+
+#. Translators: User role
+#: tuesmon/projects/translations.py:172
+msgid "UX"
+msgstr "Expérience utilisateur"
+
+#. Translators: User role
+#: tuesmon/projects/translations.py:174
+msgid "Design"
+msgstr "Design"
+
+#. Translators: User role
+#: tuesmon/projects/translations.py:176
+msgid "Front"
+msgstr "Front"
+
+#. Translators: User role
+#: tuesmon/projects/translations.py:178
+msgid "Back"
+msgstr "Back"
+
+#. Translators: User role
+#: tuesmon/projects/translations.py:180
+msgid "Product Owner"
+msgstr "Product Owner"
+
+#. Translators: User role
+#: tuesmon/projects/translations.py:182
+msgid "Stakeholder"
+msgstr "Participant"
+
+#: tuesmon/projects/userstories/api.py:137
+msgid "You don't have permissions to set this sprint to this user story."
+msgstr ""
+"Vous n'avez pas la permission d'affecter ce sprint à ce récit utilisateur."
+
+#: tuesmon/projects/userstories/api.py:141
+msgid "You don't have permissions to set this status to this user story."
+msgstr ""
+"Vous n'avez pas la permission d'affecter ce statut à ce récit utilisateur."
+
+#: tuesmon/projects/userstories/api.py:235
+#, python-brace-format
+msgid "Invalid role id '{role_id}'"
+msgstr ""
+
+#: tuesmon/projects/userstories/api.py:242
+#, python-brace-format
+msgid "Invalid points id '{points_id}'"
+msgstr ""
+
+#: tuesmon/projects/userstories/api.py:257
+#, python-brace-format
+msgid "Generating the user story #{ref} - {subject}"
+msgstr ""
+
+#: tuesmon/projects/userstories/models.py:42
+msgid "role"
+msgstr "rôle"
+
+#: tuesmon/projects/userstories/models.py:81
+msgid "backlog order"
+msgstr "order du backlog"
+
+#: tuesmon/projects/userstories/models.py:83
+msgid "sprint order"
+msgstr "ordre du sprint"
+
+#: tuesmon/projects/userstories/models.py:85
+msgid "kanban order"
+msgstr "Classement du Kanban"
+
+#: tuesmon/projects/userstories/models.py:93
+msgid "finish date"
+msgstr "date de fin"
+
+#: tuesmon/projects/userstories/models.py:102
+msgid "assigned users"
+msgstr ""
+
+#: tuesmon/projects/userstories/models.py:111
+msgid "generated from issue"
+msgstr "généré depuis un problème"
+
+#: tuesmon/projects/userstories/validators.py:43
+msgid "There's no user story with that id"
+msgstr "Il n'y a pas de récit utilisateur avec cet id"
+
+#: tuesmon/projects/userstories/validators.py:83
+#: tuesmon/projects/userstories/validators.py:109
+msgid ""
+"Invalid user story status id. The status must belong to the same project."
+msgstr ""
+
+#: tuesmon/projects/userstories/validators.py:121
+msgid "Invalid milestone id. The milistone must belong to the same project."
+msgstr ""
+"Identifiant de jalon invalide. Le jalon doit appartenir au même projet."
+
+#: tuesmon/projects/userstories/validators.py:134
+msgid ""
+"Invalid user story ids. All stories must belong to the same project and, if "
+"it exists, to the same status and milestone."
+msgstr ""
+"Identifiants de récit utilisateur invalides. Tous les récits doivent "
+"appartenir au même projet et le cas échéant au même statut / jalon. "
+
+#: tuesmon/projects/userstories/validators.py:158
+msgid "The milestone isn't valid for the project"
+msgstr "Le jalon n'est pas valide pour le projet"
+
+#: tuesmon/projects/userstories/validators.py:168
+msgid "All the user stories must be from the same project"
+msgstr "Tous les récits utilisateurs doivent provenir du même projet"
+
+#: tuesmon/projects/validators.py:63
+msgid "There's no project with that id"
+msgstr "Aucun projet avec cet identifiant"
+
+#: tuesmon/projects/validators.py:164
+msgid "The user yet exists in the project"
+msgstr "L'utilisateur existe encore dans le projet"
+
+#: tuesmon/projects/validators.py:174
+msgid "Invalid role for the project"
+msgstr "Rôle non valide pour le projet"
+
+#: tuesmon/projects/validators.py:189 tuesmon/projects/validators.py:244
+msgid "The user must be a valid contact"
+msgstr "L'utilisateur doit être un contact valide"
+
+#: tuesmon/projects/validators.py:210
+msgid "The project owner must be admin."
+msgstr "Le propriétaire du projet doit être un administrateur."
+
+#: tuesmon/projects/validators.py:214
+msgid "At least one user must be an active admin for this project."
+msgstr ""
+"Au moins un utilisateur doit être un administrateur actif de ce projet."
+
+#: tuesmon/projects/validators.py:259
+msgid "Invalid role ids. All roles must belong to the same project."
+msgstr "Rôle invalide ids. Tout les rôles doivent appartenir au mêmes projet. "
+
+#: tuesmon/projects/validators.py:283
+msgid "Default options"
+msgstr "Options par défaut"
+
+#: tuesmon/projects/validators.py:284
+msgid "User story's statuses"
+msgstr "États du récit utilisateur"
+
+#: tuesmon/projects/validators.py:285
+msgid "Points"
+msgstr "Points"
+
+#: tuesmon/projects/validators.py:286
+msgid "Task's statuses"
+msgstr "Etats des tâches"
+
+#: tuesmon/projects/validators.py:287
+msgid "Issue's statuses"
+msgstr "Statuts des problèmes"
+
+#: tuesmon/projects/validators.py:288
+msgid "Issue's types"
+msgstr "Types de problèmes"
+
+#: tuesmon/projects/validators.py:289
+msgid "Priorities"
+msgstr "Priorités"
+
+#: tuesmon/projects/validators.py:290
+msgid "Severities"
+msgstr "Sévérités"
+
+#: tuesmon/projects/validators.py:291
+msgid "Roles"
+msgstr "Rôles"
+
+#: tuesmon/projects/votes/models.py:33 tuesmon/projects/votes/models.py:34
+#: tuesmon/projects/votes/models.py:58
+msgid "Votes"
+msgstr "Votes"
+
+#: tuesmon/projects/votes/models.py:57
+msgid "Vote"
+msgstr "vote"
+
+#: tuesmon/projects/wiki/api.py:77
+msgid "'content' parameter is mandatory"
+msgstr "'content' paramètre obligatoire"
+
+#: tuesmon/projects/wiki/api.py:80
+msgid "'project_id' parameter is mandatory"
+msgstr "'project_id' paramètre obligatoire"
+
+#: tuesmon/projects/wiki/models.py:42
+msgid "last modifier"
+msgstr "dernier modificateur"
+
+#: tuesmon/projects/wiki/models.py:75
+msgid "href"
+msgstr "href"
+
+#: tuesmon/timeline/signals.py:65
+msgid "Check the history API for the exact diff"
+msgstr "Contrôlez l'historique de l'API pour les voir les différences exactes"
+
+#: tuesmon/users/admin.py:39
+msgid "Project Member"
+msgstr "Membre du projet"
+
+#: tuesmon/users/admin.py:40
+msgid "Project Members"
+msgstr "Membres du projet"
+
+#: tuesmon/users/admin.py:50
+msgid "id"
+msgstr "id"
+
+#: tuesmon/users/admin.py:81
+msgid "Project Ownership"
+msgstr "Propriété du projet"
+
+#: tuesmon/users/admin.py:82
+msgid "Project Ownerships"
+msgstr "Propriétés du projet"
+
+#: tuesmon/users/admin.py:119
+msgid "Personal info"
+msgstr "Informations personnelles"
+
+#: tuesmon/users/admin.py:122
+msgid "Permissions"
+msgstr "Permissions"
+
+#: tuesmon/users/admin.py:123
+msgid "Restrictions"
+msgstr "Restrictions"
+
+#: tuesmon/users/admin.py:125
+msgid "Important dates"
+msgstr "Dates importantes"
+
+#: tuesmon/users/api.py:132
+msgid "Duplicated email"
+msgstr "Email dupliquée"
+
+#: tuesmon/users/api.py:134
+msgid "Not valid email"
+msgstr "Email non valide"
+
+#: tuesmon/users/api.py:172
+msgid "Invalid username or email"
+msgstr "Nom d'utilisateur ou email non valide"
+
+#: tuesmon/users/api.py:181
+msgid "Mail sended successful!"
+msgstr "Mail envoyé avec succès!"
+
+#: tuesmon/users/api.py:219
+msgid "Current password parameter needed"
+msgstr "Paramètre 'mot de passe actuel' requis"
+
+#: tuesmon/users/api.py:222
+msgid "New password parameter needed"
+msgstr "Paramètre 'nouveau mot de passe' requis"
+
+#: tuesmon/users/api.py:225
+msgid "Invalid password length at least 6 charaters needed"
+msgstr "Le mot de passe doit être d'au moins 6 caractères"
+
+#: tuesmon/users/api.py:228
+msgid "Invalid current password"
+msgstr "Mot de passe actuel incorrect"
+
+#: tuesmon/users/api.py:275 tuesmon/users/api.py:281
+msgid ""
+"Invalid, are you sure the token is correct and you didn't use it before?"
+msgstr ""
+"Invalide, êtes-vous sûre que le jeton est correct et qu'il n'a pas déjà été "
+"utilisé ?"
+
+#: tuesmon/users/api.py:317 tuesmon/users/api.py:325 tuesmon/users/api.py:328
+msgid "Invalid, are you sure the token is correct?"
+msgstr "Invalide, êtes-vous sûre que le jeton est correct ?"
+
+#: tuesmon/users/models.py:99
+msgid "superuser status"
+msgstr "statut superutilisateur"
+
+#: tuesmon/users/models.py:100
+msgid ""
+"Designates that this user has all permissions without explicitly assigning "
+"them."
+msgstr ""
+"Indique que l'utilisateur a toutes les permissions sans avoir à lui les "
+"donner explicitement"
+
+#: tuesmon/users/models.py:136
+msgid "username"
+msgstr "nom d'utilisateur"
+
+#: tuesmon/users/models.py:137
+msgid ""
+"Required. 30 characters or fewer. Letters, numbers and /./-/_ characters"
+msgstr ""
+"Obligatoire. 30 caractères maximum. Lettres, nombres et les caractères /./-/_"
+
+#: tuesmon/users/models.py:140
+msgid "Enter a valid username."
+msgstr "Entrez un nom d'utilisateur valide"
+
+#: tuesmon/users/models.py:143
+msgid "active"
+msgstr "actif"
+
+#: tuesmon/users/models.py:144
+msgid ""
+"Designates whether this user should be treated as active. Unselect this "
+"instead of deleting accounts."
+msgstr ""
+"Indique qu'un utilisateur est considéré ou non comme actif. Désélectionnez "
+"cette option au lieu de supprimer le compte utilisateur."
+
+#: tuesmon/users/models.py:150
+msgid "biography"
+msgstr "biographie"
+
+#: tuesmon/users/models.py:153
+msgid "photo"
+msgstr "photo"
+
+#: tuesmon/users/models.py:154
+msgid "date joined"
+msgstr "date d'inscription"
+
+#: tuesmon/users/models.py:155
+msgid "accepted terms"
+msgstr ""
+
+#: tuesmon/users/models.py:156
+msgid "new terms read"
+msgstr ""
+
+#: tuesmon/users/models.py:158
+msgid "default language"
+msgstr "langage par défaut"
+
+#: tuesmon/users/models.py:160
+msgid "default theme"
+msgstr "thème par défaut"
+
+#: tuesmon/users/models.py:162
+msgid "default timezone"
+msgstr "Fuseau horaire par défaut"
+
+#: tuesmon/users/models.py:164
+msgid "colorize tags"
+msgstr "changer la couleur des tags"
+
+#: tuesmon/users/models.py:169
+msgid "email token"
+msgstr "jeton email"
+
+#: tuesmon/users/models.py:171
+msgid "new email address"
+msgstr "nouvelle adresse email"
+
+#: tuesmon/users/models.py:178
+msgid "max number of owned private projects"
+msgstr "Nombre maximal de projets privés"
+
+#: tuesmon/users/models.py:181
+msgid "max number of owned public projects"
+msgstr "Nombre maximal de projets publics"
+
+#: tuesmon/users/models.py:184
+msgid "max number of memberships for each owned private project"
+msgstr "Nombre maximum d'adhésions pour chaque projet privé"
+
+#: tuesmon/users/models.py:188
+msgid "max number of memberships for each owned public project"
+msgstr "Nombre maximum d'adhésions pour chaque projet public détenu"
+
+#: tuesmon/users/models.py:316
+msgid "permissions"
+msgstr "permissions"
+
+#: tuesmon/users/services.py:58 tuesmon/users/services.py:75
+msgid "Username or password does not matches user."
+msgstr "Aucun utilisateur avec ce nom ou ce mot de passe."
+
+#: tuesmon/users/templates/emails/change_email-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"    <h1>Change your email</h1>\n"
+"    <p>Hello %(full_name)s,<br />please confirm your email</p>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"Confirm email\">Confirm "
+"email</a>\n"
+"    <p>You can ignore this message if you did not request.</p>\n"
+"    <p><small>The Tuesmon Team</small></p>\n"
+"    "
+msgstr ""
+"\n"
+"    <h1>Modification de votre email</h1>\n"
+"    <p>Bonjour %(full_name)s,<br />veuillez s'il vous plait confirmer votre "
+"email</p>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"Confirmation de l'email"
+"\">Confirmation de l'email</a>\n"
+"    <p>Vous pouvez ignorer ce message si vous n'êtes pas à l'initiative de "
+"cette demande.</p>\n"
+"    <p><small>L'équipe Tuesmon</small></p>\n"
+"    "
+
+#: tuesmon/users/templates/emails/change_email-body-text.jinja:1
+#, python-format
+msgid ""
+"\n"
+"Hello %(full_name)s, please confirm your email\n"
+"\n"
+"%(url)s\n"
+"\n"
+"You can ignore this message if you did not request.\n"
+"\n"
+"---\n"
+"The Tuesmon Team\n"
+msgstr ""
+"\n"
+"Bonjour %(full_name)s, veuillez s'il vous plait confirmer votre email\n"
+"\n"
+"%(url)s\n"
+"\n"
+"Vous pouvez ignorer ce message si vous n'êtes pas à l'initiative de cette "
+"demande.\n"
+"\n"
+"---\n"
+"L'équipe Tuesmon\n"
+
+#: tuesmon/users/templates/emails/change_email-subject.jinja:1
+msgid "[Tuesmon] Change email"
+msgstr "[Tuesmon] Email modifiée"
+
+#: tuesmon/users/templates/emails/password_recovery-body-html.jinja:4
+#, python-format
+msgid ""
+"\n"
+"    <h1>Recover your password</h1>\n"
+"    <p>Hello %(full_name)s, <br /> you asked to recover your password</p>\n"
+"    <a class=\"button\" href=\"%(url)s\" title=\"Recover your password"
+"\">Recover your password</a>\n"
+"    <p>You can ignore this message if you did not request.</p>\n"
+"    <p><small>The Tuesmon Team</small></p>\n"
+"    "
+msgstr ""
+
+#: tuesmon/users/templates/emails/password_recovery-body-text.jinja:1
+#, python-format
+msgid ""
+"\n"
+"Hello %(full_name)s, you asked to recover your password\n"
+"\n"
+"%(url)s\n"
+"\n"
+"You can ignore this message if you did not request.\n"
+"\n"
+"---\n"
+"The Tuesmon Team\n"
+msgstr ""
+"\n"
+"Bonjour %(full_name)s, you avez demandé à récupérer votre mot de passe\n"
+"\n"
+"%(url)s\n"
+"\n"
+"Vous pouvez ignorer ce message si vous n'êtes pas à l'initiative de cette "
+"demande.\n"
+"\n"
+"---\n"
+"L'équipe Tuesmon\n"
+
+#: tuesmon/users/templates/emails/password_recovery-subject.jinja:1
+msgid "[Tuesmon] Password recovery"
+msgstr "[Tuesmon] Récupération du mot de passe"
+
+#: tuesmon/users/templates/emails/registered_user-body-html.jinja:6
+msgid ""
+"\n"
+"        <td>\n"
+"            <h2>Thank you for registering in Tuesmon</h2>\n"
+"            <h3>We hope you enjoy it</h3>\n"
+"            <p>We built Tuesmon because we wanted the project management tool "
+"that sits open on our computers all day long, to serve as a continued "
+"reminder of why we love to collaborate, code and design.</p>\n"
+"            <p>We built it to be beautiful, elegant, simple to use and fun - "
+"without forsaking flexibility and power.</p>\n"
+"            <small>The tuesmon Team</small>\n"
+"        </td>\n"
+"        "
+msgstr ""
+"\n"
+"<td>\n"
+"<h2>Merci pour votre inscription sur Tuesmon</h2>\n"
+"<h3>Nous espérons que vous l'appréciez</h3>\n"
+"<p>Nous avons construit Tuesmon car nous voulions que l'outil de gestion de "
+"projet que nous utilisons au quotidien, nous rappelle en permanence pourquoi "
+"nous aimons tant collaborer, coder et concevoir.</p>\n"
+"<p>Nous l'avons construit de manière à le rendre beau, élégant, simple "
+"amusant à utiliser - sans compromis sur sa flexibilité et ses capacités.</"
+"p> \n"
+"<small>L'équipe Tuesmon</small>\n"
+"</td>"
+
+#: tuesmon/users/templates/emails/registered_user-body-html.jinja:23
+#, python-format
+msgid ""
+"\n"
+"    <strong>You may remove your account from this service</strong> <a href="
+"\"%(url)s\" title=\"Remove your account\" style=\"color: #9dce0a\">clicking "
+"here</a>\n"
+"    "
+msgstr ""
+"\n"
+"    <strong>Vous pouvez supprimer votre compte de ce service</strong> <a "
+"href=\"%(url)s\" title=\"Suppression du compte\" style=\"color: #9dce0a\">en "
+"cliquant ici</a>\n"
+"    "
+
+#: tuesmon/users/templates/emails/registered_user-body-text.jinja:1
+msgid ""
+"\n"
+"Thank you for registering in Tuesmon\n"
+"\n"
+"We hope you enjoy it\n"
+"\n"
+"We built Tuesmon because we wanted the project management tool that sits open "
+"on our computers all day long, to serve as a continued reminder of why we "
+"love to collaborate, code and design.\n"
+"\n"
+"We built it to be beautiful, elegant, simple to use and fun - without "
+"forsaking flexibility and power.\n"
+"\n"
+"--\n"
+"The tuesmon Team\n"
+msgstr ""
+"\n"
+"Merci pour votre inscription sur Tuesmon\n"
+"\n"
+"Nous espérons que vous l'apprécierez\n"
+"\n"
+"Nous avons construit Tuesmon car nous voulions que l'outil de gestion de "
+"projet que nous utilisons au quotidien, nous rappelle en permanence pourquoi "
+"nous aimons tant collaborer, coder et concevoir.\n"
+"\n"
+"Nous l'avons construit de manière à le rendre beau, élégant, simple amusant "
+"à utiliser - sans compromis sur sa flexibilité et ses capacités.\n"
+"\n"
+"--\n"
+"L'équipe Tuesmon\n"
+
+#: tuesmon/users/templates/emails/registered_user-body-text.jinja:13
+#, python-format
+msgid ""
+"\n"
+"You may remove your account from this service: %(url)s\n"
+msgstr ""
+"\n"
+"Vous pouvez supprimer votre compte de ce service : %(url)s\n"
+
+#: tuesmon/users/templates/emails/registered_user-subject.jinja:1
+msgid "You've been Tuesmontized!"
+msgstr "Vous avez été Tuesmontisé !"
+
+#: tuesmon/users/validators.py:45
+msgid "invalid"
+msgstr "invalide"
+
+#: tuesmon/users/validators.py:56
+msgid "Invalid username. Try with a different one."
+msgstr "Nom d'utilisateur invalide. Essayez avec un autre nom."
+
+#: tuesmon/users/validators.py:73
+msgid "Read new terms has to be true'"
+msgstr ""
+
+#: tuesmon/userstorage/api.py:53
+msgid ""
+"Duplicate key value violates unique constraint. Key '{}' already exists."
+msgstr "Violation de clé primaire. La clé '{}' existe déjà."
+
+#: tuesmon/userstorage/models.py:32
+msgid "key"
+msgstr "clé"
+
+#: tuesmon/webhooks/models.py:30 tuesmon/webhooks/models.py:40
+msgid "URL"
+msgstr "URL"
+
+#: tuesmon/webhooks/models.py:31
+msgid "secret key"
+msgstr "clé secrète"
+
+#: tuesmon/webhooks/models.py:41
+msgid "status code"
+msgstr "code retour"
+
+#: tuesmon/webhooks/models.py:42
+msgid "request data"
+msgstr "données de la requête"
+
+#: tuesmon/webhooks/models.py:43
+msgid "request headers"
+msgstr "en-têtes de la requête"
+
+#: tuesmon/webhooks/models.py:44
+msgid "response data"
+msgstr "données de la réponse"
+
+#: tuesmon/webhooks/models.py:45
+msgid "response headers"
+msgstr "en-têtes de la réponse"
+
+#: tuesmon/webhooks/models.py:46
+msgid "duration"
+msgstr "durée"
+
+#: tuesmon/webhooks/validators.py:42
+msgid "Not allowed IP Address"
+msgstr ""
